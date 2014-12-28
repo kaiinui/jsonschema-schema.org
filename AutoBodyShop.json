@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutoBodyShop",
-  "required": "http://schema.org/AutoBodyShop",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoBodyShop",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoBodyShop",
+  "required": false,
+  "title": "AutoBodyShop",
+  "name": "AutoBodyShop",
   "description": "Auto body shop.",
   "type": "object",
   "properties": {

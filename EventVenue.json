@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EventVenue",
-  "required": "http://schema.org/EventVenue",
-  "title": "ThingPlaceCivicStructureEventVenue",
-  "name": "ThingPlaceCivicStructureEventVenue",
+  "required": false,
+  "title": "EventVenue",
+  "name": "EventVenue",
   "description": "An event venue.",
   "type": "object",
   "properties": {

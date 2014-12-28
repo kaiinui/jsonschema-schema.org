@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WebApplication",
-  "required": "http://schema.org/WebApplication",
-  "title": "ThingCreativeWorkSoftwareApplicationWebApplication",
-  "name": "ThingCreativeWorkSoftwareApplicationWebApplication",
+  "required": false,
+  "title": "WebApplication",
+  "name": "WebApplication",
   "description": "Web applications.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AlignmentObject",
-  "required": "http://schema.org/AlignmentObject",
-  "title": "ThingIntangibleAlignmentObject",
-  "name": "ThingIntangibleAlignmentObject",
+  "required": false,
+  "title": "AlignmentObject",
+  "name": "AlignmentObject",
   "description": "An intangible item that describes an alignment between a learning resource and a node in an educational framework.",
   "type": "object",
   "properties": {

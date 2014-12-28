@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AllocateAction",
-  "required": "http://schema.org/AllocateAction",
-  "title": "ThingActionOrganizeActionAllocateAction",
-  "name": "ThingActionOrganizeActionAllocateAction",
+  "required": false,
+  "title": "AllocateAction",
+  "name": "AllocateAction",
   "description": "The act of organizing tasks/objects/events by associating resources to it.",
   "type": "object",
   "properties": {

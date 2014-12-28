@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AskAction",
-  "required": "http://schema.org/AskAction",
-  "title": "ThingActionInteractActionCommunicateActionAskAction",
-  "name": "ThingActionInteractActionCommunicateActionAskAction",
+  "required": false,
+  "title": "AskAction",
+  "name": "AskAction",
   "description": "The act of posing a question / favor to someone.Related actions:ReplyAction: Appears generally as a response to AskAction.",
   "type": "object",
   "properties": {

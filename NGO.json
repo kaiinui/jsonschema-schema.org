@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/NGO",
-  "required": "http://schema.org/NGO",
-  "title": "ThingOrganizationNGO",
-  "name": "ThingOrganizationNGO",
+  "required": false,
+  "title": "NGO",
+  "name": "NGO",
   "description": "Organization: Non-governmental Organization.",
   "type": "object",
   "properties": {

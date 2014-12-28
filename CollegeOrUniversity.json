@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CollegeOrUniversity",
-  "required": "http://schema.org/CollegeOrUniversity",
-  "title": "ThingOrganizationEducationalOrganizationCollegeOrUniversity",
-  "name": "ThingOrganizationEducationalOrganizationCollegeOrUniversity",
+  "required": false,
+  "title": "CollegeOrUniversity",
+  "name": "CollegeOrUniversity",
   "description": "A college, university, or other third-level educational institution.",
   "type": "object",
   "properties": {

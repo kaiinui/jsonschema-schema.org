@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SportsActivityLocation",
-  "required": "http://schema.org/SportsActivityLocation",
-  "title": "ThingPlaceLocalBusinessSportsActivityLocation",
-  "name": "ThingPlaceLocalBusinessSportsActivityLocation",
+  "required": false,
+  "title": "SportsActivityLocation",
+  "name": "SportsActivityLocation",
   "description": "A sports location, such as a playing field.",
   "type": "object",
   "properties": {

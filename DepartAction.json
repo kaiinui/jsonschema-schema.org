@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DepartAction",
-  "required": "http://schema.org/DepartAction",
-  "title": "ThingActionMoveActionDepartAction",
-  "name": "ThingActionMoveActionDepartAction",
+  "required": false,
+  "title": "DepartAction",
+  "name": "DepartAction",
   "description": "The act of  departing from a place. An agent departs from an fromLocation for a destination, optionally with participants.",
   "type": "object",
   "properties": {

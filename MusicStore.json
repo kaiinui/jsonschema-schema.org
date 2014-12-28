@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicStore",
-  "required": "http://schema.org/MusicStore",
-  "title": "ThingOrganizationLocalBusinessStoreMusicStore",
-  "name": "ThingOrganizationLocalBusinessStoreMusicStore",
+  "required": false,
+  "title": "MusicStore",
+  "name": "MusicStore",
   "description": "A music store.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ControlAction",
-  "required": "http://schema.org/ControlAction",
-  "title": "ThingActionControlAction",
-  "name": "ThingActionControlAction",
+  "required": false,
+  "title": "ControlAction",
+  "name": "ControlAction",
   "description": "An agent controls a device or application.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Season",
-  "required": "http://schema.org/Season",
-  "title": "ThingCreativeWorkSeason",
-  "name": "ThingCreativeWorkSeason",
+  "required": false,
+  "title": "Season",
+  "name": "Season",
   "description": "A media season e.g. tv, radio, video game etc.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PalliativeProcedure",
-  "required": "http://schema.org/PalliativeProcedure",
-  "title": "ThingMedicalEntityMedicalTherapyPalliativeProcedure",
-  "name": "ThingMedicalEntityMedicalTherapyPalliativeProcedure",
+  "required": false,
+  "title": "PalliativeProcedure",
+  "name": "PalliativeProcedure",
   "description": "A medical procedure intended primarily for palliative purposes, aimed at relieving the symptoms of an underlying health condition.",
   "type": "object",
   "properties": {

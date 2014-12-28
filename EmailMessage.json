@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EmailMessage",
-  "required": "http://schema.org/EmailMessage",
-  "title": "ThingCreativeWorkEmailMessage",
-  "name": "ThingCreativeWorkEmailMessage",
+  "required": false,
+  "title": "EmailMessage",
+  "name": "EmailMessage",
   "description": "An email message.",
   "type": "object",
   "properties": {

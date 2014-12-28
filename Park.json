@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Park",
-  "required": "http://schema.org/Park",
-  "title": "ThingPlaceCivicStructurePark",
-  "name": "ThingPlaceCivicStructurePark",
+  "required": false,
+  "title": "Park",
+  "name": "Park",
   "description": "A park.",
   "type": "object",
   "properties": {

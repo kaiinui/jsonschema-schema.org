@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BusinessAudience",
-  "required": "http://schema.org/BusinessAudience",
-  "title": "ThingIntangibleAudienceBusinessAudience",
-  "name": "ThingIntangibleAudienceBusinessAudience",
+  "required": false,
+  "title": "BusinessAudience",
+  "name": "BusinessAudience",
   "description": "A set of characteristics belonging to businesses, e.g. who compose an item's target audience.",
   "type": "object",
   "properties": {

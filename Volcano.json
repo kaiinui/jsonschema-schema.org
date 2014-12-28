@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Volcano",
-  "required": "http://schema.org/Volcano",
-  "title": "ThingPlaceLandformVolcano",
-  "name": "ThingPlaceLandformVolcano",
+  "required": false,
+  "title": "Volcano",
+  "name": "Volcano",
   "description": "A volcano, like Fuji san.",
   "type": "object",
   "properties": {

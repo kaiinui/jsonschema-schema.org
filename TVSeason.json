@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TVSeason",
-  "required": "http://schema.org/TVSeason",
-  "title": "ThingCreativeWorkSeasonTVSeason",
-  "name": "ThingCreativeWorkSeasonTVSeason",
+  "required": false,
+  "title": "TVSeason",
+  "name": "TVSeason",
   "description": "Season dedicated to TV broadcast and associated online delivery.",
   "type": "object",
   "properties": {

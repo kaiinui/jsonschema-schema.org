@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Zoo",
-  "required": "http://schema.org/Zoo",
-  "title": "ThingPlaceCivicStructureZoo",
-  "name": "ThingPlaceCivicStructureZoo",
+  "required": false,
+  "title": "Zoo",
+  "name": "Zoo",
   "description": "A zoo.",
   "type": "object",
   "properties": {

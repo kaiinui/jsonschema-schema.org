@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ActionStatusType",
-  "required": "http://schema.org/ActionStatusType",
-  "title": "ThingIntangibleEnumerationActionStatusType",
-  "name": "ThingIntangibleEnumerationActionStatusType",
+  "required": false,
+  "title": "ActionStatusType",
+  "name": "ActionStatusType",
   "description": "The status of an Action.",
   "type": "object",
   "properties": {

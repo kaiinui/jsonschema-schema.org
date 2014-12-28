@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutomatedTeller",
-  "required": "http://schema.org/AutomatedTeller",
-  "title": "ThingPlaceLocalBusinessFinancialServiceAutomatedTeller",
-  "name": "ThingPlaceLocalBusinessFinancialServiceAutomatedTeller",
+  "required": false,
+  "title": "AutomatedTeller",
+  "name": "AutomatedTeller",
   "description": "ATM/cash machine.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ShoppingCenter",
-  "required": "http://schema.org/ShoppingCenter",
-  "title": "ThingOrganizationLocalBusinessShoppingCenter",
-  "name": "ThingOrganizationLocalBusinessShoppingCenter",
+  "required": false,
+  "title": "ShoppingCenter",
+  "name": "ShoppingCenter",
   "description": "A shopping center or mall.",
   "type": "object",
   "properties": {

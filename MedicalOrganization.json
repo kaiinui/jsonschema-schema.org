@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalOrganization",
-  "required": "http://schema.org/MedicalOrganization",
-  "title": "ThingOrganizationLocalBusinessMedicalOrganization",
-  "name": "ThingOrganizationLocalBusinessMedicalOrganization",
+  "required": false,
+  "title": "MedicalOrganization",
+  "name": "MedicalOrganization",
   "description": "A medical organization, such as a doctor's office or clinic.",
   "type": "object",
   "properties": {

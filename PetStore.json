@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PetStore",
-  "required": "http://schema.org/PetStore",
-  "title": "ThingOrganizationLocalBusinessStorePetStore",
-  "name": "ThingOrganizationLocalBusinessStorePetStore",
+  "required": false,
+  "title": "PetStore",
+  "name": "PetStore",
   "description": "A pet store.",
   "type": "object",
   "properties": {

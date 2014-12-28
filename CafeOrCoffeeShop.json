@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CafeOrCoffeeShop",
-  "required": "http://schema.org/CafeOrCoffeeShop",
-  "title": "ThingOrganizationLocalBusinessFoodEstablishmentCafeOrCoffeeShop",
-  "name": "ThingOrganizationLocalBusinessFoodEstablishmentCafeOrCoffeeShop",
+  "required": false,
+  "title": "CafeOrCoffeeShop",
+  "name": "CafeOrCoffeeShop",
   "description": "A cafe or coffee shop.",
   "type": "object",
   "properties": {

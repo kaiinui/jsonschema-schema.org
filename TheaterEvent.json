@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TheaterEvent",
-  "required": "http://schema.org/TheaterEvent",
-  "title": "ThingEventTheaterEvent",
-  "name": "ThingEventTheaterEvent",
+  "required": false,
+  "title": "TheaterEvent",
+  "name": "TheaterEvent",
   "description": "Event type: Theater performance.",
   "type": "object",
   "properties": {

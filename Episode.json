@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Episode",
-  "required": "http://schema.org/Episode",
-  "title": "ThingCreativeWorkEpisode",
-  "name": "ThingCreativeWorkEpisode",
+  "required": false,
+  "title": "Episode",
+  "name": "Episode",
   "description": "A media episode (e.g. TV, radio, video game) which can be part of a series or season.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Offer",
-  "required": "http://schema.org/Offer",
-  "title": "ThingIntangibleOffer",
-  "name": "ThingIntangibleOffer",
+  "required": false,
+  "title": "Offer",
+  "name": "Offer",
   "description": "An offer to transfer some rights to an item or to provide a service—for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.\n      \n      For GTIN-related fields, see\n      Check Digit calculator\n      and validation guide\n      from GS1.\n      ",
   "type": "object",
   "properties": {

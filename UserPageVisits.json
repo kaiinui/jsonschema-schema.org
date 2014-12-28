@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserPageVisits",
-  "required": "http://schema.org/UserPageVisits",
-  "title": "ThingEventUserInteractionUserPageVisits",
-  "name": "ThingEventUserInteractionUserPageVisits",
+  "required": false,
+  "title": "UserPageVisits",
+  "name": "UserPageVisits",
   "description": "User interaction: Visit to a web page.",
   "type": "object",
   "properties": {

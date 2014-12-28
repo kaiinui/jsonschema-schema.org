@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ProfessionalService",
-  "required": "http://schema.org/ProfessionalService",
-  "title": "ThingOrganizationLocalBusinessProfessionalService",
-  "name": "ThingOrganizationLocalBusinessProfessionalService",
+  "required": false,
+  "title": "ProfessionalService",
+  "name": "ProfessionalService",
   "description": "Provider of professional services.",
   "type": "object",
   "properties": {

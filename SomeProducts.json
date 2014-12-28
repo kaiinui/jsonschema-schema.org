@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SomeProducts",
-  "required": "http://schema.org/SomeProducts",
-  "title": "ThingProductSomeProducts",
-  "name": "ThingProductSomeProducts",
+  "required": false,
+  "title": "SomeProducts",
+  "name": "SomeProducts",
   "description": "A placeholder for multiple similar products of the same kind.",
   "type": "object",
   "properties": {

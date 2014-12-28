@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EmergencyService",
-  "required": "http://schema.org/EmergencyService",
-  "title": "ThingPlaceLocalBusinessEmergencyService",
-  "name": "ThingPlaceLocalBusinessEmergencyService",
+  "required": false,
+  "title": "EmergencyService",
+  "name": "EmergencyService",
   "description": "An emergency service, such as a fire station or ER.",
   "type": "object",
   "properties": {

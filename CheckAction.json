@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CheckAction",
-  "required": "http://schema.org/CheckAction",
-  "title": "ThingActionFindActionCheckAction",
-  "name": "ThingActionFindActionCheckAction",
+  "required": false,
+  "title": "CheckAction",
+  "name": "CheckAction",
   "description": "An agent inspects/determines/investigates/inquire or examine an object's accuracy/quality/condition or state.",
   "type": "object",
   "properties": {

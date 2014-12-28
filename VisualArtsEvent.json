@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/VisualArtsEvent",
-  "required": "http://schema.org/VisualArtsEvent",
-  "title": "ThingEventVisualArtsEvent",
-  "name": "ThingEventVisualArtsEvent",
+  "required": false,
+  "title": "VisualArtsEvent",
+  "name": "VisualArtsEvent",
   "description": "Event type: Visual arts event.",
   "type": "object",
   "properties": {

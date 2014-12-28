@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalWebPage",
-  "required": "http://schema.org/MedicalWebPage",
-  "title": "ThingCreativeWorkWebPageMedicalWebPage",
-  "name": "ThingCreativeWorkWebPageMedicalWebPage",
+  "required": false,
+  "title": "MedicalWebPage",
+  "name": "MedicalWebPage",
   "description": "A web page that provides medical information.",
   "type": "object",
   "properties": {

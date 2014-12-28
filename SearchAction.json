@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SearchAction",
-  "required": "http://schema.org/SearchAction",
-  "title": "ThingActionSearchAction",
-  "name": "ThingActionSearchAction",
+  "required": false,
+  "title": "SearchAction",
+  "name": "SearchAction",
   "description": "The act of searching for an object.Related actions:FindAction: SearchAction generally leads to a FindAction, but not necessarily.",
   "type": "object",
   "properties": {

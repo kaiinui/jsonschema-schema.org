@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AnatomicalStructure",
-  "required": "http://schema.org/AnatomicalStructure",
-  "title": "ThingMedicalEntityAnatomicalStructure",
-  "name": "ThingMedicalEntityAnatomicalStructure",
+  "required": false,
+  "title": "AnatomicalStructure",
+  "name": "AnatomicalStructure",
   "description": "Any part of the human body, typically a component of an anatomical system. Organs, tissues, and cells are all anatomical structures.",
   "type": "object",
   "properties": {

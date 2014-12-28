@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TaxiStand",
-  "required": "http://schema.org/TaxiStand",
-  "title": "ThingPlaceCivicStructureTaxiStand",
-  "name": "ThingPlaceCivicStructureTaxiStand",
+  "required": false,
+  "title": "TaxiStand",
+  "name": "TaxiStand",
   "description": "A taxi stand.",
   "type": "object",
   "properties": {

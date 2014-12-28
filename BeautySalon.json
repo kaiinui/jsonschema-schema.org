@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BeautySalon",
-  "required": "http://schema.org/BeautySalon",
-  "title": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessBeautySalon",
-  "name": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessBeautySalon",
+  "required": false,
+  "title": "BeautySalon",
+  "name": "BeautySalon",
   "description": "Beauty salon.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InsuranceAgency",
-  "required": "http://schema.org/InsuranceAgency",
-  "title": "ThingOrganizationLocalBusinessFinancialServiceInsuranceAgency",
-  "name": "ThingOrganizationLocalBusinessFinancialServiceInsuranceAgency",
+  "required": false,
+  "title": "InsuranceAgency",
+  "name": "InsuranceAgency",
   "description": "An Insurance agency.",
   "type": "object",
   "properties": {

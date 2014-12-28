@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MotorcycleDealer",
-  "required": "http://schema.org/MotorcycleDealer",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusinessMotorcycleDealer",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusinessMotorcycleDealer",
+  "required": false,
+  "title": "MotorcycleDealer",
+  "name": "MotorcycleDealer",
   "description": "A motorcycle dealer.",
   "type": "object",
   "properties": {

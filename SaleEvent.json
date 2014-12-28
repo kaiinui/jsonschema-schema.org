@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SaleEvent",
-  "required": "http://schema.org/SaleEvent",
-  "title": "ThingEventSaleEvent",
-  "name": "ThingEventSaleEvent",
+  "required": false,
+  "title": "SaleEvent",
+  "name": "SaleEvent",
   "description": "Event type: Sales event.",
   "type": "object",
   "properties": {

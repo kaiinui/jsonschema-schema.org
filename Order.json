@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Order",
-  "required": "http://schema.org/Order",
-  "title": "ThingIntangibleOrder",
-  "name": "ThingIntangibleOrder",
+  "required": false,
+  "title": "Order",
+  "name": "Order",
   "description": "An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.",
   "type": "object",
   "properties": {

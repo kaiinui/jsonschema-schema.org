@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MoveAction",
-  "required": "http://schema.org/MoveAction",
-  "title": "ThingActionMoveAction",
-  "name": "ThingActionMoveAction",
+  "required": false,
+  "title": "MoveAction",
+  "name": "MoveAction",
   "description": "The act of an agent relocating to a place.Related actions:TransferAction: Unlike TransferAction, the subject of the move is a living Person or Organization rather than an inanimate object.",
   "type": "object",
   "properties": {

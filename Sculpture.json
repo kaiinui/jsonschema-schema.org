@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Sculpture",
-  "required": "http://schema.org/Sculpture",
-  "title": "ThingCreativeWorkSculpture",
-  "name": "ThingCreativeWorkSculpture",
+  "required": false,
+  "title": "Sculpture",
+  "name": "Sculpture",
   "description": "A piece of sculpture.",
   "type": "object",
   "properties": {

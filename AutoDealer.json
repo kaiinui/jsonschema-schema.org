@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutoDealer",
-  "required": "http://schema.org/AutoDealer",
-  "title": "ThingPlaceLocalBusinessAutomotiveBusinessAutoDealer",
-  "name": "ThingPlaceLocalBusinessAutomotiveBusinessAutoDealer",
+  "required": false,
+  "title": "AutoDealer",
+  "name": "AutoDealer",
   "description": "An car dealership.",
   "type": "object",
   "properties": {

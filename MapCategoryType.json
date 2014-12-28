@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MapCategoryType",
-  "required": "http://schema.org/MapCategoryType",
-  "title": "ThingIntangibleEnumerationMapCategoryType",
-  "name": "ThingIntangibleEnumerationMapCategoryType",
+  "required": false,
+  "title": "MapCategoryType",
+  "name": "MapCategoryType",
   "description": "An enumeration of several kinds of Map.",
   "type": "object",
   "properties": {

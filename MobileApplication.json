@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MobileApplication",
-  "required": "http://schema.org/MobileApplication",
-  "title": "ThingCreativeWorkSoftwareApplicationMobileApplication",
-  "name": "ThingCreativeWorkSoftwareApplicationMobileApplication",
+  "required": false,
+  "title": "MobileApplication",
+  "name": "MobileApplication",
   "description": "A software application designed specifically to work well on a mobile device such as a telephone.",
   "type": "object",
   "properties": {

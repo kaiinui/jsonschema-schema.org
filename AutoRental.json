@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutoRental",
-  "required": "http://schema.org/AutoRental",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoRental",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoRental",
+  "required": false,
+  "title": "AutoRental",
+  "name": "AutoRental",
   "description": "A car rental business.",
   "type": "object",
   "properties": {

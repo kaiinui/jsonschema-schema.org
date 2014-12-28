@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SportsTeam",
-  "required": "http://schema.org/SportsTeam",
-  "title": "ThingOrganizationSportsOrganizationSportsTeam",
-  "name": "ThingOrganizationSportsOrganizationSportsTeam",
+  "required": false,
+  "title": "SportsTeam",
+  "name": "SportsTeam",
   "description": "Organization: Sports team.",
   "type": "object",
   "properties": {

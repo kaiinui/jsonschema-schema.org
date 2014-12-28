@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AccountingService",
-  "required": "http://schema.org/AccountingService",
-  "title": "ThingOrganizationLocalBusinessFinancialServiceAccountingService",
-  "name": "ThingOrganizationLocalBusinessFinancialServiceAccountingService",
+  "required": false,
+  "title": "AccountingService",
+  "name": "AccountingService",
   "description": "Accountancy business.",
   "type": "object",
   "properties": {

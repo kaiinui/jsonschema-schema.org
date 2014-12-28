@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalImagingTechnique",
-  "required": "http://schema.org/MedicalImagingTechnique",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationMedicalImagingTechnique",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationMedicalImagingTechnique",
+  "required": false,
+  "title": "MedicalImagingTechnique",
+  "name": "MedicalImagingTechnique",
   "description": "Any medical imaging modality typically used for diagnostic purposes. Enumerated type.",
   "type": "object",
   "properties": {

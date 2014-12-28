@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ItemListOrderType",
-  "required": "http://schema.org/ItemListOrderType",
-  "title": "ThingIntangibleEnumerationItemListOrderType",
-  "name": "ThingIntangibleEnumerationItemListOrderType",
+  "required": false,
+  "title": "ItemListOrderType",
+  "name": "ItemListOrderType",
   "description": "Enumerated for values for itemListOrder for indicating how an ordered ItemList is organized.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TVClip",
-  "required": "http://schema.org/TVClip",
-  "title": "ThingCreativeWorkClipTVClip",
-  "name": "ThingCreativeWorkClipTVClip",
+  "required": false,
+  "title": "TVClip",
+  "name": "TVClip",
   "description": "A short TV program or a segment/part of a TV program.",
   "type": "object",
   "properties": {

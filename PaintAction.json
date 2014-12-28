@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PaintAction",
-  "required": "http://schema.org/PaintAction",
-  "title": "ThingActionCreateActionPaintAction",
-  "name": "ThingActionCreateActionPaintAction",
+  "required": false,
+  "title": "PaintAction",
+  "name": "PaintAction",
   "description": "The act of producing a painting, typically with paint and canvas as instruments.",
   "type": "object",
   "properties": {

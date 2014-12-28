@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DislikeAction",
-  "required": "http://schema.org/DislikeAction",
-  "title": "ThingActionAssessActionReactActionDislikeAction",
-  "name": "ThingActionAssessActionReactActionDislikeAction",
+  "required": false,
+  "title": "DislikeAction",
+  "name": "DislikeAction",
   "description": "The act of expressing a negative sentiment about the object. An agent dislikes an object (a proposition, topic or theme) with participants.",
   "type": "object",
   "properties": {

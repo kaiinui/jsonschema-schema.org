@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalClinic",
-  "required": "http://schema.org/MedicalClinic",
-  "title": "ThingOrganizationLocalBusinessMedicalOrganizationMedicalClinic",
-  "name": "ThingOrganizationLocalBusinessMedicalOrganizationMedicalClinic",
+  "required": false,
+  "title": "MedicalClinic",
+  "name": "MedicalClinic",
   "description": "A medical clinic.",
   "type": "object",
   "properties": {

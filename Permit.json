@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Permit",
-  "required": "http://schema.org/Permit",
-  "title": "ThingIntangiblePermit",
-  "name": "ThingIntangiblePermit",
+  "required": false,
+  "title": "Permit",
+  "name": "Permit",
   "description": "A permit issued by an organization, e.g. a parking pass.",
   "type": "object",
   "properties": {

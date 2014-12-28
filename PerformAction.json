@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PerformAction",
-  "required": "http://schema.org/PerformAction",
-  "title": "ThingActionPlayActionPerformAction",
-  "name": "ThingActionPlayActionPerformAction",
+  "required": false,
+  "title": "PerformAction",
+  "name": "PerformAction",
   "description": "The act of participating in performance arts.",
   "type": "object",
   "properties": {

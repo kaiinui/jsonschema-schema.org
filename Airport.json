@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Airport",
-  "required": "http://schema.org/Airport",
-  "title": "ThingPlaceCivicStructureAirport",
-  "name": "ThingPlaceCivicStructureAirport",
+  "required": false,
+  "title": "Airport",
+  "name": "Airport",
   "description": "An airport.",
   "type": "object",
   "properties": {

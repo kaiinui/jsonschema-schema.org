@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RVPark",
-  "required": "http://schema.org/RVPark",
-  "title": "ThingPlaceCivicStructureRVPark",
-  "name": "ThingPlaceCivicStructureRVPark",
+  "required": false,
+  "title": "RVPark",
+  "name": "RVPark",
   "description": "A place offering space for \"Recreational Vehicles\", Caravans, mobile homes and the like.",
   "type": "object",
   "properties": {

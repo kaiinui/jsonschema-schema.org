@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FinancialService",
-  "required": "http://schema.org/FinancialService",
-  "title": "ThingPlaceLocalBusinessFinancialService",
-  "name": "ThingPlaceLocalBusinessFinancialService",
+  "required": false,
+  "title": "FinancialService",
+  "name": "FinancialService",
   "description": "Financial services business.",
   "type": "object",
   "properties": {

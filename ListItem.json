@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ListItem",
-  "required": "http://schema.org/ListItem",
-  "title": "ThingIntangibleListItem",
-  "name": "ThingIntangibleListItem",
+  "required": false,
+  "title": "ListItem",
+  "name": "ListItem",
   "description": "An list item, e.g. a step in a checklist or how-to description.",
   "type": "object",
   "properties": {

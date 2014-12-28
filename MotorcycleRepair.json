@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MotorcycleRepair",
-  "required": "http://schema.org/MotorcycleRepair",
-  "title": "ThingPlaceLocalBusinessAutomotiveBusinessMotorcycleRepair",
-  "name": "ThingPlaceLocalBusinessAutomotiveBusinessMotorcycleRepair",
+  "required": false,
+  "title": "MotorcycleRepair",
+  "name": "MotorcycleRepair",
   "description": "A motorcycle repair shop.",
   "type": "object",
   "properties": {

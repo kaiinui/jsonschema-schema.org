@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalConditionStage",
-  "required": "http://schema.org/MedicalConditionStage",
-  "title": "ThingMedicalEntityMedicalIntangibleMedicalConditionStage",
-  "name": "ThingMedicalEntityMedicalIntangibleMedicalConditionStage",
+  "required": false,
+  "title": "MedicalConditionStage",
+  "name": "MedicalConditionStage",
   "description": "A stage of a medical condition, such as 'Stage IIIa'.",
   "type": "object",
   "properties": {

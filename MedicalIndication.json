@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalIndication",
-  "required": "http://schema.org/MedicalIndication",
-  "title": "ThingMedicalEntityMedicalIndication",
-  "name": "ThingMedicalEntityMedicalIndication",
+  "required": false,
+  "title": "MedicalIndication",
+  "name": "MedicalIndication",
   "description": "A condition or factor that indicates use of a medical therapy, including signs, symptoms, risk factors, anatomical states, etc.",
   "type": "object",
   "properties": {

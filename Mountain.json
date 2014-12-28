@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Mountain",
-  "required": "http://schema.org/Mountain",
-  "title": "ThingPlaceLandformMountain",
-  "name": "ThingPlaceLandformMountain",
+  "required": false,
+  "title": "Mountain",
+  "name": "Mountain",
   "description": "A mountain, like Mount Whitney or Mount Everest",
   "type": "object",
   "properties": {

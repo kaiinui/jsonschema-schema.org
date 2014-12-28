@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FastFoodRestaurant",
-  "required": "http://schema.org/FastFoodRestaurant",
-  "title": "ThingOrganizationLocalBusinessFoodEstablishmentFastFoodRestaurant",
-  "name": "ThingOrganizationLocalBusinessFoodEstablishmentFastFoodRestaurant",
+  "required": false,
+  "title": "FastFoodRestaurant",
+  "name": "FastFoodRestaurant",
   "description": "A fast-food restaurant.",
   "type": "object",
   "properties": {

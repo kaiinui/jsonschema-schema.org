@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PhysicalExam",
-  "required": "http://schema.org/PhysicalExam",
-  "title": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationPhysicalExam",
-  "name": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationPhysicalExam",
+  "required": false,
+  "title": "PhysicalExam",
+  "name": "PhysicalExam",
   "description": "A type of physical examination of a patient performed by a physician. Enumerated type.",
   "type": "object",
   "properties": {

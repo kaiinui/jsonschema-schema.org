@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RadioSeason",
-  "required": "http://schema.org/RadioSeason",
-  "title": "ThingCreativeWorkSeasonRadioSeason",
-  "name": "ThingCreativeWorkSeasonRadioSeason",
+  "required": false,
+  "title": "RadioSeason",
+  "name": "RadioSeason",
   "description": "Season dedicated to radio broadcast and associated online delivery.",
   "type": "object",
   "properties": {

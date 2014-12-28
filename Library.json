@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Library",
-  "required": "http://schema.org/Library",
-  "title": "ThingOrganizationLocalBusinessLibrary",
-  "name": "ThingOrganizationLocalBusinessLibrary",
+  "required": false,
+  "title": "Library",
+  "name": "Library",
   "description": "A library.",
   "type": "object",
   "properties": {

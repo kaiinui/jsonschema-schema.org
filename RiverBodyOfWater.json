@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RiverBodyOfWater",
-  "required": "http://schema.org/RiverBodyOfWater",
-  "title": "ThingPlaceLandformBodyOfWaterRiverBodyOfWater",
-  "name": "ThingPlaceLandformBodyOfWaterRiverBodyOfWater",
+  "required": false,
+  "title": "RiverBodyOfWater",
+  "name": "RiverBodyOfWater",
   "description": "A river (for example, the broad majestic Shannon).",
   "type": "object",
   "properties": {

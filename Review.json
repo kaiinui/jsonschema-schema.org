@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Review",
-  "required": "http://schema.org/Review",
-  "title": "ThingCreativeWorkReview",
-  "name": "ThingCreativeWorkReview",
+  "required": false,
+  "title": "Review",
+  "name": "Review",
   "description": "A review of an item - for example, of a restaurant, movie, or store.",
   "type": "object",
   "properties": {

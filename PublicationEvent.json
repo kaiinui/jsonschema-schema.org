@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PublicationEvent",
-  "required": "http://schema.org/PublicationEvent",
-  "title": "ThingEventPublicationEvent",
-  "name": "ThingEventPublicationEvent",
+  "required": false,
+  "title": "PublicationEvent",
+  "name": "PublicationEvent",
   "description": "A PublicationEvent corresponds indifferently to the event of publication for a CreativeWork of any type e.g. a broadcast event, an on-demand event, a book/journal publication via a variety of delivery media.",
   "type": "object",
   "properties": {

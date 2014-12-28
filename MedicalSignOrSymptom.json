@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalSignOrSymptom",
-  "required": "http://schema.org/MedicalSignOrSymptom",
-  "title": "ThingMedicalEntityMedicalSignOrSymptom",
-  "name": "ThingMedicalEntityMedicalSignOrSymptom",
+  "required": false,
+  "title": "MedicalSignOrSymptom",
+  "name": "MedicalSignOrSymptom",
   "description": "Any indication of the existence of a medical condition or disease.",
   "type": "object",
   "properties": {

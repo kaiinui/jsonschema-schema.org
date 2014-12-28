@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Diet",
-  "required": "http://schema.org/Diet",
-  "title": "ThingMedicalEntityMedicalTherapyLifestyleModificationDiet",
-  "name": "ThingMedicalEntityMedicalTherapyLifestyleModificationDiet",
+  "required": false,
+  "title": "Diet",
+  "name": "Diet",
   "description": "A strategy of regulating the intake of food to achieve or maintain a specific health-related goal.",
   "type": "object",
   "properties": {

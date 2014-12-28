@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Vessel",
-  "required": "http://schema.org/Vessel",
-  "title": "ThingMedicalEntityAnatomicalStructureVessel",
-  "name": "ThingMedicalEntityAnatomicalStructureVessel",
+  "required": false,
+  "title": "Vessel",
+  "name": "Vessel",
   "description": "A component of the human body circulatory system comprised of an intricate network of hollow tubes that transport blood throughout the entire body.",
   "type": "object",
   "properties": {

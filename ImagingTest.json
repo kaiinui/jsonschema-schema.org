@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ImagingTest",
-  "required": "http://schema.org/ImagingTest",
-  "title": "ThingMedicalEntityMedicalTestImagingTest",
-  "name": "ThingMedicalEntityMedicalTestImagingTest",
+  "required": false,
+  "title": "ImagingTest",
+  "name": "ImagingTest",
   "description": "Any medical imaging modality typically used for diagnostic purposes.",
   "type": "object",
   "properties": {

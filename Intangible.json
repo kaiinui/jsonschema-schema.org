@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Intangible",
-  "required": "http://schema.org/Intangible",
-  "title": "ThingIntangible",
-  "name": "ThingIntangible",
+  "required": false,
+  "title": "Intangible",
+  "name": "Intangible",
   "description": "A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc.",
   "type": "object",
   "properties": {

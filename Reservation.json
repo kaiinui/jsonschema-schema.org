@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Reservation",
-  "required": "http://schema.org/Reservation",
-  "title": "ThingIntangibleReservation",
-  "name": "ThingIntangibleReservation",
+  "required": false,
+  "title": "Reservation",
+  "name": "Reservation",
   "description": "Describes a reservation for travel, dining or an event. Some reservations require tickets.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalStudyStatus",
-  "required": "http://schema.org/MedicalStudyStatus",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationMedicalStudyStatus",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationMedicalStudyStatus",
+  "required": false,
+  "title": "MedicalStudyStatus",
+  "name": "MedicalStudyStatus",
   "description": "The status of a medical study. Enumerated type.",
   "type": "object",
   "properties": {

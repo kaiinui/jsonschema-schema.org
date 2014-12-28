@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BodyOfWater",
-  "required": "http://schema.org/BodyOfWater",
-  "title": "ThingPlaceLandformBodyOfWater",
-  "name": "ThingPlaceLandformBodyOfWater",
+  "required": false,
+  "title": "BodyOfWater",
+  "name": "BodyOfWater",
   "description": "A body of water, such as a sea, ocean, or lake.",
   "type": "object",
   "properties": {

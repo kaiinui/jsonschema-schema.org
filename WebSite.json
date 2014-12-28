@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WebSite",
-  "required": "http://schema.org/WebSite",
-  "title": "ThingCreativeWorkWebSite",
-  "name": "ThingCreativeWorkWebSite",
+  "required": false,
+  "title": "WebSite",
+  "name": "WebSite",
   "description": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
   "type": "object",
   "properties": {

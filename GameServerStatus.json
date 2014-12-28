@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GameServerStatus",
-  "required": "http://schema.org/GameServerStatus",
-  "title": "ThingIntangibleEnumerationGameServerStatus",
-  "name": "ThingIntangibleEnumerationGameServerStatus",
+  "required": false,
+  "title": "GameServerStatus",
+  "name": "GameServerStatus",
   "description": "Status of a game server.",
   "type": "object",
   "properties": {

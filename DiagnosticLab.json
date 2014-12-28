@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DiagnosticLab",
-  "required": "http://schema.org/DiagnosticLab",
-  "title": "ThingOrganizationLocalBusinessMedicalOrganizationDiagnosticLab",
-  "name": "ThingOrganizationLocalBusinessMedicalOrganizationDiagnosticLab",
+  "required": false,
+  "title": "DiagnosticLab",
+  "name": "DiagnosticLab",
   "description": "A medical laboratory that offers on-site or off-site diagnostic services.",
   "type": "object",
   "properties": {

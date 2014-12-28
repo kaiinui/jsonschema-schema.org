@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BusTrip",
-  "required": "http://schema.org/BusTrip",
-  "title": "ThingIntangibleBusTrip",
-  "name": "ThingIntangibleBusTrip",
+  "required": false,
+  "title": "BusTrip",
+  "name": "BusTrip",
   "description": "A trip on a commercial bus line.",
   "type": "object",
   "properties": {

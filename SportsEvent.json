@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SportsEvent",
-  "required": "http://schema.org/SportsEvent",
-  "title": "ThingEventSportsEvent",
-  "name": "ThingEventSportsEvent",
+  "required": false,
+  "title": "SportsEvent",
+  "name": "SportsEvent",
   "description": "Event type: Sports event.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WriteAction",
-  "required": "http://schema.org/WriteAction",
-  "title": "ThingActionCreateActionWriteAction",
-  "name": "ThingActionCreateActionWriteAction",
+  "required": false,
+  "title": "WriteAction",
+  "name": "WriteAction",
   "description": "The act of authoring written creative content.",
   "type": "object",
   "properties": {

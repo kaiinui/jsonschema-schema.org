@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CookAction",
-  "required": "http://schema.org/CookAction",
-  "title": "ThingActionCreateActionCookAction",
-  "name": "ThingActionCreateActionCookAction",
+  "required": false,
+  "title": "CookAction",
+  "name": "CookAction",
   "description": "The act of producing/preparing food.",
   "type": "object",
   "properties": {

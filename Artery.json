@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Artery",
-  "required": "http://schema.org/Artery",
-  "title": "ThingMedicalEntityAnatomicalStructureVesselArtery",
-  "name": "ThingMedicalEntityAnatomicalStructureVesselArtery",
+  "required": false,
+  "title": "Artery",
+  "name": "Artery",
   "description": "A type of blood vessel that specifically carries blood away from the heart.",
   "type": "object",
   "properties": {

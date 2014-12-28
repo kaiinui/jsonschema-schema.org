@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DanceGroup",
-  "required": "http://schema.org/DanceGroup",
-  "title": "ThingOrganizationPerformingGroupDanceGroup",
-  "name": "ThingOrganizationPerformingGroupDanceGroup",
+  "required": false,
+  "title": "DanceGroup",
+  "name": "DanceGroup",
   "description": "A dance group—for example, the Alvin Ailey Dance Theater or Riverdance.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ActivateAction",
-  "required": "http://schema.org/ActivateAction",
-  "title": "ThingActionControlActionActivateAction",
-  "name": "ThingActionControlActionActivateAction",
+  "required": false,
+  "title": "ActivateAction",
+  "name": "ActivateAction",
   "description": "The act of starting or activating a device or application (e.g. starting a timer or turning on a flashlight).",
   "type": "object",
   "properties": {

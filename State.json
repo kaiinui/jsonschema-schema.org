@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/State",
-  "required": "http://schema.org/State",
-  "title": "ThingPlaceAdministrativeAreaState",
-  "name": "ThingPlaceAdministrativeAreaState",
+  "required": false,
+  "title": "State",
+  "name": "State",
   "description": "A state or province of a country.",
   "type": "object",
   "properties": {

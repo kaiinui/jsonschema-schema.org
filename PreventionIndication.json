@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PreventionIndication",
-  "required": "http://schema.org/PreventionIndication",
-  "title": "ThingMedicalEntityMedicalIndicationPreventionIndication",
-  "name": "ThingMedicalEntityMedicalIndicationPreventionIndication",
+  "required": false,
+  "title": "PreventionIndication",
+  "name": "PreventionIndication",
   "description": "An indication for preventing an underlying condition, symptom, etc.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ProgramMembership",
-  "required": "http://schema.org/ProgramMembership",
-  "title": "ThingIntangibleProgramMembership",
-  "name": "ThingIntangibleProgramMembership",
+  "required": false,
+  "title": "ProgramMembership",
+  "name": "ProgramMembership",
   "description": "Used to describe membership in a loyalty programs (e.g. \"StarAliance\"), traveler clubs (e.g. \"AAA\"), purchase clubs (\"Safeway Club\"), etc.",
   "type": "object",
   "properties": {

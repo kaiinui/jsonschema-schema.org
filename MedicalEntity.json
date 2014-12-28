@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalEntity",
-  "required": "http://schema.org/MedicalEntity",
-  "title": "ThingMedicalEntity",
-  "name": "ThingMedicalEntity",
+  "required": false,
+  "title": "MedicalEntity",
+  "name": "MedicalEntity",
   "description": "The most generic type of entity related to health and the practice of medicine.",
   "type": "object",
   "properties": {

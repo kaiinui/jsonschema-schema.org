@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DrugCostCategory",
-  "required": "http://schema.org/DrugCostCategory",
-  "title": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationDrugCostCategory",
-  "name": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationDrugCostCategory",
+  "required": false,
+  "title": "DrugCostCategory",
+  "name": "DrugCostCategory",
   "description": "Enumerated categories of medical drug costs.",
   "type": "object",
   "properties": {

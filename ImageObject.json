@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ImageObject",
-  "required": "http://schema.org/ImageObject",
-  "title": "ThingCreativeWorkMediaObjectImageObject",
-  "name": "ThingCreativeWorkMediaObjectImageObject",
+  "required": false,
+  "title": "ImageObject",
+  "name": "ImageObject",
   "description": "An image file.",
   "type": "object",
   "properties": {

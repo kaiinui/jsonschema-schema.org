@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RoofingContractor",
-  "required": "http://schema.org/RoofingContractor",
-  "title": "ThingPlaceLocalBusinessHomeAndConstructionBusinessRoofingContractor",
-  "name": "ThingPlaceLocalBusinessHomeAndConstructionBusinessRoofingContractor",
+  "required": false,
+  "title": "RoofingContractor",
+  "name": "RoofingContractor",
   "description": "A roofing contractor.",
   "type": "object",
   "properties": {

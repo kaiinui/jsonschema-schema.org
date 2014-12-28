@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FoodEvent",
-  "required": "http://schema.org/FoodEvent",
-  "title": "ThingEventFoodEvent",
-  "name": "ThingEventFoodEvent",
+  "required": false,
+  "title": "FoodEvent",
+  "name": "FoodEvent",
   "description": "Event type: Food event.",
   "type": "object",
   "properties": {

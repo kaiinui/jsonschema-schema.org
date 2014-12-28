@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GovernmentPermit",
-  "required": "http://schema.org/GovernmentPermit",
-  "title": "ThingIntangiblePermitGovernmentPermit",
-  "name": "ThingIntangiblePermitGovernmentPermit",
+  "required": false,
+  "title": "GovernmentPermit",
+  "name": "GovernmentPermit",
   "description": "A permit issued by a government agency.",
   "type": "object",
   "properties": {

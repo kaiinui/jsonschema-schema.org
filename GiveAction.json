@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GiveAction",
-  "required": "http://schema.org/GiveAction",
-  "title": "ThingActionTransferActionGiveAction",
-  "name": "ThingActionTransferActionGiveAction",
+  "required": false,
+  "title": "GiveAction",
+  "name": "GiveAction",
   "description": "The act of transferring ownership of an object to a destination. Reciprocal of TakeAction.Related actions:TakeAction: Reciprocal of GiveAction.SendAction: Unlike SendAction, GiveAction implies that ownership is being transferred (e.g. I may send my laptop to you, but that doesn't mean I'm giving it to you).",
   "type": "object",
   "properties": {

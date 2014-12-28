@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Dentist",
-  "required": "http://schema.org/Dentist",
-  "title": "ThingPlaceLocalBusinessProfessionalServiceDentist",
-  "name": "ThingPlaceLocalBusinessProfessionalServiceDentist",
+  "required": false,
+  "title": "Dentist",
+  "name": "Dentist",
   "description": "A dentist.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TransferAction",
-  "required": "http://schema.org/TransferAction",
-  "title": "ThingActionTransferAction",
-  "name": "ThingActionTransferAction",
+  "required": false,
+  "title": "TransferAction",
+  "name": "TransferAction",
   "description": "The act of transferring/moving (abstract or concrete) animate or inanimate objects from one place to another.",
   "type": "object",
   "properties": {

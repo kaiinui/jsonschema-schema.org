@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ArriveAction",
-  "required": "http://schema.org/ArriveAction",
-  "title": "ThingActionMoveActionArriveAction",
-  "name": "ThingActionMoveActionArriveAction",
+  "required": false,
+  "title": "ArriveAction",
+  "name": "ArriveAction",
   "description": "The act of arriving at a place. An agent arrives at a destination from an fromLocation, optionally with participants.",
   "type": "object",
   "properties": {

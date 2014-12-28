@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Reservoir",
-  "required": "http://schema.org/Reservoir",
-  "title": "ThingPlaceLandformBodyOfWaterReservoir",
-  "name": "ThingPlaceLandformBodyOfWaterReservoir",
+  "required": false,
+  "title": "Reservoir",
+  "name": "Reservoir",
   "description": "A reservoir of water, typically an artificially created lake, like the Lake Kariba reservoir.",
   "type": "object",
   "properties": {

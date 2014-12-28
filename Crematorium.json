@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Crematorium",
-  "required": "http://schema.org/Crematorium",
-  "title": "ThingPlaceCivicStructureCrematorium",
-  "name": "ThingPlaceCivicStructureCrematorium",
+  "required": false,
+  "title": "Crematorium",
+  "name": "Crematorium",
   "description": "A crematorium.",
   "type": "object",
   "properties": {

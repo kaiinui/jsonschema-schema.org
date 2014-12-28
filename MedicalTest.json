@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalTest",
-  "required": "http://schema.org/MedicalTest",
-  "title": "ThingMedicalEntityMedicalTest",
-  "name": "ThingMedicalEntityMedicalTest",
+  "required": false,
+  "title": "MedicalTest",
+  "name": "MedicalTest",
   "description": "Any medical test, typically performed for diagnostic purposes.",
   "type": "object",
   "properties": {

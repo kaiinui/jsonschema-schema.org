@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LeaveAction",
-  "required": "http://schema.org/LeaveAction",
-  "title": "ThingActionInteractActionLeaveAction",
-  "name": "ThingActionInteractActionLeaveAction",
+  "required": false,
+  "title": "LeaveAction",
+  "name": "LeaveAction",
   "description": "An agent leaves an event / group with participants/friends at a location.Related actions:JoinAction: The antagonym of LeaveAction.UnRegisterAction: Unlike UnRegisterAction, LeaveAction implies leaving a group/team of people rather than a service.",
   "type": "object",
   "properties": {

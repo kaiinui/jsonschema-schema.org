@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalScholarlyArticle",
-  "required": "http://schema.org/MedicalScholarlyArticle",
-  "title": "ThingCreativeWorkArticleScholarlyArticleMedicalScholarlyArticle",
-  "name": "ThingCreativeWorkArticleScholarlyArticleMedicalScholarlyArticle",
+  "required": false,
+  "title": "MedicalScholarlyArticle",
+  "name": "MedicalScholarlyArticle",
   "description": "A scholarly article in the medical domain.",
   "type": "object",
   "properties": {

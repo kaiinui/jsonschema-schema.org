@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ItemAvailability",
-  "required": "http://schema.org/ItemAvailability",
-  "title": "ThingIntangibleEnumerationItemAvailability",
-  "name": "ThingIntangibleEnumerationItemAvailability",
+  "required": false,
+  "title": "ItemAvailability",
+  "name": "ItemAvailability",
   "description": "A list of possible product availability options.",
   "type": "object",
   "properties": {

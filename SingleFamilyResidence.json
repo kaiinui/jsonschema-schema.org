@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SingleFamilyResidence",
-  "required": "http://schema.org/SingleFamilyResidence",
-  "title": "ThingPlaceResidenceSingleFamilyResidence",
-  "name": "ThingPlaceResidenceSingleFamilyResidence",
+  "required": false,
+  "title": "SingleFamilyResidence",
+  "name": "SingleFamilyResidence",
   "description": "Residence type: Single-family home.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ExerciseAction",
-  "required": "http://schema.org/ExerciseAction",
-  "title": "ThingActionPlayActionExerciseAction",
-  "name": "ThingActionPlayActionExerciseAction",
+  "required": false,
+  "title": "ExerciseAction",
+  "name": "ExerciseAction",
   "description": "The act of participating in exertive activity for the purposes of improving health and fitness",
   "type": "object",
   "properties": {

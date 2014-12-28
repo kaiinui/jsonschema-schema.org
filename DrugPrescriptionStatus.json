@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DrugPrescriptionStatus",
-  "required": "http://schema.org/DrugPrescriptionStatus",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationDrugPrescriptionStatus",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationDrugPrescriptionStatus",
+  "required": false,
+  "title": "DrugPrescriptionStatus",
+  "name": "DrugPrescriptionStatus",
   "description": "Indicates whether this drug is available by prescription or over-the-counter.",
   "type": "object",
   "properties": {

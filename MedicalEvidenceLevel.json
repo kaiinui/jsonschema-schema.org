@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalEvidenceLevel",
-  "required": "http://schema.org/MedicalEvidenceLevel",
-  "title": "ThingIntangibleEnumerationMedicalEvidenceLevel",
-  "name": "ThingIntangibleEnumerationMedicalEvidenceLevel",
+  "required": false,
+  "title": "MedicalEvidenceLevel",
+  "name": "MedicalEvidenceLevel",
   "description": "Level of evidence for a medical guideline. Enumerated type.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ComedyClub",
-  "required": "http://schema.org/ComedyClub",
-  "title": "ThingOrganizationLocalBusinessEntertainmentBusinessComedyClub",
-  "name": "ThingOrganizationLocalBusinessEntertainmentBusinessComedyClub",
+  "required": false,
+  "title": "ComedyClub",
+  "name": "ComedyClub",
   "description": "A comedy club.",
   "type": "object",
   "properties": {

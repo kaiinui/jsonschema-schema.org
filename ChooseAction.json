@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ChooseAction",
-  "required": "http://schema.org/ChooseAction",
-  "title": "ThingActionAssessActionChooseAction",
-  "name": "ThingActionAssessActionChooseAction",
+  "required": false,
+  "title": "ChooseAction",
+  "name": "ChooseAction",
   "description": "The act of expressing a preference from a set of options or a large or unbounded set of choices/options.",
   "type": "object",
   "properties": {

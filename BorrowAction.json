@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BorrowAction",
-  "required": "http://schema.org/BorrowAction",
-  "title": "ThingActionTransferActionBorrowAction",
-  "name": "ThingActionTransferActionBorrowAction",
+  "required": false,
+  "title": "BorrowAction",
+  "name": "BorrowAction",
   "description": "The act of obtaining an object under an agreement to return it at a later date. Reciprocal of LendAction.Related actions:LendAction: Reciprocal of BorrowAction.",
   "type": "object",
   "properties": {

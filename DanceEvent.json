@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DanceEvent",
-  "required": "http://schema.org/DanceEvent",
-  "title": "ThingEventDanceEvent",
-  "name": "ThingEventDanceEvent",
+  "required": false,
+  "title": "DanceEvent",
+  "name": "DanceEvent",
   "description": "Event type: A social dance.",
   "type": "object",
   "properties": {

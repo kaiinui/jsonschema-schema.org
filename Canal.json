@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Canal",
-  "required": "http://schema.org/Canal",
-  "title": "ThingPlaceLandformBodyOfWaterCanal",
-  "name": "ThingPlaceLandformBodyOfWaterCanal",
+  "required": false,
+  "title": "Canal",
+  "name": "Canal",
   "description": "A canal, like the Panama Canal",
   "type": "object",
   "properties": {

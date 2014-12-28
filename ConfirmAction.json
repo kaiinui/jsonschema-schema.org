@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ConfirmAction",
-  "required": "http://schema.org/ConfirmAction",
-  "title": "ThingActionInteractActionCommunicateActionInformActionConfirmAction",
-  "name": "ThingActionInteractActionCommunicateActionInformActionConfirmAction",
+  "required": false,
+  "title": "ConfirmAction",
+  "name": "ConfirmAction",
   "description": "The act of notifying someone that a future event/action is going to happen as expected.Related actions:CancelAction: The antagonym of ConfirmAction.",
   "type": "object",
   "properties": {

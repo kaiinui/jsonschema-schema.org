@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TelevisionStation",
-  "required": "http://schema.org/TelevisionStation",
-  "title": "ThingOrganizationLocalBusinessTelevisionStation",
-  "name": "ThingOrganizationLocalBusinessTelevisionStation",
+  "required": false,
+  "title": "TelevisionStation",
+  "name": "TelevisionStation",
   "description": "A television station.",
   "type": "object",
   "properties": {

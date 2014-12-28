@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BarOrPub",
-  "required": "http://schema.org/BarOrPub",
-  "title": "ThingPlaceLocalBusinessFoodEstablishmentBarOrPub",
-  "name": "ThingPlaceLocalBusinessFoodEstablishmentBarOrPub",
+  "required": false,
+  "title": "BarOrPub",
+  "name": "BarOrPub",
   "description": "A bar or pub.",
   "type": "object",
   "properties": {

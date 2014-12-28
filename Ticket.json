@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Ticket",
-  "required": "http://schema.org/Ticket",
-  "title": "ThingIntangibleTicket",
-  "name": "ThingIntangibleTicket",
+  "required": false,
+  "title": "Ticket",
+  "name": "Ticket",
   "description": "Used to describe a ticket to an event, a flight, a bus ride, etc.",
   "type": "object",
   "properties": {

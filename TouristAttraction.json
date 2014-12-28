@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TouristAttraction",
-  "required": "http://schema.org/TouristAttraction",
-  "title": "ThingPlaceTouristAttraction",
-  "name": "ThingPlaceTouristAttraction",
+  "required": false,
+  "title": "TouristAttraction",
+  "name": "TouristAttraction",
   "description": "A tourist attraction.",
   "type": "object",
   "properties": {

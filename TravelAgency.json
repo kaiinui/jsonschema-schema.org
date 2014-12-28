@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TravelAgency",
-  "required": "http://schema.org/TravelAgency",
-  "title": "ThingOrganizationLocalBusinessTravelAgency",
-  "name": "ThingOrganizationLocalBusinessTravelAgency",
+  "required": false,
+  "title": "TravelAgency",
+  "name": "TravelAgency",
   "description": "A travel agency.",
   "type": "object",
   "properties": {

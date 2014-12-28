@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DeliveryChargeSpecification",
-  "required": "http://schema.org/DeliveryChargeSpecification",
-  "title": "ThingIntangibleStructuredValuePriceSpecificationDeliveryChargeSpecification",
-  "name": "ThingIntangibleStructuredValuePriceSpecificationDeliveryChargeSpecification",
+  "required": false,
+  "title": "DeliveryChargeSpecification",
+  "name": "DeliveryChargeSpecification",
   "description": "The price for the delivery of an offer using a particular delivery method.",
   "type": "object",
   "properties": {

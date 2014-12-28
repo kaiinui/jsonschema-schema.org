@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Painting",
-  "required": "http://schema.org/Painting",
-  "title": "ThingCreativeWorkPainting",
-  "name": "ThingCreativeWorkPainting",
+  "required": false,
+  "title": "Painting",
+  "name": "Painting",
   "description": "A painting.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Dataset",
-  "required": "http://schema.org/Dataset",
-  "title": "ThingCreativeWorkDataset",
-  "name": "ThingCreativeWorkDataset",
+  "required": false,
+  "title": "Dataset",
+  "name": "Dataset",
   "description": "A body of structured information describing some topic(s) of interest.",
   "type": "object",
   "properties": {

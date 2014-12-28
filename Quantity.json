@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Quantity",
-  "required": "http://schema.org/Quantity",
-  "title": "ThingIntangibleQuantity",
-  "name": "ThingIntangibleQuantity",
+  "required": false,
+  "title": "Quantity",
+  "name": "Quantity",
   "description": "Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like '3 Kg' or '4 milligrams'.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EmployeeRole",
-  "required": "http://schema.org/EmployeeRole",
-  "title": "ThingIntangibleRoleOrganizationRoleEmployeeRole",
-  "name": "ThingIntangibleRoleOrganizationRoleEmployeeRole",
+  "required": false,
+  "title": "EmployeeRole",
+  "name": "EmployeeRole",
   "description": "A subclass of OrganizationRole used to describe employee relationships.",
   "type": "object",
   "properties": {

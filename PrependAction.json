@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PrependAction",
-  "required": "http://schema.org/PrependAction",
-  "title": "ThingActionUpdateActionAddActionInsertActionPrependAction",
-  "name": "ThingActionUpdateActionAddActionInsertActionPrependAction",
+  "required": false,
+  "title": "PrependAction",
+  "name": "PrependAction",
   "description": "The act of inserting at the beginning if an ordered collection.",
   "type": "object",
   "properties": {

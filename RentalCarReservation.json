@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RentalCarReservation",
-  "required": "http://schema.org/RentalCarReservation",
-  "title": "ThingIntangibleReservationRentalCarReservation",
-  "name": "ThingIntangibleReservationRentalCarReservation",
+  "required": false,
+  "title": "RentalCarReservation",
+  "name": "RentalCarReservation",
   "description": "A reservation for a rental car.",
   "type": "object",
   "properties": {

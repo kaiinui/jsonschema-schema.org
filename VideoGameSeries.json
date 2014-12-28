@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/VideoGameSeries",
-  "required": "http://schema.org/VideoGameSeries",
-  "title": "ThingCreativeWorkSeriesVideoGameSeries",
-  "name": "ThingCreativeWorkSeriesVideoGameSeries",
+  "required": false,
+  "title": "VideoGameSeries",
+  "name": "VideoGameSeries",
   "description": "A video game series.",
   "type": "object",
   "properties": {

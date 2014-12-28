@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PerformanceRole",
-  "required": "http://schema.org/PerformanceRole",
-  "title": "ThingIntangibleRolePerformanceRole",
-  "name": "ThingIntangibleRolePerformanceRole",
+  "required": false,
+  "title": "PerformanceRole",
+  "name": "PerformanceRole",
   "description": "A PerformanceRole is a Role that some entity places with regard to a theatrical performance, e.g. in a Movie, TVSeries etc.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/IceCreamShop",
-  "required": "http://schema.org/IceCreamShop",
-  "title": "ThingOrganizationLocalBusinessFoodEstablishmentIceCreamShop",
-  "name": "ThingOrganizationLocalBusinessFoodEstablishmentIceCreamShop",
+  "required": false,
+  "title": "IceCreamShop",
+  "name": "IceCreamShop",
   "description": "An ice cream shop",
   "type": "object",
   "properties": {

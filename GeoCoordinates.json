@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GeoCoordinates",
-  "required": "http://schema.org/GeoCoordinates",
-  "title": "ThingIntangibleStructuredValueGeoCoordinates",
-  "name": "ThingIntangibleStructuredValueGeoCoordinates",
+  "required": false,
+  "title": "GeoCoordinates",
+  "name": "GeoCoordinates",
   "description": "The geographic coordinates of a place or event.",
   "type": "object",
   "properties": {

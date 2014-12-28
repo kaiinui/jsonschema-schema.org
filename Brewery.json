@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Brewery",
-  "required": "http://schema.org/Brewery",
-  "title": "ThingOrganizationLocalBusinessFoodEstablishmentBrewery",
-  "name": "ThingOrganizationLocalBusinessFoodEstablishmentBrewery",
+  "required": false,
+  "title": "Brewery",
+  "name": "Brewery",
   "description": "Brewery.",
   "type": "object",
   "properties": {

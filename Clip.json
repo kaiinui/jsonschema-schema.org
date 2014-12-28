@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Clip",
-  "required": "http://schema.org/Clip",
-  "title": "ThingCreativeWorkClip",
-  "name": "ThingCreativeWorkClip",
+  "required": false,
+  "title": "Clip",
+  "name": "Clip",
   "description": "A short TV or radio program or a segment/part of a program.",
   "type": "object",
   "properties": {

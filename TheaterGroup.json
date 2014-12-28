@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TheaterGroup",
-  "required": "http://schema.org/TheaterGroup",
-  "title": "ThingOrganizationPerformingGroupTheaterGroup",
-  "name": "ThingOrganizationPerformingGroupTheaterGroup",
+  "required": false,
+  "title": "TheaterGroup",
+  "name": "TheaterGroup",
   "description": "A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.",
   "type": "object",
   "properties": {

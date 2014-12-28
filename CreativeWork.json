@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CreativeWork",
-  "required": "http://schema.org/CreativeWork",
-  "title": "ThingCreativeWork",
-  "name": "ThingCreativeWork",
+  "required": false,
+  "title": "CreativeWork",
+  "name": "CreativeWork",
   "description": "The most generic kind of creative work, including books, movies, photographs, software programs, etc.",
   "type": "object",
   "properties": {

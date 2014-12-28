@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TherapeuticProcedure",
-  "required": "http://schema.org/TherapeuticProcedure",
-  "title": "ThingMedicalEntityMedicalTherapyTherapeuticProcedure",
-  "name": "ThingMedicalEntityMedicalTherapyTherapeuticProcedure",
+  "required": false,
+  "title": "TherapeuticProcedure",
+  "name": "TherapeuticProcedure",
   "description": "A medical procedure intended primarily for therapeutic purposes, aimed at improving a health condition.",
   "type": "object",
   "properties": {

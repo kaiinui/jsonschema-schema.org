@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/StructuredValue",
-  "required": "http://schema.org/StructuredValue",
-  "title": "ThingIntangibleStructuredValue",
-  "name": "ThingIntangibleStructuredValue",
+  "required": false,
+  "title": "StructuredValue",
+  "name": "StructuredValue",
   "description": "Structured values are strings—for example, addresses—that have certain constraints on their structure.",
   "type": "object",
   "properties": {

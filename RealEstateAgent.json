@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RealEstateAgent",
-  "required": "http://schema.org/RealEstateAgent",
-  "title": "ThingOrganizationLocalBusinessRealEstateAgent",
-  "name": "ThingOrganizationLocalBusinessRealEstateAgent",
+  "required": false,
+  "title": "RealEstateAgent",
+  "name": "RealEstateAgent",
   "description": "A real-estate agent.",
   "type": "object",
   "properties": {

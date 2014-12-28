@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DiagnosticProcedure",
-  "required": "http://schema.org/DiagnosticProcedure",
-  "title": "ThingMedicalEntityMedicalTestDiagnosticProcedure",
-  "name": "ThingMedicalEntityMedicalTestDiagnosticProcedure",
+  "required": false,
+  "title": "DiagnosticProcedure",
+  "name": "DiagnosticProcedure",
   "description": "A medical procedure intended primarily for diagnostic, as opposed to therapeutic, purposes.",
   "type": "object",
   "properties": {

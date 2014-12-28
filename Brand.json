@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Brand",
-  "required": "http://schema.org/Brand",
-  "title": "ThingIntangibleBrand",
-  "name": "ThingIntangibleBrand",
+  "required": false,
+  "title": "Brand",
+  "name": "Brand",
   "description": "A brand is a name used by an organization or business person for labeling a product, product group, or similar.",
   "type": "object",
   "properties": {

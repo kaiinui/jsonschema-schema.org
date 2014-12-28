@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PriceSpecification",
-  "required": "http://schema.org/PriceSpecification",
-  "title": "ThingIntangibleStructuredValuePriceSpecification",
-  "name": "ThingIntangibleStructuredValuePriceSpecification",
+  "required": false,
+  "title": "PriceSpecification",
+  "name": "PriceSpecification",
   "description": "A structured value representing a monetary amount. Typically, only the subclasses of this type are used for markup.",
   "type": "object",
   "properties": {

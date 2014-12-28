@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BusinessEntityType",
-  "required": "http://schema.org/BusinessEntityType",
-  "title": "ThingIntangibleEnumerationBusinessEntityType",
-  "name": "ThingIntangibleEnumerationBusinessEntityType",
+  "required": false,
+  "title": "BusinessEntityType",
+  "name": "BusinessEntityType",
   "description": "A business entity type is a conceptual entity representing the legal form, the size, the main line of business, the position in the value chain, or any combination thereof, of an organization or business person.\n\n    Commonly used values:\n\n    http://purl.org/goodrelations/v1#Business\n    http://purl.org/goodrelations/v1#Enduser\n    http://purl.org/goodrelations/v1#PublicInstitution\n    http://purl.org/goodrelations/v1#Reseller\n\n        ",
   "type": "object",
   "properties": {

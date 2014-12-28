@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ContactPoint",
-  "required": "http://schema.org/ContactPoint",
-  "title": "ThingIntangibleStructuredValueContactPoint",
-  "name": "ThingIntangibleStructuredValueContactPoint",
+  "required": false,
+  "title": "ContactPoint",
+  "name": "ContactPoint",
   "description": "A contact point—for example, a Customer Complaints department.",
   "type": "object",
   "properties": {

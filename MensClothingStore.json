@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MensClothingStore",
-  "required": "http://schema.org/MensClothingStore",
-  "title": "ThingOrganizationLocalBusinessStoreMensClothingStore",
-  "name": "ThingOrganizationLocalBusinessStoreMensClothingStore",
+  "required": false,
+  "title": "MensClothingStore",
+  "name": "MensClothingStore",
   "description": "A men's clothing store.",
   "type": "object",
   "properties": {

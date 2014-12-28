@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RsvpAction",
-  "required": "http://schema.org/RsvpAction",
-  "title": "ThingActionInteractActionCommunicateActionInformActionRsvpAction",
-  "name": "ThingActionInteractActionCommunicateActionInformActionRsvpAction",
+  "required": false,
+  "title": "RsvpAction",
+  "name": "RsvpAction",
   "description": "The act of notifying an event organizer as to whether you expect to attend the event.",
   "type": "object",
   "properties": {

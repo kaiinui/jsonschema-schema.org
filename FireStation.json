@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FireStation",
-  "required": "http://schema.org/FireStation",
-  "title": "ThingPlaceCivicStructureFireStation",
-  "name": "ThingPlaceCivicStructureFireStation",
+  "required": false,
+  "title": "FireStation",
+  "name": "FireStation",
   "description": "A fire station. With firemen.",
   "type": "object",
   "properties": {

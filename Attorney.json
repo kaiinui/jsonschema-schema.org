@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Attorney",
-  "required": "http://schema.org/Attorney",
-  "title": "ThingOrganizationLocalBusinessProfessionalServiceAttorney",
-  "name": "ThingOrganizationLocalBusinessProfessionalServiceAttorney",
+  "required": false,
+  "title": "Attorney",
+  "name": "Attorney",
   "description": "Professional service: Attorney.",
   "type": "object",
   "properties": {

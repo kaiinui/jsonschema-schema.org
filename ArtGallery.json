@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ArtGallery",
-  "required": "http://schema.org/ArtGallery",
-  "title": "ThingOrganizationLocalBusinessEntertainmentBusinessArtGallery",
-  "name": "ThingOrganizationLocalBusinessEntertainmentBusinessArtGallery",
+  "required": false,
+  "title": "ArtGallery",
+  "name": "ArtGallery",
   "description": "An art gallery.",
   "type": "object",
   "properties": {

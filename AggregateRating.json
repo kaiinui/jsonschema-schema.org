@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AggregateRating",
-  "required": "http://schema.org/AggregateRating",
-  "title": "ThingIntangibleRatingAggregateRating",
-  "name": "ThingIntangibleRatingAggregateRating",
+  "required": false,
+  "title": "AggregateRating",
+  "name": "AggregateRating",
   "description": "The average rating based on multiple ratings or reviews.",
   "type": "object",
   "properties": {

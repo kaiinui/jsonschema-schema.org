@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalDevicePurpose",
-  "required": "http://schema.org/MedicalDevicePurpose",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationMedicalDevicePurpose",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationMedicalDevicePurpose",
+  "required": false,
+  "title": "MedicalDevicePurpose",
+  "name": "MedicalDevicePurpose",
   "description": "Categories of medical devices, organized by the purpose or intended use of the device.",
   "type": "object",
   "properties": {

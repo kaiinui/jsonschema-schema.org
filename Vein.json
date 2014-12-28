@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Vein",
-  "required": "http://schema.org/Vein",
-  "title": "ThingMedicalEntityAnatomicalStructureVesselVein",
-  "name": "ThingMedicalEntityAnatomicalStructureVesselVein",
+  "required": false,
+  "title": "Vein",
+  "name": "Vein",
   "description": "A type of blood vessel that specifically carries blood to the heart.",
   "type": "object",
   "properties": {

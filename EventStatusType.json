@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EventStatusType",
-  "required": "http://schema.org/EventStatusType",
-  "title": "ThingIntangibleEnumerationEventStatusType",
-  "name": "ThingIntangibleEnumerationEventStatusType",
+  "required": false,
+  "title": "EventStatusType",
+  "name": "EventStatusType",
   "description": "EventStatusType is an enumeration type whose instances represent several states that an Event may be in.",
   "type": "object",
   "properties": {

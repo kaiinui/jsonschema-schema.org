@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ApplyAction",
-  "required": "http://schema.org/ApplyAction",
-  "title": "ThingActionOrganizeActionApplyAction",
-  "name": "ThingActionOrganizeActionApplyAction",
+  "required": false,
+  "title": "ApplyAction",
+  "name": "ApplyAction",
   "description": "The act of registering to an organization/service without the guarantee to receive it. NOTE(goto): should this be under InteractAction instead?Related actions:RegisterAction: Unlike RegisterAction, ApplyAction has no guarantees that the application will be accepted.",
   "type": "object",
   "properties": {

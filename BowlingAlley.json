@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BowlingAlley",
-  "required": "http://schema.org/BowlingAlley",
-  "title": "ThingOrganizationLocalBusinessSportsActivityLocationBowlingAlley",
-  "name": "ThingOrganizationLocalBusinessSportsActivityLocationBowlingAlley",
+  "required": false,
+  "title": "BowlingAlley",
+  "name": "BowlingAlley",
   "description": "A bowling alley.",
   "type": "object",
   "properties": {

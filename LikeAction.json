@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LikeAction",
-  "required": "http://schema.org/LikeAction",
-  "title": "ThingActionAssessActionReactActionLikeAction",
-  "name": "ThingActionAssessActionReactActionLikeAction",
+  "required": false,
+  "title": "LikeAction",
+  "name": "LikeAction",
   "description": "The act of expressing a positive sentiment about the object. An agent likes an object (a proposition, topic or theme) with participants.",
   "type": "object",
   "properties": {

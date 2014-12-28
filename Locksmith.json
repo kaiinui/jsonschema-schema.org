@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Locksmith",
-  "required": "http://schema.org/Locksmith",
-  "title": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessLocksmith",
-  "name": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessLocksmith",
+  "required": false,
+  "title": "Locksmith",
+  "name": "Locksmith",
   "description": "A locksmith.",
   "type": "object",
   "properties": {

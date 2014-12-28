@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SearchResultsPage",
-  "required": "http://schema.org/SearchResultsPage",
-  "title": "ThingCreativeWorkWebPageSearchResultsPage",
-  "name": "ThingCreativeWorkWebPageSearchResultsPage",
+  "required": false,
+  "title": "SearchResultsPage",
+  "name": "SearchResultsPage",
   "description": "Web page type: Search results page.",
   "type": "object",
   "properties": {

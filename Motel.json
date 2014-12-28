@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Motel",
-  "required": "http://schema.org/Motel",
-  "title": "ThingPlaceLocalBusinessLodgingBusinessMotel",
-  "name": "ThingPlaceLocalBusinessLodgingBusinessMotel",
+  "required": false,
+  "title": "Motel",
+  "name": "Motel",
   "description": "A motel.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CivicStructure",
-  "required": "http://schema.org/CivicStructure",
-  "title": "ThingPlaceCivicStructure",
-  "name": "ThingPlaceCivicStructure",
+  "required": false,
+  "title": "CivicStructure",
+  "name": "CivicStructure",
   "description": "A public structure, such as a town hall or concert hall.",
   "type": "object",
   "properties": {

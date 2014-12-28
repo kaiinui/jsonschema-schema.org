@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutoWash",
-  "required": "http://schema.org/AutoWash",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoWash",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoWash",
+  "required": false,
+  "title": "AutoWash",
+  "name": "AutoWash",
   "description": "A car wash business.",
   "type": "object",
   "properties": {

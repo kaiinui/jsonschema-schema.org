@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Aquarium",
-  "required": "http://schema.org/Aquarium",
-  "title": "ThingPlaceCivicStructureAquarium",
-  "name": "ThingPlaceCivicStructureAquarium",
+  "required": false,
+  "title": "Aquarium",
+  "name": "Aquarium",
   "description": "Aquarium.",
   "type": "object",
   "properties": {

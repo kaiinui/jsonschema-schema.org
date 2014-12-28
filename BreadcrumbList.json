@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BreadcrumbList",
-  "required": "http://schema.org/BreadcrumbList",
-  "title": "ThingIntangibleItemListBreadcrumbList",
-  "name": "ThingIntangibleItemListBreadcrumbList",
+  "required": false,
+  "title": "BreadcrumbList",
+  "name": "BreadcrumbList",
   "description": "\n      A BreadcrumbList is an ItemList consisting of a chain of linked Web pages, typically described using at least their URL and their name, ending with the current page.",
   "type": "object",
   "properties": {

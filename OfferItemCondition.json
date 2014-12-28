@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OfferItemCondition",
-  "required": "http://schema.org/OfferItemCondition",
-  "title": "ThingIntangibleEnumerationOfferItemCondition",
-  "name": "ThingIntangibleEnumerationOfferItemCondition",
+  "required": false,
+  "title": "OfferItemCondition",
+  "name": "OfferItemCondition",
   "description": "A list of possible conditions for the item.",
   "type": "object",
   "properties": {

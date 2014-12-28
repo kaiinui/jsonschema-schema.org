@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Embassy",
-  "required": "http://schema.org/Embassy",
-  "title": "ThingPlaceCivicStructureGovernmentBuildingEmbassy",
-  "name": "ThingPlaceCivicStructureGovernmentBuildingEmbassy",
+  "required": false,
+  "title": "Embassy",
+  "name": "Embassy",
   "description": "An embassy.",
   "type": "object",
   "properties": {

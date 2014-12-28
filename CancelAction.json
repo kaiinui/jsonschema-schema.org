@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CancelAction",
-  "required": "http://schema.org/CancelAction",
-  "title": "ThingActionOrganizeActionPlanActionCancelAction",
-  "name": "ThingActionOrganizeActionPlanActionCancelAction",
+  "required": false,
+  "title": "CancelAction",
+  "name": "CancelAction",
   "description": "The act of asserting that a future event/action is no longer going to happen.Related actions:ConfirmAction: The antagonym of CancelAction.",
   "type": "object",
   "properties": {

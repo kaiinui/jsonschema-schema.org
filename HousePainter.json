@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HousePainter",
-  "required": "http://schema.org/HousePainter",
-  "title": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessHousePainter",
-  "name": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessHousePainter",
+  "required": false,
+  "title": "HousePainter",
+  "name": "HousePainter",
   "description": "A house painting service.",
   "type": "object",
   "properties": {

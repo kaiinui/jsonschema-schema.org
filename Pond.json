@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Pond",
-  "required": "http://schema.org/Pond",
-  "title": "ThingPlaceLandformBodyOfWaterPond",
-  "name": "ThingPlaceLandformBodyOfWaterPond",
+  "required": false,
+  "title": "Pond",
+  "name": "Pond",
   "description": "A pond",
   "type": "object",
   "properties": {

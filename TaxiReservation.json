@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TaxiReservation",
-  "required": "http://schema.org/TaxiReservation",
-  "title": "ThingIntangibleReservationTaxiReservation",
-  "name": "ThingIntangibleReservationTaxiReservation",
+  "required": false,
+  "title": "TaxiReservation",
+  "name": "TaxiReservation",
   "description": "A reservation for a taxi.",
   "type": "object",
   "properties": {

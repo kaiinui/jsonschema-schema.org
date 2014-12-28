@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UseAction",
-  "required": "http://schema.org/UseAction",
-  "title": "ThingActionConsumeActionUseAction",
-  "name": "ThingActionConsumeActionUseAction",
+  "required": false,
+  "title": "UseAction",
+  "name": "UseAction",
   "description": "The act of applying an object to its intended purpose.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalTestPanel",
-  "required": "http://schema.org/MedicalTestPanel",
-  "title": "ThingMedicalEntityMedicalTestMedicalTestPanel",
-  "name": "ThingMedicalEntityMedicalTestMedicalTestPanel",
+  "required": false,
+  "title": "MedicalTestPanel",
+  "name": "MedicalTestPanel",
   "description": "Any collection of tests commonly ordered together.",
   "type": "object",
   "properties": {

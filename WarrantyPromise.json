@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WarrantyPromise",
-  "required": "http://schema.org/WarrantyPromise",
-  "title": "ThingIntangibleStructuredValueWarrantyPromise",
-  "name": "ThingIntangibleStructuredValueWarrantyPromise",
+  "required": false,
+  "title": "WarrantyPromise",
+  "name": "WarrantyPromise",
   "description": "A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Duration",
-  "required": "http://schema.org/Duration",
-  "title": "ThingIntangibleQuantityDuration",
-  "name": "ThingIntangibleQuantityDuration",
+  "required": false,
+  "title": "Duration",
+  "name": "Duration",
   "description": "Quantity: Duration (use  ISO 8601 duration format).",
   "type": "object",
   "properties": {

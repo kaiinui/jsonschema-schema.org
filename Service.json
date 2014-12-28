@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Service",
-  "required": "http://schema.org/Service",
-  "title": "ThingIntangibleService",
-  "name": "ThingIntangibleService",
+  "required": false,
+  "title": "Service",
+  "name": "Service",
   "description": "A service provided by an organization, e.g. delivery service, print services, etc.",
   "type": "object",
   "properties": {

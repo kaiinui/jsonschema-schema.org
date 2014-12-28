@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GasStation",
-  "required": "http://schema.org/GasStation",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusinessGasStation",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusinessGasStation",
+  "required": false,
+  "title": "GasStation",
+  "name": "GasStation",
   "description": "A gas station.",
   "type": "object",
   "properties": {

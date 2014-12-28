@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MovingCompany",
-  "required": "http://schema.org/MovingCompany",
-  "title": "ThingPlaceLocalBusinessHomeAndConstructionBusinessMovingCompany",
-  "name": "ThingPlaceLocalBusinessHomeAndConstructionBusinessMovingCompany",
+  "required": false,
+  "title": "MovingCompany",
+  "name": "MovingCompany",
   "description": "A moving company.",
   "type": "object",
   "properties": {

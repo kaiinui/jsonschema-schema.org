@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WPFooter",
-  "required": "http://schema.org/WPFooter",
-  "title": "ThingCreativeWorkWebPageElementWPFooter",
-  "name": "ThingCreativeWorkWebPageElementWPFooter",
+  "required": false,
+  "title": "WPFooter",
+  "name": "WPFooter",
   "description": "The footer section of the page.",
   "type": "object",
   "properties": {

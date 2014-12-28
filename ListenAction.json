@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ListenAction",
-  "required": "http://schema.org/ListenAction",
-  "title": "ThingActionConsumeActionListenAction",
-  "name": "ThingActionConsumeActionListenAction",
+  "required": false,
+  "title": "ListenAction",
+  "name": "ListenAction",
   "description": "The act of consuming audio content.",
   "type": "object",
   "properties": {

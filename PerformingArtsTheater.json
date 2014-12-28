@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PerformingArtsTheater",
-  "required": "http://schema.org/PerformingArtsTheater",
-  "title": "ThingPlaceCivicStructurePerformingArtsTheater",
-  "name": "ThingPlaceCivicStructurePerformingArtsTheater",
+  "required": false,
+  "title": "PerformingArtsTheater",
+  "name": "PerformingArtsTheater",
   "description": "A theater or other performing art center.",
   "type": "object",
   "properties": {

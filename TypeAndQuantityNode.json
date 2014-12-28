@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TypeAndQuantityNode",
-  "required": "http://schema.org/TypeAndQuantityNode",
-  "title": "ThingIntangibleStructuredValueTypeAndQuantityNode",
-  "name": "ThingIntangibleStructuredValueTypeAndQuantityNode",
+  "required": false,
+  "title": "TypeAndQuantityNode",
+  "name": "TypeAndQuantityNode",
   "description": "A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer.",
   "type": "object",
   "properties": {

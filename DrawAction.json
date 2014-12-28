@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DrawAction",
-  "required": "http://schema.org/DrawAction",
-  "title": "ThingActionCreateActionDrawAction",
-  "name": "ThingActionCreateActionDrawAction",
+  "required": false,
+  "title": "DrawAction",
+  "name": "DrawAction",
   "description": "The act of producing a visual/graphical representation of an object, typically with a pen/pencil and paper as instruments.",
   "type": "object",
   "properties": {

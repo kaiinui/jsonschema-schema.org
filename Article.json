@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Article",
-  "required": "http://schema.org/Article",
-  "title": "ThingCreativeWorkArticle",
-  "name": "ThingCreativeWorkArticle",
+  "required": false,
+  "title": "Article",
+  "name": "Article",
   "description": "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.\n\n      See also blog post",
   "type": "object",
   "properties": {

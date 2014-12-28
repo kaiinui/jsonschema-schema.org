@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OrganizeAction",
-  "required": "http://schema.org/OrganizeAction",
-  "title": "ThingActionOrganizeAction",
-  "name": "ThingActionOrganizeAction",
+  "required": false,
+  "title": "OrganizeAction",
+  "name": "OrganizeAction",
   "description": "The act of manipulating/administering/supervising/controlling one or more objects.",
   "type": "object",
   "properties": {

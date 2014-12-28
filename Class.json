@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Class",
-  "required": "http://schema.org/Class",
-  "title": "ThingIntangibleClass",
-  "name": "ThingIntangibleClass",
+  "required": false,
+  "title": "Class",
+  "name": "Class",
   "description": "A class, also often called a 'Type'; equivalent to rdfs:Class.",
   "type": "object",
   "properties": {

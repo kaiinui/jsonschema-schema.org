@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ChildCare",
-  "required": "http://schema.org/ChildCare",
-  "title": "ThingPlaceLocalBusinessChildCare",
-  "name": "ThingPlaceLocalBusinessChildCare",
+  "required": false,
+  "title": "ChildCare",
+  "name": "ChildCare",
   "description": "A Childcare center.",
   "type": "object",
   "properties": {

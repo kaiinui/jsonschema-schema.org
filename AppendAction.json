@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AppendAction",
-  "required": "http://schema.org/AppendAction",
-  "title": "ThingActionUpdateActionAddActionInsertActionAppendAction",
-  "name": "ThingActionUpdateActionAddActionInsertActionAppendAction",
+  "required": false,
+  "title": "AppendAction",
+  "name": "AppendAction",
   "description": "The act of inserting at the end if an ordered collection.",
   "type": "object",
   "properties": {

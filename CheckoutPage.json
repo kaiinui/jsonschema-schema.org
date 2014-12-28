@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CheckoutPage",
-  "required": "http://schema.org/CheckoutPage",
-  "title": "ThingCreativeWorkWebPageCheckoutPage",
-  "name": "ThingCreativeWorkWebPageCheckoutPage",
+  "required": false,
+  "title": "CheckoutPage",
+  "name": "CheckoutPage",
   "description": "Web page type: Checkout page.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Question",
-  "required": "http://schema.org/Question",
-  "title": "ThingCreativeWorkQuestion",
-  "name": "ThingCreativeWorkQuestion",
+  "required": false,
+  "title": "Question",
+  "name": "Question",
   "description": "A specific question - e.g. from a user seeking answers online, or collected in a Frequently Asked Questions (FAQ) document.",
   "type": "object",
   "properties": {

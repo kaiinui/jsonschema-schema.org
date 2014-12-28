@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Photograph",
-  "required": "http://schema.org/Photograph",
-  "title": "ThingCreativeWorkPhotograph",
-  "name": "ThingCreativeWorkPhotograph",
+  "required": false,
+  "title": "Photograph",
+  "name": "Photograph",
   "description": "A photograph.",
   "type": "object",
   "properties": {

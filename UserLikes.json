@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserLikes",
-  "required": "http://schema.org/UserLikes",
-  "title": "ThingEventUserInteractionUserLikes",
-  "name": "ThingEventUserInteractionUserLikes",
+  "required": false,
+  "title": "UserLikes",
+  "name": "UserLikes",
   "description": "User interaction: Like an item.",
   "type": "object",
   "properties": {

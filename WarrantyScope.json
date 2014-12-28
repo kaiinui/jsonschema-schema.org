@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WarrantyScope",
-  "required": "http://schema.org/WarrantyScope",
-  "title": "ThingIntangibleEnumerationWarrantyScope",
-  "name": "ThingIntangibleEnumerationWarrantyScope",
+  "required": false,
+  "title": "WarrantyScope",
+  "name": "WarrantyScope",
   "description": "A range of of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.\n\n    Commonly used values:\n\n    http://purl.org/goodrelations/v1#Labor-BringIn\n    http://purl.org/goodrelations/v1#PartsAndLabor-BringIn\n    http://purl.org/goodrelations/v1#PartsAndLabor-PickUp\n      ",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutoPartsStore",
-  "required": "http://schema.org/AutoPartsStore",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoPartsStore",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoPartsStore",
+  "required": false,
+  "title": "AutoPartsStore",
+  "name": "AutoPartsStore",
   "description": "An auto parts store.",
   "type": "object",
   "properties": {

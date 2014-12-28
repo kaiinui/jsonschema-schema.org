@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicineSystem",
-  "required": "http://schema.org/MedicineSystem",
-  "title": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationMedicineSystem",
-  "name": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationMedicineSystem",
+  "required": false,
+  "title": "MedicineSystem",
+  "name": "MedicineSystem",
   "description": "Systems of medical practice.",
   "type": "object",
   "properties": {

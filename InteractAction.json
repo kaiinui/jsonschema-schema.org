@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InteractAction",
-  "required": "http://schema.org/InteractAction",
-  "title": "ThingActionInteractAction",
-  "name": "ThingActionInteractAction",
+  "required": false,
+  "title": "InteractAction",
+  "name": "InteractAction",
   "description": "The act of interacting with another person or organization.",
   "type": "object",
   "properties": {

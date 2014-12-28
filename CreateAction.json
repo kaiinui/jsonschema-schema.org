@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CreateAction",
-  "required": "http://schema.org/CreateAction",
-  "title": "ThingActionCreateAction",
-  "name": "ThingActionCreateAction",
+  "required": false,
+  "title": "CreateAction",
+  "name": "CreateAction",
   "description": "The act of deliberately creating/producing/generating/building a result out of the agent.",
   "type": "object",
   "properties": {

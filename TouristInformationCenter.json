@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TouristInformationCenter",
-  "required": "http://schema.org/TouristInformationCenter",
-  "title": "ThingOrganizationLocalBusinessTouristInformationCenter",
-  "name": "ThingOrganizationLocalBusinessTouristInformationCenter",
+  "required": false,
+  "title": "TouristInformationCenter",
+  "name": "TouristInformationCenter",
   "description": "A tourist information center.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Bone",
-  "required": "http://schema.org/Bone",
-  "title": "ThingMedicalEntityAnatomicalStructureBone",
-  "name": "ThingMedicalEntityAnatomicalStructureBone",
+  "required": false,
+  "title": "Bone",
+  "name": "Bone",
   "description": "Rigid connective tissue that comprises up the skeletal structure of the human body.",
   "type": "object",
   "properties": {

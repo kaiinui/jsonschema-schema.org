@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ParentAudience",
-  "required": "http://schema.org/ParentAudience",
-  "title": "ThingIntangibleAudiencePeopleAudienceParentAudience",
-  "name": "ThingIntangibleAudiencePeopleAudienceParentAudience",
+  "required": false,
+  "title": "ParentAudience",
+  "name": "ParentAudience",
   "description": "A set of characteristics describing parents, who can be interested in viewing some content",
   "type": "object",
   "properties": {

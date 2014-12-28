@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Recipe",
-  "required": "http://schema.org/Recipe",
-  "title": "ThingCreativeWorkRecipe",
-  "name": "ThingCreativeWorkRecipe",
+  "required": false,
+  "title": "Recipe",
+  "name": "Recipe",
   "description": "A recipe.",
   "type": "object",
   "properties": {

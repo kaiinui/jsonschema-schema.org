@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalEnumeration",
-  "required": "http://schema.org/MedicalEnumeration",
-  "title": "ThingMedicalEntityMedicalIntangibleMedicalEnumeration",
-  "name": "ThingMedicalEntityMedicalIntangibleMedicalEnumeration",
+  "required": false,
+  "title": "MedicalEnumeration",
+  "name": "MedicalEnumeration",
   "description": "Enumerations related to health and the practice of medicine.",
   "type": "object",
   "properties": {

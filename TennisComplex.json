@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TennisComplex",
-  "required": "http://schema.org/TennisComplex",
-  "title": "ThingOrganizationLocalBusinessSportsActivityLocationTennisComplex",
-  "name": "ThingOrganizationLocalBusinessSportsActivityLocationTennisComplex",
+  "required": false,
+  "title": "TennisComplex",
+  "name": "TennisComplex",
   "description": "A tennis complex.",
   "type": "object",
   "properties": {

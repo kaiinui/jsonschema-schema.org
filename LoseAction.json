@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LoseAction",
-  "required": "http://schema.org/LoseAction",
-  "title": "ThingActionAchieveActionLoseAction",
-  "name": "ThingActionAchieveActionLoseAction",
+  "required": false,
+  "title": "LoseAction",
+  "name": "LoseAction",
   "description": "The act of being defeated in a competitive activity.",
   "type": "object",
   "properties": {

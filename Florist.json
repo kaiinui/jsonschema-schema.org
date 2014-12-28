@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Florist",
-  "required": "http://schema.org/Florist",
-  "title": "ThingOrganizationLocalBusinessStoreFlorist",
-  "name": "ThingOrganizationLocalBusinessStoreFlorist",
+  "required": false,
+  "title": "Florist",
+  "name": "Florist",
   "description": "A florist.",
   "type": "object",
   "properties": {

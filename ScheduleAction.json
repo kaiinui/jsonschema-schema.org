@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ScheduleAction",
-  "required": "http://schema.org/ScheduleAction",
-  "title": "ThingActionOrganizeActionPlanActionScheduleAction",
-  "name": "ThingActionOrganizeActionPlanActionScheduleAction",
+  "required": false,
+  "title": "ScheduleAction",
+  "name": "ScheduleAction",
   "description": "Scheduling future actions, events, or tasks.Related actions:ReserveAction: Unlike ReserveAction, ScheduleAction allocates future actions (e.g. an event, a task, etc) towards a time slot / spatial allocation.",
   "type": "object",
   "properties": {

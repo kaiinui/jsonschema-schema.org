@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PublicSwimmingPool",
-  "required": "http://schema.org/PublicSwimmingPool",
-  "title": "ThingOrganizationLocalBusinessSportsActivityLocationPublicSwimmingPool",
-  "name": "ThingOrganizationLocalBusinessSportsActivityLocationPublicSwimmingPool",
+  "required": false,
+  "title": "PublicSwimmingPool",
+  "name": "PublicSwimmingPool",
   "description": "A public swimming pool.",
   "type": "object",
   "properties": {

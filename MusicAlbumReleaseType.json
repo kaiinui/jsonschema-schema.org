@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicAlbumReleaseType",
-  "required": "http://schema.org/MusicAlbumReleaseType",
-  "title": "ThingIntangibleEnumerationMusicAlbumReleaseType",
-  "name": "ThingIntangibleEnumerationMusicAlbumReleaseType",
+  "required": false,
+  "title": "MusicAlbumReleaseType",
+  "name": "MusicAlbumReleaseType",
   "description": "The kind of release which this album is: single, EP or album.",
   "type": "object",
   "properties": {

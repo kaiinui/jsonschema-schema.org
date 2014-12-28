@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Distance",
-  "required": "http://schema.org/Distance",
-  "title": "ThingIntangibleQuantityDistance",
-  "name": "ThingIntangibleQuantityDistance",
+  "required": false,
+  "title": "Distance",
+  "name": "Distance",
   "description": "Properties that take Distances as values are of the form '<Number> <Length unit of measure>'. E.g., '7 ft'",
   "type": "object",
   "properties": {

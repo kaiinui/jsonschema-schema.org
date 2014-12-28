@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/NutritionInformation",
-  "required": "http://schema.org/NutritionInformation",
-  "title": "ThingIntangibleStructuredValueNutritionInformation",
-  "name": "ThingIntangibleStructuredValueNutritionInformation",
+  "required": false,
+  "title": "NutritionInformation",
+  "name": "NutritionInformation",
   "description": "Nutritional information about the recipe.",
   "type": "object",
   "properties": {

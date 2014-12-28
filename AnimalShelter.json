@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AnimalShelter",
-  "required": "http://schema.org/AnimalShelter",
-  "title": "ThingOrganizationLocalBusinessAnimalShelter",
-  "name": "ThingOrganizationLocalBusinessAnimalShelter",
+  "required": false,
+  "title": "AnimalShelter",
+  "name": "AnimalShelter",
   "description": "Animal shelter.",
   "type": "object",
   "properties": {

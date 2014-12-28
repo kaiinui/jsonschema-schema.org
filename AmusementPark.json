@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AmusementPark",
-  "required": "http://schema.org/AmusementPark",
-  "title": "ThingOrganizationLocalBusinessEntertainmentBusinessAmusementPark",
-  "name": "ThingOrganizationLocalBusinessEntertainmentBusinessAmusementPark",
+  "required": false,
+  "title": "AmusementPark",
+  "name": "AmusementPark",
   "description": "An amusement park.",
   "type": "object",
   "properties": {

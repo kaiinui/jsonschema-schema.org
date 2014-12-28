@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TVEpisode",
-  "required": "http://schema.org/TVEpisode",
-  "title": "ThingCreativeWorkEpisodeTVEpisode",
-  "name": "ThingCreativeWorkEpisodeTVEpisode",
+  "required": false,
+  "title": "TVEpisode",
+  "name": "TVEpisode",
   "description": "A TV episode which can be part of a series or season.",
   "type": "object",
   "properties": {

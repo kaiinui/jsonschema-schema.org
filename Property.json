@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Property",
-  "required": "http://schema.org/Property",
-  "title": "ThingIntangibleProperty",
-  "name": "ThingIntangibleProperty",
+  "required": false,
+  "title": "Property",
+  "name": "Property",
   "description": "A property, used to indicate attributes and relationships of some Thing; equivalent to rdf:Property.",
   "type": "object",
   "properties": {

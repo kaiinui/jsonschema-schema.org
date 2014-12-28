@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Optician",
-  "required": "http://schema.org/Optician",
-  "title": "ThingOrganizationLocalBusinessMedicalOrganizationOptician",
-  "name": "ThingOrganizationLocalBusinessMedicalOrganizationOptician",
+  "required": false,
+  "title": "Optician",
+  "name": "Optician",
   "description": "A store that sells reading glasses and similar devices for improving vision.",
   "type": "object",
   "properties": {

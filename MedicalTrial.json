@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalTrial",
-  "required": "http://schema.org/MedicalTrial",
-  "title": "ThingMedicalEntityMedicalStudyMedicalTrial",
-  "name": "ThingMedicalEntityMedicalStudyMedicalTrial",
+  "required": false,
+  "title": "MedicalTrial",
+  "name": "MedicalTrial",
   "description": "A medical trial is a type of medical study that uses scientific process used to compare the safety and efficacy of medical therapies or medical procedures. In general, medical trials are controlled and subjects are allocated at random to the different treatment and/or control groups.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LymphaticVessel",
-  "required": "http://schema.org/LymphaticVessel",
-  "title": "ThingMedicalEntityAnatomicalStructureVesselLymphaticVessel",
-  "name": "ThingMedicalEntityAnatomicalStructureVesselLymphaticVessel",
+  "required": false,
+  "title": "LymphaticVessel",
+  "name": "LymphaticVessel",
   "description": "A type of blood vessel that specifically carries lymph fluid unidirectionally toward the heart.",
   "type": "object",
   "properties": {

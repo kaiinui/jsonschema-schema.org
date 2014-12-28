@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EatAction",
-  "required": "http://schema.org/EatAction",
-  "title": "ThingActionConsumeActionEatAction",
-  "name": "ThingActionConsumeActionEatAction",
+  "required": false,
+  "title": "EatAction",
+  "name": "EatAction",
   "description": "The act of swallowing solid objects.",
   "type": "object",
   "properties": {

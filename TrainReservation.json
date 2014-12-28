@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TrainReservation",
-  "required": "http://schema.org/TrainReservation",
-  "title": "ThingIntangibleReservationTrainReservation",
-  "name": "ThingIntangibleReservationTrainReservation",
+  "required": false,
+  "title": "TrainReservation",
+  "name": "TrainReservation",
   "description": "A reservation for train travel.",
   "type": "object",
   "properties": {

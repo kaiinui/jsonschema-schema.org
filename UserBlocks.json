@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserBlocks",
-  "required": "http://schema.org/UserBlocks",
-  "title": "ThingEventUserInteractionUserBlocks",
-  "name": "ThingEventUserInteractionUserBlocks",
+  "required": false,
+  "title": "UserBlocks",
+  "name": "UserBlocks",
   "description": "User interaction: Block this content.",
   "type": "object",
   "properties": {

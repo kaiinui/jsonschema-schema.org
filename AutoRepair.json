@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutoRepair",
-  "required": "http://schema.org/AutoRepair",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoRepair",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusinessAutoRepair",
+  "required": false,
+  "title": "AutoRepair",
+  "name": "AutoRepair",
   "description": "Car repair business.",
   "type": "object",
   "properties": {

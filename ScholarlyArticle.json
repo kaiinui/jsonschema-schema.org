@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ScholarlyArticle",
-  "required": "http://schema.org/ScholarlyArticle",
-  "title": "ThingCreativeWorkArticleScholarlyArticle",
-  "name": "ThingCreativeWorkArticleScholarlyArticle",
+  "required": false,
+  "title": "ScholarlyArticle",
+  "name": "ScholarlyArticle",
   "description": "A scholarly article.",
   "type": "object",
   "properties": {

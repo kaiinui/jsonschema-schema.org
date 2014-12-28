@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ElementarySchool",
-  "required": "http://schema.org/ElementarySchool",
-  "title": "ThingOrganizationEducationalOrganizationElementarySchool",
-  "name": "ThingOrganizationEducationalOrganizationElementarySchool",
+  "required": false,
+  "title": "ElementarySchool",
+  "name": "ElementarySchool",
   "description": "An elementary school.",
   "type": "object",
   "properties": {

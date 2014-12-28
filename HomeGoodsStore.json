@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HomeGoodsStore",
-  "required": "http://schema.org/HomeGoodsStore",
-  "title": "ThingOrganizationLocalBusinessStoreHomeGoodsStore",
-  "name": "ThingOrganizationLocalBusinessStoreHomeGoodsStore",
+  "required": false,
+  "title": "HomeGoodsStore",
+  "name": "HomeGoodsStore",
   "description": "A home goods store.",
   "type": "object",
   "properties": {

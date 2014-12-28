@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TrainStation",
-  "required": "http://schema.org/TrainStation",
-  "title": "ThingPlaceCivicStructureTrainStation",
-  "name": "ThingPlaceCivicStructureTrainStation",
+  "required": false,
+  "title": "TrainStation",
+  "name": "TrainStation",
   "description": "A train station.",
   "type": "object",
   "properties": {

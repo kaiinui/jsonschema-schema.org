@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PhysicalActivity",
-  "required": "http://schema.org/PhysicalActivity",
-  "title": "ThingMedicalEntityMedicalTherapyLifestyleModificationPhysicalActivity",
-  "name": "ThingMedicalEntityMedicalTherapyLifestyleModificationPhysicalActivity",
+  "required": false,
+  "title": "PhysicalActivity",
+  "name": "PhysicalActivity",
   "description": "Any bodily activity that enhances or maintains physical fitness and overall health and wellness. Includes activity that is part of daily living and routine, structured exercise, and exercise prescribed as part of a medical treatment or recovery plan.",
   "type": "object",
   "properties": {

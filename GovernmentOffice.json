@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GovernmentOffice",
-  "required": "http://schema.org/GovernmentOffice",
-  "title": "ThingOrganizationLocalBusinessGovernmentOffice",
-  "name": "ThingOrganizationLocalBusinessGovernmentOffice",
+  "required": false,
+  "title": "GovernmentOffice",
+  "name": "GovernmentOffice",
   "description": "A government office—for example, an IRS or DMV office.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Corporation",
-  "required": "http://schema.org/Corporation",
-  "title": "ThingOrganizationCorporation",
-  "name": "ThingOrganizationCorporation",
+  "required": false,
+  "title": "Corporation",
+  "name": "Corporation",
   "description": "Organization: A business corporation.",
   "type": "object",
   "properties": {

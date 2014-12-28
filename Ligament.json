@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Ligament",
-  "required": "http://schema.org/Ligament",
-  "title": "ThingMedicalEntityAnatomicalStructureLigament",
-  "name": "ThingMedicalEntityAnatomicalStructureLigament",
+  "required": false,
+  "title": "Ligament",
+  "name": "Ligament",
   "description": "A short band of tough, flexible, fibrous connective tissue that functions to connect multiple bones, cartilages, and structurally support joints.",
   "type": "object",
   "properties": {

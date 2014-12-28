@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LakeBodyOfWater",
-  "required": "http://schema.org/LakeBodyOfWater",
-  "title": "ThingPlaceLandformBodyOfWaterLakeBodyOfWater",
-  "name": "ThingPlaceLandformBodyOfWaterLakeBodyOfWater",
+  "required": false,
+  "title": "LakeBodyOfWater",
+  "name": "LakeBodyOfWater",
   "description": "A lake (for example, Lake Pontrachain).",
   "type": "object",
   "properties": {

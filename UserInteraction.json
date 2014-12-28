@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserInteraction",
-  "required": "http://schema.org/UserInteraction",
-  "title": "ThingEventUserInteraction",
-  "name": "ThingEventUserInteraction",
+  "required": false,
+  "title": "UserInteraction",
+  "name": "UserInteraction",
   "description": "A user interacting with a page",
   "type": "object",
   "properties": {

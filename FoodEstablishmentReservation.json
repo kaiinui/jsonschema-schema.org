@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FoodEstablishmentReservation",
-  "required": "http://schema.org/FoodEstablishmentReservation",
-  "title": "ThingIntangibleReservationFoodEstablishmentReservation",
-  "name": "ThingIntangibleReservationFoodEstablishmentReservation",
+  "required": false,
+  "title": "FoodEstablishmentReservation",
+  "name": "FoodEstablishmentReservation",
   "description": "A reservation to dine at a food-related business.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SkiResort",
-  "required": "http://schema.org/SkiResort",
-  "title": "ThingOrganizationLocalBusinessSportsActivityLocationSkiResort",
-  "name": "ThingOrganizationLocalBusinessSportsActivityLocationSkiResort",
+  "required": false,
+  "title": "SkiResort",
+  "name": "SkiResort",
   "description": "A ski resort.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PhysicalActivityCategory",
-  "required": "http://schema.org/PhysicalActivityCategory",
-  "title": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationPhysicalActivityCategory",
-  "name": "ThingMedicalEntityMedicalIntangibleMedicalEnumerationPhysicalActivityCategory",
+  "required": false,
+  "title": "PhysicalActivityCategory",
+  "name": "PhysicalActivityCategory",
   "description": "Categories of physical activity, organized by physiologic classification.",
   "type": "object",
   "properties": {

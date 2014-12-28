@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReplaceAction",
-  "required": "http://schema.org/ReplaceAction",
-  "title": "ThingActionUpdateActionReplaceAction",
-  "name": "ThingActionUpdateActionReplaceAction",
+  "required": false,
+  "title": "ReplaceAction",
+  "name": "ReplaceAction",
   "description": "The act of editing a recipient by replacing an old object with a new object.",
   "type": "object",
   "properties": {

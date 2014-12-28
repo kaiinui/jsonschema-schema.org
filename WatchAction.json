@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WatchAction",
-  "required": "http://schema.org/WatchAction",
-  "title": "ThingActionConsumeActionWatchAction",
-  "name": "ThingActionConsumeActionWatchAction",
+  "required": false,
+  "title": "WatchAction",
+  "name": "WatchAction",
   "description": "The act of consuming dynamic/moving visual content.",
   "type": "object",
   "properties": {

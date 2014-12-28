@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DatedMoneySpecification",
-  "required": "http://schema.org/DatedMoneySpecification",
-  "title": "ThingIntangibleStructuredValueDatedMoneySpecification",
-  "name": "ThingIntangibleStructuredValueDatedMoneySpecification",
+  "required": false,
+  "title": "DatedMoneySpecification",
+  "name": "DatedMoneySpecification",
   "description": "A DatedMoneySpecification represents monetary values with optional start and end dates. For example, this could represent an employee's salary over a specific period of time.",
   "type": "object",
   "properties": {

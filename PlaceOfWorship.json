@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PlaceOfWorship",
-  "required": "http://schema.org/PlaceOfWorship",
-  "title": "ThingPlaceCivicStructurePlaceOfWorship",
-  "name": "ThingPlaceCivicStructurePlaceOfWorship",
+  "required": false,
+  "title": "PlaceOfWorship",
+  "name": "PlaceOfWorship",
   "description": "Place of worship, such as a church, synagogue, or mosque.",
   "type": "object",
   "properties": {

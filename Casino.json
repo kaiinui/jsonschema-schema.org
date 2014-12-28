@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Casino",
-  "required": "http://schema.org/Casino",
-  "title": "ThingOrganizationLocalBusinessEntertainmentBusinessCasino",
-  "name": "ThingOrganizationLocalBusinessEntertainmentBusinessCasino",
+  "required": false,
+  "title": "Casino",
+  "name": "Casino",
   "description": "A casino.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SiteNavigationElement",
-  "required": "http://schema.org/SiteNavigationElement",
-  "title": "ThingCreativeWorkWebPageElementSiteNavigationElement",
-  "name": "ThingCreativeWorkWebPageElementSiteNavigationElement",
+  "required": false,
+  "title": "SiteNavigationElement",
+  "name": "SiteNavigationElement",
   "description": "A navigation element of the page.",
   "type": "object",
   "properties": {

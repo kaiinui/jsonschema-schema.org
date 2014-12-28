@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HobbyShop",
-  "required": "http://schema.org/HobbyShop",
-  "title": "ThingPlaceLocalBusinessStoreHobbyShop",
-  "name": "ThingPlaceLocalBusinessStoreHobbyShop",
+  "required": false,
+  "title": "HobbyShop",
+  "name": "HobbyShop",
   "description": "A store that sells materials useful or necessary for various hobbies.",
   "type": "object",
   "properties": {

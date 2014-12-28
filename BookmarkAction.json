@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BookmarkAction",
-  "required": "http://schema.org/BookmarkAction",
-  "title": "ThingActionOrganizeActionBookmarkAction",
-  "name": "ThingActionOrganizeActionBookmarkAction",
+  "required": false,
+  "title": "BookmarkAction",
+  "name": "BookmarkAction",
   "description": "An agent bookmarks/flags/labels/tags/marks an object.",
   "type": "object",
   "properties": {

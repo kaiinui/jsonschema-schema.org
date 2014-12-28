@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Event",
-  "required": "http://schema.org/Event",
-  "title": "ThingEvent",
-  "name": "ThingEvent",
+  "required": false,
+  "title": "Event",
+  "name": "Event",
   "description": "An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the 'offers' property. Repeated events may be structured as separate Event objects.",
   "type": "object",
   "properties": {

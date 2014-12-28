@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DefenceEstablishment",
-  "required": "http://schema.org/DefenceEstablishment",
-  "title": "ThingPlaceCivicStructureGovernmentBuildingDefenceEstablishment",
-  "name": "ThingPlaceCivicStructureGovernmentBuildingDefenceEstablishment",
+  "required": false,
+  "title": "DefenceEstablishment",
+  "name": "DefenceEstablishment",
   "description": "A defence establishment, such as an army or navy base.",
   "type": "object",
   "properties": {

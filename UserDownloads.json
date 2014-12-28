@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserDownloads",
-  "required": "http://schema.org/UserDownloads",
-  "title": "ThingEventUserInteractionUserDownloads",
-  "name": "ThingEventUserInteractionUserDownloads",
+  "required": false,
+  "title": "UserDownloads",
+  "name": "UserDownloads",
   "description": "User interaction: Download of an item.",
   "type": "object",
   "properties": {

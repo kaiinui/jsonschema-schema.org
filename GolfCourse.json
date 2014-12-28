@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GolfCourse",
-  "required": "http://schema.org/GolfCourse",
-  "title": "ThingOrganizationLocalBusinessSportsActivityLocationGolfCourse",
-  "name": "ThingOrganizationLocalBusinessSportsActivityLocationGolfCourse",
+  "required": false,
+  "title": "GolfCourse",
+  "name": "GolfCourse",
   "description": "A golf course.",
   "type": "object",
   "properties": {

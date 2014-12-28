@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BloodTest",
-  "required": "http://schema.org/BloodTest",
-  "title": "ThingMedicalEntityMedicalTestBloodTest",
-  "name": "ThingMedicalEntityMedicalTestBloodTest",
+  "required": false,
+  "title": "BloodTest",
+  "name": "BloodTest",
   "description": "A medical test performed on a sample of a patient's blood.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ParcelService",
-  "required": "http://schema.org/ParcelService",
-  "title": "ThingIntangibleEnumerationDeliveryMethodParcelService",
-  "name": "ThingIntangibleEnumerationDeliveryMethodParcelService",
+  "required": false,
+  "title": "ParcelService",
+  "name": "ParcelService",
   "description": "A private parcel service as the delivery mode available for a certain offer.\n\n    Commonly used values:\n\n    http://purl.org/goodrelations/v1#DHL\n    http://purl.org/goodrelations/v1#FederalExpress\n    http://purl.org/goodrelations/v1#UPS\n      ",
   "type": "object",
   "properties": {

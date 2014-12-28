@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ProfilePage",
-  "required": "http://schema.org/ProfilePage",
-  "title": "ThingCreativeWorkWebPageProfilePage",
-  "name": "ThingCreativeWorkWebPageProfilePage",
+  "required": false,
+  "title": "ProfilePage",
+  "name": "ProfilePage",
   "description": "Web page type: Profile page.",
   "type": "object",
   "properties": {

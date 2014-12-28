@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ContactPage",
-  "required": "http://schema.org/ContactPage",
-  "title": "ThingCreativeWorkWebPageContactPage",
-  "name": "ThingCreativeWorkWebPageContactPage",
+  "required": false,
+  "title": "ContactPage",
+  "name": "ContactPage",
   "description": "Web page type: Contact page.",
   "type": "object",
   "properties": {

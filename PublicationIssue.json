@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PublicationIssue",
-  "required": "http://schema.org/PublicationIssue",
-  "title": "ThingCreativeWorkPublicationIssue",
-  "name": "ThingCreativeWorkPublicationIssue",
+  "required": false,
+  "title": "PublicationIssue",
+  "name": "PublicationIssue",
   "description": "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.\n\n      See also blog post\n      ",
   "type": "object",
   "properties": {

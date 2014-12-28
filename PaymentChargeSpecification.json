@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PaymentChargeSpecification",
-  "required": "http://schema.org/PaymentChargeSpecification",
-  "title": "ThingIntangibleStructuredValuePriceSpecificationPaymentChargeSpecification",
-  "name": "ThingIntangibleStructuredValuePriceSpecificationPaymentChargeSpecification",
+  "required": false,
+  "title": "PaymentChargeSpecification",
+  "name": "PaymentChargeSpecification",
   "description": "The costs of settling the payment using a particular payment method.",
   "type": "object",
   "properties": {

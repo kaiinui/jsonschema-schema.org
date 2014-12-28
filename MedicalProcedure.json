@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalProcedure",
-  "required": "http://schema.org/MedicalProcedure",
-  "title": "ThingMedicalEntityMedicalProcedure",
-  "name": "ThingMedicalEntityMedicalProcedure",
+  "required": false,
+  "title": "MedicalProcedure",
+  "name": "MedicalProcedure",
   "description": "A process of care used in either a diagnostic, therapeutic, or palliative capacity that relies on invasive (surgical), non-invasive, or percutaneous techniques.",
   "type": "object",
   "properties": {

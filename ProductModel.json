@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ProductModel",
-  "required": "http://schema.org/ProductModel",
-  "title": "ThingProductProductModel",
-  "name": "ThingProductProductModel",
+  "required": false,
+  "title": "ProductModel",
+  "name": "ProductModel",
   "description": "A datasheet or vendor specification of a product (in the sense of a prototypical description).",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BuyAction",
-  "required": "http://schema.org/BuyAction",
-  "title": "ThingActionTradeActionBuyAction",
-  "name": "ThingActionTradeActionBuyAction",
+  "required": false,
+  "title": "BuyAction",
+  "name": "BuyAction",
   "description": "The act of giving money to a seller in exchange for goods or services rendered. An agent buys an object, product, or service from a seller for a price. Reciprocal of SellAction.",
   "type": "object",
   "properties": {

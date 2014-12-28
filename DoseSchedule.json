@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DoseSchedule",
-  "required": "http://schema.org/DoseSchedule",
-  "title": "ThingMedicalEntityMedicalIntangibleDoseSchedule",
-  "name": "ThingMedicalEntityMedicalIntangibleDoseSchedule",
+  "required": false,
+  "title": "DoseSchedule",
+  "name": "DoseSchedule",
   "description": "A specific dosing schedule for a drug or supplement.",
   "type": "object",
   "properties": {

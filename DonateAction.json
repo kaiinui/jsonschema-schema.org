@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DonateAction",
-  "required": "http://schema.org/DonateAction",
-  "title": "ThingActionTradeActionDonateAction",
-  "name": "ThingActionTradeActionDonateAction",
+  "required": false,
+  "title": "DonateAction",
+  "name": "DonateAction",
   "description": "The act of providing goods, services, or money without compensation, often for philanthropic reasons.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LiquorStore",
-  "required": "http://schema.org/LiquorStore",
-  "title": "ThingOrganizationLocalBusinessStoreLiquorStore",
-  "name": "ThingOrganizationLocalBusinessStoreLiquorStore",
+  "required": false,
+  "title": "LiquorStore",
+  "name": "LiquorStore",
   "description": "A shop that sells alcoholic drinks such as wine, beer, whisky and other spirits.",
   "type": "object",
   "properties": {

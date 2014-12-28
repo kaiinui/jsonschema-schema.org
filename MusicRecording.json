@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicRecording",
-  "required": "http://schema.org/MusicRecording",
-  "title": "ThingCreativeWorkMusicRecording",
-  "name": "ThingCreativeWorkMusicRecording",
+  "required": false,
+  "title": "MusicRecording",
+  "name": "MusicRecording",
   "description": "A music recording (track), usually a single song.",
   "type": "object",
   "properties": {

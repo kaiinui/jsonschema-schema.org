@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalRiskEstimator",
-  "required": "http://schema.org/MedicalRiskEstimator",
-  "title": "ThingMedicalEntityMedicalRiskEstimator",
-  "name": "ThingMedicalEntityMedicalRiskEstimator",
+  "required": false,
+  "title": "MedicalRiskEstimator",
+  "name": "MedicalRiskEstimator",
   "description": "Any rule set or interactive tool for estimating the risk of developing a complication or condition.",
   "type": "object",
   "properties": {

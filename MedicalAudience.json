@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalAudience",
-  "required": "http://schema.org/MedicalAudience",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationMedicalAudience",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationMedicalAudience",
+  "required": false,
+  "title": "MedicalAudience",
+  "name": "MedicalAudience",
   "description": "Target audiences for medical web pages. Enumerated type.",
   "type": "object",
   "properties": {

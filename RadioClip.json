@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RadioClip",
-  "required": "http://schema.org/RadioClip",
-  "title": "ThingCreativeWorkClipRadioClip",
-  "name": "ThingCreativeWorkClipRadioClip",
+  "required": false,
+  "title": "RadioClip",
+  "name": "RadioClip",
   "description": "A short radio program or a segment/part of a radio program.",
   "type": "object",
   "properties": {

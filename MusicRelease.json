@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicRelease",
-  "required": "http://schema.org/MusicRelease",
-  "title": "ThingCreativeWorkMusicPlaylistMusicRelease",
-  "name": "ThingCreativeWorkMusicPlaylistMusicRelease",
+  "required": false,
+  "title": "MusicRelease",
+  "name": "MusicRelease",
   "description": "A MusicRelease is a specific release of a music album.",
   "type": "object",
   "properties": {

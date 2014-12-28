@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Notary",
-  "required": "http://schema.org/Notary",
-  "title": "ThingOrganizationLocalBusinessProfessionalServiceNotary",
-  "name": "ThingOrganizationLocalBusinessProfessionalServiceNotary",
+  "required": false,
+  "title": "Notary",
+  "name": "Notary",
   "description": "A notary.",
   "type": "object",
   "properties": {

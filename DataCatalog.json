@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DataCatalog",
-  "required": "http://schema.org/DataCatalog",
-  "title": "ThingCreativeWorkDataCatalog",
-  "name": "ThingCreativeWorkDataCatalog",
+  "required": false,
+  "title": "DataCatalog",
+  "name": "DataCatalog",
   "description": "A collection of datasets.",
   "type": "object",
   "properties": {

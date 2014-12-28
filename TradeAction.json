@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TradeAction",
-  "required": "http://schema.org/TradeAction",
-  "title": "ThingActionTradeAction",
-  "name": "ThingActionTradeAction",
+  "required": false,
+  "title": "TradeAction",
+  "name": "TradeAction",
   "description": "The act of participating in an exchange of goods and services for monetary compensation. An agent trades an object, product or service with a participant in exchange for a one time or periodic payment.",
   "type": "object",
   "properties": {

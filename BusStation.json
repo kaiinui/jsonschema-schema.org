@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BusStation",
-  "required": "http://schema.org/BusStation",
-  "title": "ThingPlaceCivicStructureBusStation",
-  "name": "ThingPlaceCivicStructureBusStation",
+  "required": false,
+  "title": "BusStation",
+  "name": "BusStation",
   "description": "A bus station.",
   "type": "object",
   "properties": {

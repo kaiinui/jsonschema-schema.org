@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/QualitativeValue",
-  "required": "http://schema.org/QualitativeValue",
-  "title": "ThingIntangibleEnumerationQualitativeValue",
-  "name": "ThingIntangibleEnumerationQualitativeValue",
+  "required": false,
+  "title": "QualitativeValue",
+  "name": "QualitativeValue",
   "description": "A predefined value for a product characteristic, e.g. the the power cord plug type \"US\" or the garment sizes \"S\", \"M\", \"L\", and \"XL\"",
   "type": "object",
   "properties": {

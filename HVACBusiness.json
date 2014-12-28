@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HVACBusiness",
-  "required": "http://schema.org/HVACBusiness",
-  "title": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessHVACBusiness",
-  "name": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessHVACBusiness",
+  "required": false,
+  "title": "HVACBusiness",
+  "name": "HVACBusiness",
   "description": "A business that provide Heating, Ventilation and Air Conditioning services.",
   "type": "object",
   "properties": {

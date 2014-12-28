@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FlightReservation",
-  "required": "http://schema.org/FlightReservation",
-  "title": "ThingIntangibleReservationFlightReservation",
-  "name": "ThingIntangibleReservationFlightReservation",
+  "required": false,
+  "title": "FlightReservation",
+  "name": "FlightReservation",
   "description": "A reservation for air travel.",
   "type": "object",
   "properties": {

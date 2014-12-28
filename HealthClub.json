@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HealthClub",
-  "required": "http://schema.org/HealthClub",
-  "title": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessHealthClub",
-  "name": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessHealthClub",
+  "required": false,
+  "title": "HealthClub",
+  "name": "HealthClub",
   "description": "A health club.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InformAction",
-  "required": "http://schema.org/InformAction",
-  "title": "ThingActionInteractActionCommunicateActionInformAction",
-  "name": "ThingActionInteractActionCommunicateActionInformAction",
+  "required": false,
+  "title": "InformAction",
+  "name": "InformAction",
   "description": "The act of notifying someone of information pertinent to them, with no expectation of a response.",
   "type": "object",
   "properties": {

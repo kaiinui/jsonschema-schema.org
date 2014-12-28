@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserTweets",
-  "required": "http://schema.org/UserTweets",
-  "title": "ThingEventUserInteractionUserTweets",
-  "name": "ThingEventUserInteractionUserTweets",
+  "required": false,
+  "title": "UserTweets",
+  "name": "UserTweets",
   "description": "User interaction: Tweets.",
   "type": "object",
   "properties": {

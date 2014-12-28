@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/NailSalon",
-  "required": "http://schema.org/NailSalon",
-  "title": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessNailSalon",
-  "name": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessNailSalon",
+  "required": false,
+  "title": "NailSalon",
+  "name": "NailSalon",
   "description": "A nail salon.",
   "type": "object",
   "properties": {

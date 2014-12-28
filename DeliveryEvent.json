@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DeliveryEvent",
-  "required": "http://schema.org/DeliveryEvent",
-  "title": "ThingEventDeliveryEvent",
-  "name": "ThingEventDeliveryEvent",
+  "required": false,
+  "title": "DeliveryEvent",
+  "name": "DeliveryEvent",
   "description": "An event involving the delivery of an item.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DrinkAction",
-  "required": "http://schema.org/DrinkAction",
-  "title": "ThingActionConsumeActionDrinkAction",
-  "name": "ThingActionConsumeActionDrinkAction",
+  "required": false,
+  "title": "DrinkAction",
+  "name": "DrinkAction",
   "description": "The act of swallowing liquids.",
   "type": "object",
   "properties": {

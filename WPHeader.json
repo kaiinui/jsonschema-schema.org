@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WPHeader",
-  "required": "http://schema.org/WPHeader",
-  "title": "ThingCreativeWorkWebPageElementWPHeader",
-  "name": "ThingCreativeWorkWebPageElementWPHeader",
+  "required": false,
+  "title": "WPHeader",
+  "name": "WPHeader",
   "description": "The header section of the page.",
   "type": "object",
   "properties": {

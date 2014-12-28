@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Festival",
-  "required": "http://schema.org/Festival",
-  "title": "ThingEventFestival",
-  "name": "ThingEventFestival",
+  "required": false,
+  "title": "Festival",
+  "name": "Festival",
   "description": "Event type: Festival.",
   "type": "object",
   "properties": {

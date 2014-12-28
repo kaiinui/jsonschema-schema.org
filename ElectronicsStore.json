@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ElectronicsStore",
-  "required": "http://schema.org/ElectronicsStore",
-  "title": "ThingOrganizationLocalBusinessStoreElectronicsStore",
-  "name": "ThingOrganizationLocalBusinessStoreElectronicsStore",
+  "required": false,
+  "title": "ElectronicsStore",
+  "name": "ElectronicsStore",
   "description": "An electronics store.",
   "type": "object",
   "properties": {

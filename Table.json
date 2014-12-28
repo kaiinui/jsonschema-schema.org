@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Table",
-  "required": "http://schema.org/Table",
-  "title": "ThingCreativeWorkWebPageElementTable",
-  "name": "ThingCreativeWorkWebPageElementTable",
+  "required": false,
+  "title": "Table",
+  "name": "Table",
   "description": "A table on a Web page.",
   "type": "object",
   "properties": {

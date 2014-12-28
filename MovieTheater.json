@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MovieTheater",
-  "required": "http://schema.org/MovieTheater",
-  "title": "ThingPlaceCivicStructureMovieTheater",
-  "name": "ThingPlaceCivicStructureMovieTheater",
+  "required": false,
+  "title": "MovieTheater",
+  "name": "MovieTheater",
   "description": "A movie theater.",
   "type": "object",
   "properties": {

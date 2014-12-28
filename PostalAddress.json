@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PostalAddress",
-  "required": "http://schema.org/PostalAddress",
-  "title": "ThingIntangibleStructuredValueContactPointPostalAddress",
-  "name": "ThingIntangibleStructuredValueContactPointPostalAddress",
+  "required": false,
+  "title": "PostalAddress",
+  "name": "PostalAddress",
   "description": "The mailing address.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BroadcastService",
-  "required": "http://schema.org/BroadcastService",
-  "title": "ThingBroadcastService",
-  "name": "ThingBroadcastService",
+  "required": false,
+  "title": "BroadcastService",
+  "name": "BroadcastService",
   "description": "A delivery service through which content is provided via broadcast over the air or online.",
   "type": "object",
   "properties": {

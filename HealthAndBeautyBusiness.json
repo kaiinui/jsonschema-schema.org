@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HealthAndBeautyBusiness",
-  "required": "http://schema.org/HealthAndBeautyBusiness",
-  "title": "ThingOrganizationLocalBusinessHealthAndBeautyBusiness",
-  "name": "ThingOrganizationLocalBusinessHealthAndBeautyBusiness",
+  "required": false,
+  "title": "HealthAndBeautyBusiness",
+  "name": "HealthAndBeautyBusiness",
   "description": "Health and beauty.",
   "type": "object",
   "properties": {

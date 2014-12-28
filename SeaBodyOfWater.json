@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SeaBodyOfWater",
-  "required": "http://schema.org/SeaBodyOfWater",
-  "title": "ThingPlaceLandformBodyOfWaterSeaBodyOfWater",
-  "name": "ThingPlaceLandformBodyOfWaterSeaBodyOfWater",
+  "required": false,
+  "title": "SeaBodyOfWater",
+  "name": "SeaBodyOfWater",
   "description": "A sea (for example, the Caspian sea).",
   "type": "object",
   "properties": {

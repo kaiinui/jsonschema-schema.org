@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicReleaseFormatType",
-  "required": "http://schema.org/MusicReleaseFormatType",
-  "title": "ThingIntangibleEnumerationMusicReleaseFormatType",
-  "name": "ThingIntangibleEnumerationMusicReleaseFormatType",
+  "required": false,
+  "title": "MusicReleaseFormatType",
+  "name": "MusicReleaseFormatType",
   "description": "Format of this release (the type of recording media used, ie. compact disc, digital media, LP, etc.).",
   "type": "object",
   "properties": {

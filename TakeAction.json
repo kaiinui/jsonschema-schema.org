@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TakeAction",
-  "required": "http://schema.org/TakeAction",
-  "title": "ThingActionTransferActionTakeAction",
-  "name": "ThingActionTransferActionTakeAction",
+  "required": false,
+  "title": "TakeAction",
+  "name": "TakeAction",
   "description": "The act of gaining ownership of an object from an origin. Reciprocal of GiveAction.Related actions:GiveAction: The reciprocal of TakeAction.ReceiveAction: Unlike ReceiveAction, TakeAction implies that ownership has been transfered.",
   "type": "object",
   "properties": {

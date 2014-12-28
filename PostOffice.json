@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PostOffice",
-  "required": "http://schema.org/PostOffice",
-  "title": "ThingPlaceLocalBusinessGovernmentOfficePostOffice",
-  "name": "ThingPlaceLocalBusinessGovernmentOfficePostOffice",
+  "required": false,
+  "title": "PostOffice",
+  "name": "PostOffice",
   "description": "A post office.",
   "type": "object",
   "properties": {

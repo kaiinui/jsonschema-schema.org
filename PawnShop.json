@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PawnShop",
-  "required": "http://schema.org/PawnShop",
-  "title": "ThingOrganizationLocalBusinessStorePawnShop",
-  "name": "ThingOrganizationLocalBusinessStorePawnShop",
+  "required": false,
+  "title": "PawnShop",
+  "name": "PawnShop",
   "description": "A shop that will buy, or lend money against the security of, personal possessions.",
   "type": "object",
   "properties": {

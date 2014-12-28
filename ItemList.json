@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ItemList",
-  "required": "http://schema.org/ItemList",
-  "title": "ThingIntangibleItemList",
-  "name": "ThingIntangibleItemList",
+  "required": false,
+  "title": "ItemList",
+  "name": "ItemList",
   "description": "A list of items of any sort—for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AssignAction",
-  "required": "http://schema.org/AssignAction",
-  "title": "ThingActionOrganizeActionAllocateActionAssignAction",
-  "name": "ThingActionOrganizeActionAllocateActionAssignAction",
+  "required": false,
+  "title": "AssignAction",
+  "name": "AssignAction",
   "description": "The act of allocating an action/event/task to some destination (someone or something).",
   "type": "object",
   "properties": {

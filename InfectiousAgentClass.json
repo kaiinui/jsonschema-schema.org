@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InfectiousAgentClass",
-  "required": "http://schema.org/InfectiousAgentClass",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationInfectiousAgentClass",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationInfectiousAgentClass",
+  "required": false,
+  "title": "InfectiousAgentClass",
+  "name": "InfectiousAgentClass",
   "description": "Classes of agents or pathogens that transmit infectious diseases. Enumerated type.",
   "type": "object",
   "properties": {

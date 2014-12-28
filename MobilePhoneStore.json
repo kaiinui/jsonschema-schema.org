@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MobilePhoneStore",
-  "required": "http://schema.org/MobilePhoneStore",
-  "title": "ThingOrganizationLocalBusinessStoreMobilePhoneStore",
-  "name": "ThingOrganizationLocalBusinessStoreMobilePhoneStore",
+  "required": false,
+  "title": "MobilePhoneStore",
+  "name": "MobilePhoneStore",
   "description": "A store that sells mobile phones and related accessories.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ChildrensEvent",
-  "required": "http://schema.org/ChildrensEvent",
-  "title": "ThingEventChildrensEvent",
-  "name": "ThingEventChildrensEvent",
+  "required": false,
+  "title": "ChildrensEvent",
+  "name": "ChildrensEvent",
   "description": "Event type: Children's event.",
   "type": "object",
   "properties": {

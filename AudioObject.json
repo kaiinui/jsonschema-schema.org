@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AudioObject",
-  "required": "http://schema.org/AudioObject",
-  "title": "ThingCreativeWorkMediaObjectAudioObject",
-  "name": "ThingCreativeWorkMediaObjectAudioObject",
+  "required": false,
+  "title": "AudioObject",
+  "name": "AudioObject",
   "description": "An audio file.",
   "type": "object",
   "properties": {

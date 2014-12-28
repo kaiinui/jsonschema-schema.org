@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserCheckins",
-  "required": "http://schema.org/UserCheckins",
-  "title": "ThingEventUserInteractionUserCheckins",
-  "name": "ThingEventUserInteractionUserCheckins",
+  "required": false,
+  "title": "UserCheckins",
+  "name": "UserCheckins",
   "description": "User interaction: Check-in at a place.",
   "type": "object",
   "properties": {

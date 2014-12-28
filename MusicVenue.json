@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicVenue",
-  "required": "http://schema.org/MusicVenue",
-  "title": "ThingPlaceCivicStructureMusicVenue",
-  "name": "ThingPlaceCivicStructureMusicVenue",
+  "required": false,
+  "title": "MusicVenue",
+  "name": "MusicVenue",
   "description": "A music venue.",
   "type": "object",
   "properties": {

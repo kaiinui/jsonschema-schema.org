@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TravelAction",
-  "required": "http://schema.org/TravelAction",
-  "title": "ThingActionMoveActionTravelAction",
-  "name": "ThingActionMoveActionTravelAction",
+  "required": false,
+  "title": "TravelAction",
+  "name": "TravelAction",
   "description": "The act of traveling from an fromLocation to a destination by a specified mode of transport, optionally with participants.",
   "type": "object",
   "properties": {

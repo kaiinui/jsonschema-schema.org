@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SuspendAction",
-  "required": "http://schema.org/SuspendAction",
-  "title": "ThingActionControlActionSuspendAction",
-  "name": "ThingActionControlActionSuspendAction",
+  "required": false,
+  "title": "SuspendAction",
+  "name": "SuspendAction",
   "description": "The act of momentarily pausing a device or application (e.g. pause music playback or pause a timer).",
   "type": "object",
   "properties": {

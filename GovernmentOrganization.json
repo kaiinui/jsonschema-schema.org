@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GovernmentOrganization",
-  "required": "http://schema.org/GovernmentOrganization",
-  "title": "ThingOrganizationGovernmentOrganization",
-  "name": "ThingOrganizationGovernmentOrganization",
+  "required": false,
+  "title": "GovernmentOrganization",
+  "name": "GovernmentOrganization",
   "description": "A governmental organization or agency.",
   "type": "object",
   "properties": {

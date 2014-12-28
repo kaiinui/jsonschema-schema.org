@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Answer",
-  "required": "http://schema.org/Answer",
-  "title": "ThingCreativeWorkAnswer",
-  "name": "ThingCreativeWorkAnswer",
+  "required": false,
+  "title": "Answer",
+  "name": "Answer",
   "description": "An answer offered to a question; perhaps correct, perhaps opinionated or wrong.",
   "type": "object",
   "properties": {

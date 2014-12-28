@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserPlusOnes",
-  "required": "http://schema.org/UserPlusOnes",
-  "title": "ThingEventUserInteractionUserPlusOnes",
-  "name": "ThingEventUserInteractionUserPlusOnes",
+  "required": false,
+  "title": "UserPlusOnes",
+  "name": "UserPlusOnes",
   "description": "User interaction: +1.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OrderAction",
-  "required": "http://schema.org/OrderAction",
-  "title": "ThingActionTradeActionOrderAction",
-  "name": "ThingActionTradeActionOrderAction",
+  "required": false,
+  "title": "OrderAction",
+  "name": "OrderAction",
   "description": "An agent orders an object/product/service to be delivered/sent.",
   "type": "object",
   "properties": {

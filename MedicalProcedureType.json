@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalProcedureType",
-  "required": "http://schema.org/MedicalProcedureType",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationMedicalProcedureType",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationMedicalProcedureType",
+  "required": false,
+  "title": "MedicalProcedureType",
+  "name": "MedicalProcedureType",
   "description": "An enumeration that describes different types of medical procedures.",
   "type": "object",
   "properties": {

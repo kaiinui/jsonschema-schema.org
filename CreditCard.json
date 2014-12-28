@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CreditCard",
-  "required": "http://schema.org/CreditCard",
-  "title": "ThingIntangibleEnumerationPaymentMethodCreditCard",
-  "name": "ThingIntangibleEnumerationPaymentMethodCreditCard",
+  "required": false,
+  "title": "CreditCard",
+  "name": "CreditCard",
   "description": "A credit or debit card type as a standardized procedure for transferring the monetary amount for a purchase.\n\n    Commonly used values:\n\n    http://purl.org/goodrelations/v1#AmericanExpress\n    http://purl.org/goodrelations/v1#DinersClub\n    http://purl.org/goodrelations/v1#Discover\n    http://purl.org/goodrelations/v1#JCB\n    http://purl.org/goodrelations/v1#MasterCard\n    http://purl.org/goodrelations/v1#VISA\n        ",
   "type": "object",
   "properties": {

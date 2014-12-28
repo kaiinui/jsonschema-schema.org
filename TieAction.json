@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TieAction",
-  "required": "http://schema.org/TieAction",
-  "title": "ThingActionAchieveActionTieAction",
-  "name": "ThingActionAchieveActionTieAction",
+  "required": false,
+  "title": "TieAction",
+  "name": "TieAction",
   "description": "The act of reaching a draw in a competitive activity.",
   "type": "object",
   "properties": {

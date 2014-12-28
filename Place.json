@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Place",
-  "required": "http://schema.org/Place",
-  "title": "ThingPlace",
-  "name": "ThingPlace",
+  "required": false,
+  "title": "Place",
+  "name": "Place",
   "description": "Entities that have a somewhat fixed, physical extension.",
   "type": "object",
   "properties": {

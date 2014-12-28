@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/APIReference",
-  "required": "http://schema.org/APIReference",
-  "title": "ThingCreativeWorkArticleTechArticleAPIReference",
-  "name": "ThingCreativeWorkArticleTechArticleAPIReference",
+  "required": false,
+  "title": "APIReference",
+  "name": "APIReference",
   "description": "Reference documentation for application programming interfaces (APIs).",
   "type": "object",
   "properties": {

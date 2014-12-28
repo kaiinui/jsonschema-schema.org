@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ParcelDelivery",
-  "required": "http://schema.org/ParcelDelivery",
-  "title": "ThingIntangibleParcelDelivery",
-  "name": "ThingIntangibleParcelDelivery",
+  "required": false,
+  "title": "ParcelDelivery",
+  "name": "ParcelDelivery",
   "description": "The delivery of a parcel either via the postal service or a commercial service.",
   "type": "object",
   "properties": {

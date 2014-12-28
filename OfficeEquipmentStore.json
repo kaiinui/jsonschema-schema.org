@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OfficeEquipmentStore",
-  "required": "http://schema.org/OfficeEquipmentStore",
-  "title": "ThingOrganizationLocalBusinessStoreOfficeEquipmentStore",
-  "name": "ThingOrganizationLocalBusinessStoreOfficeEquipmentStore",
+  "required": false,
+  "title": "OfficeEquipmentStore",
+  "name": "OfficeEquipmentStore",
   "description": "An office equipment store.",
   "type": "object",
   "properties": {

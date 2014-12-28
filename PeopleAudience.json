@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PeopleAudience",
-  "required": "http://schema.org/PeopleAudience",
-  "title": "ThingIntangibleAudiencePeopleAudience",
-  "name": "ThingIntangibleAudiencePeopleAudience",
+  "required": false,
+  "title": "PeopleAudience",
+  "name": "PeopleAudience",
   "description": "A set of characteristics belonging to people, e.g. who compose an item's target audience.",
   "type": "object",
   "properties": {

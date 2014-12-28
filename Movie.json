@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Movie",
-  "required": "http://schema.org/Movie",
-  "title": "ThingCreativeWorkMovie",
-  "name": "ThingCreativeWorkMovie",
+  "required": false,
+  "title": "Movie",
+  "name": "Movie",
   "description": "A movie.",
   "type": "object",
   "properties": {

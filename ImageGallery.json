@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ImageGallery",
-  "required": "http://schema.org/ImageGallery",
-  "title": "ThingCreativeWorkWebPageCollectionPageImageGallery",
-  "name": "ThingCreativeWorkWebPageCollectionPageImageGallery",
+  "required": false,
+  "title": "ImageGallery",
+  "name": "ImageGallery",
   "description": "Web page type: Image gallery page.",
   "type": "object",
   "properties": {

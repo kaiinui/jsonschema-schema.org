@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WebPageElement",
-  "required": "http://schema.org/WebPageElement",
-  "title": "ThingCreativeWorkWebPageElement",
-  "name": "ThingCreativeWorkWebPageElement",
+  "required": false,
+  "title": "WebPageElement",
+  "name": "WebPageElement",
   "description": "A web page element, like a table or an image",
   "type": "object",
   "properties": {

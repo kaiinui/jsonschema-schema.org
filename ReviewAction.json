@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReviewAction",
-  "required": "http://schema.org/ReviewAction",
-  "title": "ThingActionAssessActionReviewAction",
-  "name": "ThingActionAssessActionReviewAction",
+  "required": false,
+  "title": "ReviewAction",
+  "name": "ReviewAction",
   "description": "The act of producing a balanced opinion about the object for an audience. An agent reviews an object with participants resulting in a review.",
   "type": "object",
   "properties": {

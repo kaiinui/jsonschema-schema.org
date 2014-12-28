@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DayOfWeek",
-  "required": "http://schema.org/DayOfWeek",
-  "title": "ThingIntangibleEnumerationDayOfWeek",
-  "name": "ThingIntangibleEnumerationDayOfWeek",
+  "required": false,
+  "title": "DayOfWeek",
+  "name": "DayOfWeek",
   "description": "The day of the week, e.g. used to specify to which day the opening hours of an OpeningHoursSpecification refer.\n\n    Commonly used values:\n\n    http://purl.org/goodrelations/v1#Monday\n    http://purl.org/goodrelations/v1#Tuesday\n    http://purl.org/goodrelations/v1#Wednesday\n    http://purl.org/goodrelations/v1#Thursday\n    http://purl.org/goodrelations/v1#Friday\n    http://purl.org/goodrelations/v1#Saturday\n    http://purl.org/goodrelations/v1#Sunday\n    http://purl.org/goodrelations/v1#PublicHolidays\n        ",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ViewAction",
-  "required": "http://schema.org/ViewAction",
-  "title": "ThingActionConsumeActionViewAction",
-  "name": "ThingActionConsumeActionViewAction",
+  "required": false,
+  "title": "ViewAction",
+  "name": "ViewAction",
   "description": "The act of consuming static visual content.",
   "type": "object",
   "properties": {

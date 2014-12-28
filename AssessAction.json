@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AssessAction",
-  "required": "http://schema.org/AssessAction",
-  "title": "ThingActionAssessAction",
-  "name": "ThingActionAssessAction",
+  "required": false,
+  "title": "AssessAction",
+  "name": "AssessAction",
   "description": "The act of forming one's opinion, reaction or sentiment.",
   "type": "object",
   "properties": {

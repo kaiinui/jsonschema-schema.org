@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RentAction",
-  "required": "http://schema.org/RentAction",
-  "title": "ThingActionTradeActionRentAction",
-  "name": "ThingActionTradeActionRentAction",
+  "required": false,
+  "title": "RentAction",
+  "name": "RentAction",
   "description": "The act of giving money in return for temporary use, but not ownership, of an object such as a vehicle or property. For example, an agent rents a property from a landlord in exchange for a periodic payment.",
   "type": "object",
   "properties": {

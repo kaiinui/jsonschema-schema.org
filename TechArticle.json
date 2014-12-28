@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TechArticle",
-  "required": "http://schema.org/TechArticle",
-  "title": "ThingCreativeWorkArticleTechArticle",
-  "name": "ThingCreativeWorkArticleTechArticle",
+  "required": false,
+  "title": "TechArticle",
+  "name": "TechArticle",
   "description": "A technical article - Example: How-to (task) topics, step-by-step, procedural troubleshooting, specifications, etc.",
   "type": "object",
   "properties": {

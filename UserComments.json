@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UserComments",
-  "required": "http://schema.org/UserComments",
-  "title": "ThingEventUserInteractionUserComments",
-  "name": "ThingEventUserInteractionUserComments",
+  "required": false,
+  "title": "UserComments",
+  "name": "UserComments",
   "description": "The UserInteraction event in which a user comments on an item.",
   "type": "object",
   "properties": {

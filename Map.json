@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Map",
-  "required": "http://schema.org/Map",
-  "title": "ThingCreativeWorkMap",
-  "name": "ThingCreativeWorkMap",
+  "required": false,
+  "title": "Map",
+  "name": "Map",
   "description": "A map.",
   "type": "object",
   "properties": {

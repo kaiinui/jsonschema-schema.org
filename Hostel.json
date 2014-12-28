@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Hostel",
-  "required": "http://schema.org/Hostel",
-  "title": "ThingPlaceLocalBusinessLodgingBusinessHostel",
-  "name": "ThingPlaceLocalBusinessLodgingBusinessHostel",
+  "required": false,
+  "title": "Hostel",
+  "name": "Hostel",
   "description": "A hostel - cheap accommodation, often in shared dormitories.",
   "type": "object",
   "properties": {

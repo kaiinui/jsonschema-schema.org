@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/City",
-  "required": "http://schema.org/City",
-  "title": "ThingPlaceAdministrativeAreaCity",
-  "name": "ThingPlaceAdministrativeAreaCity",
+  "required": false,
+  "title": "City",
+  "name": "City",
   "description": "A city or town.",
   "type": "object",
   "properties": {

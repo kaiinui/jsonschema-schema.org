@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PathologyTest",
-  "required": "http://schema.org/PathologyTest",
-  "title": "ThingMedicalEntityMedicalTestPathologyTest",
-  "name": "ThingMedicalEntityMedicalTestPathologyTest",
+  "required": false,
+  "title": "PathologyTest",
+  "name": "PathologyTest",
   "description": "A medical test performed by a laboratory that typically involves examination of a tissue sample by a pathologist.",
   "type": "object",
   "properties": {

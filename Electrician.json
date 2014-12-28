@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Electrician",
-  "required": "http://schema.org/Electrician",
-  "title": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessElectrician",
-  "name": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessElectrician",
+  "required": false,
+  "title": "Electrician",
+  "name": "Electrician",
   "description": "An electrician.",
   "type": "object",
   "properties": {

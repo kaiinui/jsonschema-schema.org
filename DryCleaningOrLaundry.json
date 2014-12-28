@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DryCleaningOrLaundry",
-  "required": "http://schema.org/DryCleaningOrLaundry",
-  "title": "ThingOrganizationLocalBusinessDryCleaningOrLaundry",
-  "name": "ThingOrganizationLocalBusinessDryCleaningOrLaundry",
+  "required": false,
+  "title": "DryCleaningOrLaundry",
+  "name": "DryCleaningOrLaundry",
   "description": "A dry-cleaning business.",
   "type": "object",
   "properties": {

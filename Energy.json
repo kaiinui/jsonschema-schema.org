@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Energy",
-  "required": "http://schema.org/Energy",
-  "title": "ThingIntangibleQuantityEnergy",
-  "name": "ThingIntangibleQuantityEnergy",
+  "required": false,
+  "title": "Energy",
+  "name": "Energy",
   "description": "Properties that take Energy as values are of the form '<Number> <Energy unit of measure>'",
   "type": "object",
   "properties": {

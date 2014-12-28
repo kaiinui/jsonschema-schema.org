@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RadiationTherapy",
-  "required": "http://schema.org/RadiationTherapy",
-  "title": "ThingMedicalEntityMedicalTherapyRadiationTherapy",
-  "name": "ThingMedicalEntityMedicalTherapyRadiationTherapy",
+  "required": false,
+  "title": "RadiationTherapy",
+  "name": "RadiationTherapy",
   "description": "A process of care using radiation aimed at improving a health condition.",
   "type": "object",
   "properties": {

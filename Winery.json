@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Winery",
-  "required": "http://schema.org/Winery",
-  "title": "ThingPlaceLocalBusinessFoodEstablishmentWinery",
-  "name": "ThingPlaceLocalBusinessFoodEstablishmentWinery",
+  "required": false,
+  "title": "Winery",
+  "name": "Winery",
   "description": "A winery.",
   "type": "object",
   "properties": {

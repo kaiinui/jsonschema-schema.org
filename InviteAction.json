@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InviteAction",
-  "required": "http://schema.org/InviteAction",
-  "title": "ThingActionInteractActionCommunicateActionInviteAction",
-  "name": "ThingActionInteractActionCommunicateActionInviteAction",
+  "required": false,
+  "title": "InviteAction",
+  "name": "InviteAction",
   "description": "The act of asking someone to attend an event. Reciprocal of RsvpAction.",
   "type": "object",
   "properties": {

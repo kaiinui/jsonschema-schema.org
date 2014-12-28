@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DrugStrength",
-  "required": "http://schema.org/DrugStrength",
-  "title": "ThingMedicalEntityMedicalIntangibleDrugStrength",
-  "name": "ThingMedicalEntityMedicalIntangibleDrugStrength",
+  "required": false,
+  "title": "DrugStrength",
+  "name": "DrugStrength",
   "description": "A specific strength in which a medical drug is available in a specific country.",
   "type": "object",
   "properties": {

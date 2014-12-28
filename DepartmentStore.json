@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DepartmentStore",
-  "required": "http://schema.org/DepartmentStore",
-  "title": "ThingPlaceLocalBusinessStoreDepartmentStore",
-  "name": "ThingPlaceLocalBusinessStoreDepartmentStore",
+  "required": false,
+  "title": "DepartmentStore",
+  "name": "DepartmentStore",
   "description": "A department store.",
   "type": "object",
   "properties": {

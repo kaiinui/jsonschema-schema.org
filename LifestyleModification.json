@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LifestyleModification",
-  "required": "http://schema.org/LifestyleModification",
-  "title": "ThingMedicalEntityMedicalTherapyLifestyleModification",
-  "name": "ThingMedicalEntityMedicalTherapyLifestyleModification",
+  "required": false,
+  "title": "LifestyleModification",
+  "name": "LifestyleModification",
   "description": "A process of care involving exercise, changes to diet, fitness routines, and other lifestyle changes aimed at improving a health condition.",
   "type": "object",
   "properties": {

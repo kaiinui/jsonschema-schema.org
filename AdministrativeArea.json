@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AdministrativeArea",
-  "required": "http://schema.org/AdministrativeArea",
-  "title": "ThingPlaceAdministrativeArea",
-  "name": "ThingPlaceAdministrativeArea",
+  "required": false,
+  "title": "AdministrativeArea",
+  "name": "AdministrativeArea",
   "description": "A geographical region under the jurisdiction of a particular government.",
   "type": "object",
   "properties": {

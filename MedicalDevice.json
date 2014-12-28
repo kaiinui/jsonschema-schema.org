@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalDevice",
-  "required": "http://schema.org/MedicalDevice",
-  "title": "ThingMedicalEntityMedicalDevice",
-  "name": "ThingMedicalEntityMedicalDevice",
+  "required": false,
+  "title": "MedicalDevice",
+  "name": "MedicalDevice",
   "description": "Any object used in a medical capacity, such as to diagnose or treat a patient.",
   "type": "object",
   "properties": {

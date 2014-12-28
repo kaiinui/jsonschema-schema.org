@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TreatmentIndication",
-  "required": "http://schema.org/TreatmentIndication",
-  "title": "ThingMedicalEntityMedicalIndicationTreatmentIndication",
-  "name": "ThingMedicalEntityMedicalIndicationTreatmentIndication",
+  "required": false,
+  "title": "TreatmentIndication",
+  "name": "TreatmentIndication",
   "description": "An indication for treating an underlying condition, symptom, etc.",
   "type": "object",
   "properties": {

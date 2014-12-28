@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WholesaleStore",
-  "required": "http://schema.org/WholesaleStore",
-  "title": "ThingOrganizationLocalBusinessStoreWholesaleStore",
-  "name": "ThingOrganizationLocalBusinessStoreWholesaleStore",
+  "required": false,
+  "title": "WholesaleStore",
+  "name": "WholesaleStore",
   "description": "A wholesale store.",
   "type": "object",
   "properties": {

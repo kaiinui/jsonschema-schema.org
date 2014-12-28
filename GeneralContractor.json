@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GeneralContractor",
-  "required": "http://schema.org/GeneralContractor",
-  "title": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessGeneralContractor",
-  "name": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessGeneralContractor",
+  "required": false,
+  "title": "GeneralContractor",
+  "name": "GeneralContractor",
   "description": "A general contractor.",
   "type": "object",
   "properties": {

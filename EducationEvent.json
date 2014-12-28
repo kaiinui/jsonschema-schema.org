@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EducationEvent",
-  "required": "http://schema.org/EducationEvent",
-  "title": "ThingEventEducationEvent",
-  "name": "ThingEventEducationEvent",
+  "required": false,
+  "title": "EducationEvent",
+  "name": "EducationEvent",
   "description": "Event type: Education event.",
   "type": "object",
   "properties": {

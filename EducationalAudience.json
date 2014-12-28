@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EducationalAudience",
-  "required": "http://schema.org/EducationalAudience",
-  "title": "ThingIntangibleAudienceEducationalAudience",
-  "name": "ThingIntangibleAudienceEducationalAudience",
+  "required": false,
+  "title": "EducationalAudience",
+  "name": "EducationalAudience",
   "description": "An EducationalAudience",
   "type": "object",
   "properties": {

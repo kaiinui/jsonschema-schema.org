@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BefriendAction",
-  "required": "http://schema.org/BefriendAction",
-  "title": "ThingActionInteractActionBefriendAction",
-  "name": "ThingActionInteractActionBefriendAction",
+  "required": false,
+  "title": "BefriendAction",
+  "name": "BefriendAction",
   "description": "The act of forming a personal connection with someone (object) mutually/bidirectionally/symmetrically.Related actions:FollowAction: Unlike FollowAction, BefriendAction implies that the connection is reciprocal.",
   "type": "object",
   "properties": {

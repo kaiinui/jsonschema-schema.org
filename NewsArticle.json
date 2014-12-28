@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/NewsArticle",
-  "required": "http://schema.org/NewsArticle",
-  "title": "ThingCreativeWorkArticleNewsArticle",
-  "name": "ThingCreativeWorkArticleNewsArticle",
+  "required": false,
+  "title": "NewsArticle",
+  "name": "NewsArticle",
   "description": "A news article",
   "type": "object",
   "properties": {

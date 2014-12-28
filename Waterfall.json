@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Waterfall",
-  "required": "http://schema.org/Waterfall",
-  "title": "ThingPlaceLandformBodyOfWaterWaterfall",
-  "name": "ThingPlaceLandformBodyOfWaterWaterfall",
+  "required": false,
+  "title": "Waterfall",
+  "name": "Waterfall",
   "description": "A waterfall, like Niagara",
   "type": "object",
   "properties": {

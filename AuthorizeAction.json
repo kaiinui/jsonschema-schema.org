@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AuthorizeAction",
-  "required": "http://schema.org/AuthorizeAction",
-  "title": "ThingActionOrganizeActionAllocateActionAuthorizeAction",
-  "name": "ThingActionOrganizeActionAllocateActionAuthorizeAction",
+  "required": false,
+  "title": "AuthorizeAction",
+  "name": "AuthorizeAction",
   "description": "The act of granting permission to an object.",
   "type": "object",
   "properties": {

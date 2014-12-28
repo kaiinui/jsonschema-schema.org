@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RecyclingCenter",
-  "required": "http://schema.org/RecyclingCenter",
-  "title": "ThingOrganizationLocalBusinessRecyclingCenter",
-  "name": "ThingOrganizationLocalBusinessRecyclingCenter",
+  "required": false,
+  "title": "RecyclingCenter",
+  "name": "RecyclingCenter",
   "description": "A recycling center.",
   "type": "object",
   "properties": {

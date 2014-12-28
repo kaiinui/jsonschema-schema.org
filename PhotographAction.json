@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PhotographAction",
-  "required": "http://schema.org/PhotographAction",
-  "title": "ThingActionCreateActionPhotographAction",
-  "name": "ThingActionCreateActionPhotographAction",
+  "required": false,
+  "title": "PhotographAction",
+  "name": "PhotographAction",
   "description": "The act of capturing still images of objects using a camera.",
   "type": "object",
   "properties": {

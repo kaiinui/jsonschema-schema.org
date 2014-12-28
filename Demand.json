@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Demand",
-  "required": "http://schema.org/Demand",
-  "title": "ThingIntangibleDemand",
-  "name": "ThingIntangibleDemand",
+  "required": false,
+  "title": "Demand",
+  "name": "Demand",
   "description": "A demand entity represents the public, not necessarily binding, not necessarily exclusive, announcement by an organization or person to seek a certain type of goods or services. For describing demand using this type, the very same properties used for Offer apply.",
   "type": "object",
   "properties": {

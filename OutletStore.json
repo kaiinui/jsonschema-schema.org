@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OutletStore",
-  "required": "http://schema.org/OutletStore",
-  "title": "ThingOrganizationLocalBusinessStoreOutletStore",
-  "name": "ThingOrganizationLocalBusinessStoreOutletStore",
+  "required": false,
+  "title": "OutletStore",
+  "name": "OutletStore",
   "description": "An outlet store.",
   "type": "object",
   "properties": {

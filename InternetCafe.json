@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InternetCafe",
-  "required": "http://schema.org/InternetCafe",
-  "title": "ThingOrganizationLocalBusinessInternetCafe",
-  "name": "ThingOrganizationLocalBusinessInternetCafe",
+  "required": false,
+  "title": "InternetCafe",
+  "name": "InternetCafe",
   "description": "An internet cafe.",
   "type": "object",
   "properties": {

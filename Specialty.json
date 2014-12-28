@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Specialty",
-  "required": "http://schema.org/Specialty",
-  "title": "ThingIntangibleEnumerationSpecialty",
-  "name": "ThingIntangibleEnumerationSpecialty",
+  "required": false,
+  "title": "Specialty",
+  "name": "Specialty",
   "description": "Any branch of a field in which people typically develop specific expertise, usually after significant study, time, and effort.",
   "type": "object",
   "properties": {

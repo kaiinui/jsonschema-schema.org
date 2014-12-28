@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EventReservation",
-  "required": "http://schema.org/EventReservation",
-  "title": "ThingIntangibleReservationEventReservation",
-  "name": "ThingIntangibleReservationEventReservation",
+  "required": false,
+  "title": "EventReservation",
+  "name": "EventReservation",
   "description": "A reservation for an event like a concert, sporting event, or lecture.",
   "type": "object",
   "properties": {

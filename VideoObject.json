@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/VideoObject",
-  "required": "http://schema.org/VideoObject",
-  "title": "ThingCreativeWorkMediaObjectVideoObject",
-  "name": "ThingCreativeWorkMediaObjectVideoObject",
+  "required": false,
+  "title": "VideoObject",
+  "name": "VideoObject",
   "description": "A video file.",
   "type": "object",
   "properties": {

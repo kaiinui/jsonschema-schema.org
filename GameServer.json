@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GameServer",
-  "required": "http://schema.org/GameServer",
-  "title": "ThingIntangibleGameServer",
-  "name": "ThingIntangibleGameServer",
+  "required": false,
+  "title": "GameServer",
+  "name": "GameServer",
   "description": "Server that provides game interaction in a multiplayer game.",
   "type": "object",
   "properties": {

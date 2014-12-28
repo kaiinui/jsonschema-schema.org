@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Plumber",
-  "required": "http://schema.org/Plumber",
-  "title": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessPlumber",
-  "name": "ThingOrganizationLocalBusinessHomeAndConstructionBusinessPlumber",
+  "required": false,
+  "title": "Plumber",
+  "name": "Plumber",
   "description": "A plumbing service.",
   "type": "object",
   "properties": {

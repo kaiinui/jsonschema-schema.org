@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ContactPointOption",
-  "required": "http://schema.org/ContactPointOption",
-  "title": "ThingIntangibleEnumerationContactPointOption",
-  "name": "ThingIntangibleEnumerationContactPointOption",
+  "required": false,
+  "title": "ContactPointOption",
+  "name": "ContactPointOption",
   "description": "Enumerated options related to a ContactPoint",
   "type": "object",
   "properties": {

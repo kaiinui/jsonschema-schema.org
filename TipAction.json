@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TipAction",
-  "required": "http://schema.org/TipAction",
-  "title": "ThingActionTradeActionTipAction",
-  "name": "ThingActionTradeActionTipAction",
+  "required": false,
+  "title": "TipAction",
+  "name": "TipAction",
   "description": "The act of giving money voluntarily to a beneficiary in recognition of services rendered.",
   "type": "object",
   "properties": {

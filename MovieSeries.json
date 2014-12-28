@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MovieSeries",
-  "required": "http://schema.org/MovieSeries",
-  "title": "ThingCreativeWorkSeriesMovieSeries",
-  "name": "ThingCreativeWorkSeriesMovieSeries",
+  "required": false,
+  "title": "MovieSeries",
+  "name": "MovieSeries",
   "description": "A series of movies. Included movies can be indicated with the hasPart property.",
   "type": "object",
   "properties": {

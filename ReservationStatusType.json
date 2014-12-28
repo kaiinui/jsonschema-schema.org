@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReservationStatusType",
-  "required": "http://schema.org/ReservationStatusType",
-  "title": "ThingIntangibleEnumerationReservationStatusType",
-  "name": "ThingIntangibleEnumerationReservationStatusType",
+  "required": false,
+  "title": "ReservationStatusType",
+  "name": "ReservationStatusType",
   "description": "Enumerated status values for Reservation.",
   "type": "object",
   "properties": {

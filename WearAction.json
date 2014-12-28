@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WearAction",
-  "required": "http://schema.org/WearAction",
-  "title": "ThingActionConsumeActionUseActionWearAction",
-  "name": "ThingActionConsumeActionUseActionWearAction",
+  "required": false,
+  "title": "WearAction",
+  "name": "WearAction",
   "description": "The act of dressing oneself in clothing.",
   "type": "object",
   "properties": {

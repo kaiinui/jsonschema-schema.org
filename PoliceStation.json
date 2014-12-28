@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PoliceStation",
-  "required": "http://schema.org/PoliceStation",
-  "title": "ThingPlaceCivicStructurePoliceStation",
-  "name": "ThingPlaceCivicStructurePoliceStation",
+  "required": false,
+  "title": "PoliceStation",
+  "name": "PoliceStation",
   "description": "A police station.",
   "type": "object",
   "properties": {

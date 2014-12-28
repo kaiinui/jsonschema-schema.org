@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Continent",
-  "required": "http://schema.org/Continent",
-  "title": "ThingPlaceLandformContinent",
-  "name": "ThingPlaceLandformContinent",
+  "required": false,
+  "title": "Continent",
+  "name": "Continent",
   "description": "One of the continents (for example, Europe or Africa).",
   "type": "object",
   "properties": {

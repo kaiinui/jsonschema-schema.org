@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Mosque",
-  "required": "http://schema.org/Mosque",
-  "title": "ThingPlaceCivicStructurePlaceOfWorshipMosque",
-  "name": "ThingPlaceCivicStructurePlaceOfWorshipMosque",
+  "required": false,
+  "title": "Mosque",
+  "name": "Mosque",
   "description": "A mosque.",
   "type": "object",
   "properties": {

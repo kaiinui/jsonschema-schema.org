@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Person",
-  "required": "http://schema.org/Person",
-  "title": "ThingPerson",
-  "name": "ThingPerson",
+  "required": false,
+  "title": "Person",
+  "name": "Person",
   "description": "A person (alive, dead, undead, or fictional).",
   "type": "object",
   "properties": {

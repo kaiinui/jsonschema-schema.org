@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ServiceChannel",
-  "required": "http://schema.org/ServiceChannel",
-  "title": "ThingIntangibleServiceChannel",
-  "name": "ThingIntangibleServiceChannel",
+  "required": false,
+  "title": "ServiceChannel",
+  "name": "ServiceChannel",
   "description": "A means for accessing a service, e.g. a government office location, web site, or phone number.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ApartmentComplex",
-  "required": "http://schema.org/ApartmentComplex",
-  "title": "ThingPlaceResidenceApartmentComplex",
-  "name": "ThingPlaceResidenceApartmentComplex",
+  "required": false,
+  "title": "ApartmentComplex",
+  "name": "ApartmentComplex",
   "description": "Residence type: Apartment complex.",
   "type": "object",
   "properties": {

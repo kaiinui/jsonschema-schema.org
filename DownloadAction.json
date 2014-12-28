@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DownloadAction",
-  "required": "http://schema.org/DownloadAction",
-  "title": "ThingActionTransferActionDownloadAction",
-  "name": "ThingActionTransferActionDownloadAction",
+  "required": false,
+  "title": "DownloadAction",
+  "name": "DownloadAction",
   "description": "The act of downloading an object.",
   "type": "object",
   "properties": {

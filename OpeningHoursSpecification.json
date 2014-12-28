@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OpeningHoursSpecification",
-  "required": "http://schema.org/OpeningHoursSpecification",
-  "title": "ThingIntangibleStructuredValueOpeningHoursSpecification",
-  "name": "ThingIntangibleStructuredValueOpeningHoursSpecification",
+  "required": false,
+  "title": "OpeningHoursSpecification",
+  "name": "OpeningHoursSpecification",
   "description": "A structured value providing information about the opening hours of a place or a certain service inside a place.",
   "type": "object",
   "properties": {

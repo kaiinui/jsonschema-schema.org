@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GovernmentService",
-  "required": "http://schema.org/GovernmentService",
-  "title": "ThingIntangibleServiceGovernmentService",
-  "name": "ThingIntangibleServiceGovernmentService",
+  "required": false,
+  "title": "GovernmentService",
+  "name": "GovernmentService",
   "description": "A service provided by a government organization, e.g. food stamps, veterans benefits, etc.",
   "type": "object",
   "properties": {

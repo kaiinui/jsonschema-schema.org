@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Seat",
-  "required": "http://schema.org/Seat",
-  "title": "ThingIntangibleSeat",
-  "name": "ThingIntangibleSeat",
+  "required": false,
+  "title": "Seat",
+  "name": "Seat",
   "description": "Used to describe a seat, such as a reserved seat in an event reservation.",
   "type": "object",
   "properties": {

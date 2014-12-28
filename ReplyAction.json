@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReplyAction",
-  "required": "http://schema.org/ReplyAction",
-  "title": "ThingActionInteractActionCommunicateActionReplyAction",
-  "name": "ThingActionInteractActionCommunicateActionReplyAction",
+  "required": false,
+  "title": "ReplyAction",
+  "name": "ReplyAction",
   "description": "The act of responding to a question/message asked/sent by the object. Related to AskAction.Related actions:AskAction: Appears generally as an origin of a ReplyAction.",
   "type": "object",
   "properties": {

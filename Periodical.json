@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Periodical",
-  "required": "http://schema.org/Periodical",
-  "title": "ThingCreativeWorkSeriesPeriodical",
-  "name": "ThingCreativeWorkSeriesPeriodical",
+  "required": false,
+  "title": "Periodical",
+  "name": "Periodical",
   "description": "A publication in any medium issued in successive parts bearing numerical or chronological designations and intended, such as a magazine, scholarly journal, or newspaper to continue indefinitely.\n\n      See also blog post\n      ",
   "type": "object",
   "properties": {

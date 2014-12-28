@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OrderStatus",
-  "required": "http://schema.org/OrderStatus",
-  "title": "ThingIntangibleEnumerationOrderStatus",
-  "name": "ThingIntangibleEnumerationOrderStatus",
+  "required": false,
+  "title": "OrderStatus",
+  "name": "OrderStatus",
   "description": "Enumerated status values for Order.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Residence",
-  "required": "http://schema.org/Residence",
-  "title": "ThingPlaceResidence",
-  "name": "ThingPlaceResidence",
+  "required": false,
+  "title": "Residence",
+  "name": "Residence",
   "description": "The place where a person lives.",
   "type": "object",
   "properties": {

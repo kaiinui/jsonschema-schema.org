@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DrugLegalStatus",
-  "required": "http://schema.org/DrugLegalStatus",
-  "title": "ThingMedicalEntityMedicalIntangibleDrugLegalStatus",
-  "name": "ThingMedicalEntityMedicalIntangibleDrugLegalStatus",
+  "required": false,
+  "title": "DrugLegalStatus",
+  "name": "DrugLegalStatus",
   "description": "The legal availability status of a medical drug.",
   "type": "object",
   "properties": {

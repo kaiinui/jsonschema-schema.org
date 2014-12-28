@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Rating",
-  "required": "http://schema.org/Rating",
-  "title": "ThingIntangibleRating",
-  "name": "ThingIntangibleRating",
+  "required": false,
+  "title": "Rating",
+  "name": "Rating",
   "description": "A rating is an evaluation on a numeric scale, such as 1 to 5 stars.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CollectionPage",
-  "required": "http://schema.org/CollectionPage",
-  "title": "ThingCreativeWorkWebPageCollectionPage",
-  "name": "ThingCreativeWorkWebPageCollectionPage",
+  "required": false,
+  "title": "CollectionPage",
+  "name": "CollectionPage",
   "description": "Web page type: Collection page.",
   "type": "object",
   "properties": {

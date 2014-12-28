@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RadioEpisode",
-  "required": "http://schema.org/RadioEpisode",
-  "title": "ThingCreativeWorkEpisodeRadioEpisode",
-  "name": "ThingCreativeWorkEpisodeRadioEpisode",
+  "required": false,
+  "title": "RadioEpisode",
+  "name": "RadioEpisode",
   "description": "A radio episode which can be part of a series or season.",
   "type": "object",
   "properties": {

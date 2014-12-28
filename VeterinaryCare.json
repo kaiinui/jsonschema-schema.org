@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/VeterinaryCare",
-  "required": "http://schema.org/VeterinaryCare",
-  "title": "ThingOrganizationLocalBusinessMedicalOrganizationVeterinaryCare",
-  "name": "ThingOrganizationLocalBusinessMedicalOrganizationVeterinaryCare",
+  "required": false,
+  "title": "VeterinaryCare",
+  "name": "VeterinaryCare",
   "description": "A vet's office.",
   "type": "object",
   "properties": {

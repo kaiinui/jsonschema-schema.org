@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BlogPosting",
-  "required": "http://schema.org/BlogPosting",
-  "title": "ThingCreativeWorkArticleBlogPosting",
-  "name": "ThingCreativeWorkArticleBlogPosting",
+  "required": false,
+  "title": "BlogPosting",
+  "name": "BlogPosting",
   "description": "A blog post.",
   "type": "object",
   "properties": {

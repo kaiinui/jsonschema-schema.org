@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Flight",
-  "required": "http://schema.org/Flight",
-  "title": "ThingIntangibleFlight",
-  "name": "ThingIntangibleFlight",
+  "required": false,
+  "title": "Flight",
+  "name": "Flight",
   "description": "An airline flight.",
   "type": "object",
   "properties": {

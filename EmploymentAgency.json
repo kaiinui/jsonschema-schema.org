@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EmploymentAgency",
-  "required": "http://schema.org/EmploymentAgency",
-  "title": "ThingOrganizationLocalBusinessEmploymentAgency",
-  "name": "ThingOrganizationLocalBusinessEmploymentAgency",
+  "required": false,
+  "title": "EmploymentAgency",
+  "name": "EmploymentAgency",
   "description": "An employment agency.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/IndividualProduct",
-  "required": "http://schema.org/IndividualProduct",
-  "title": "ThingProductIndividualProduct",
-  "name": "ThingProductIndividualProduct",
+  "required": false,
+  "title": "IndividualProduct",
+  "name": "IndividualProduct",
   "description": "A single, identifiable product instance (e.g. a laptop with a particular serial number).",
   "type": "object",
   "properties": {

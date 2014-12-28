@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LodgingReservation",
-  "required": "http://schema.org/LodgingReservation",
-  "title": "ThingIntangibleReservationLodgingReservation",
-  "name": "ThingIntangibleReservationLodgingReservation",
+  "required": false,
+  "title": "LodgingReservation",
+  "name": "LodgingReservation",
   "description": "A reservation for lodging at a hotel, motel, inn, etc.",
   "type": "object",
   "properties": {

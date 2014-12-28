@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DDxElement",
-  "required": "http://schema.org/DDxElement",
-  "title": "ThingMedicalEntityMedicalIntangibleDDxElement",
-  "name": "ThingMedicalEntityMedicalIntangibleDDxElement",
+  "required": false,
+  "title": "DDxElement",
+  "name": "DDxElement",
   "description": "An alternative, closely-related condition typically considered later in the differential diagnosis process along with the signs that are used to distinguish it.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicPlaylist",
-  "required": "http://schema.org/MusicPlaylist",
-  "title": "ThingCreativeWorkMusicPlaylist",
-  "name": "ThingCreativeWorkMusicPlaylist",
+  "required": false,
+  "title": "MusicPlaylist",
+  "name": "MusicPlaylist",
   "description": "A collection of music tracks in playlist form.",
   "type": "object",
   "properties": {

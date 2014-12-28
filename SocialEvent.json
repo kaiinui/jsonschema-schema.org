@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SocialEvent",
-  "required": "http://schema.org/SocialEvent",
-  "title": "ThingEventSocialEvent",
-  "name": "ThingEventSocialEvent",
+  "required": false,
+  "title": "SocialEvent",
+  "name": "SocialEvent",
   "description": "Event type: Social event.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalTrialDesign",
-  "required": "http://schema.org/MedicalTrialDesign",
-  "title": "ThingIntangibleEnumerationMedicalEnumerationMedicalTrialDesign",
-  "name": "ThingIntangibleEnumerationMedicalEnumerationMedicalTrialDesign",
+  "required": false,
+  "title": "MedicalTrialDesign",
+  "name": "MedicalTrialDesign",
   "description": "Design models for medical trials. Enumerated type.",
   "type": "object",
   "properties": {

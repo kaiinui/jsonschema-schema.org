@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HomeAndConstructionBusiness",
-  "required": "http://schema.org/HomeAndConstructionBusiness",
-  "title": "ThingOrganizationLocalBusinessHomeAndConstructionBusiness",
-  "name": "ThingOrganizationLocalBusinessHomeAndConstructionBusiness",
+  "required": false,
+  "title": "HomeAndConstructionBusiness",
+  "name": "HomeAndConstructionBusiness",
   "description": "A construction business.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PerformingGroup",
-  "required": "http://schema.org/PerformingGroup",
-  "title": "ThingOrganizationPerformingGroup",
-  "name": "ThingOrganizationPerformingGroup",
+  "required": false,
+  "title": "PerformingGroup",
+  "name": "PerformingGroup",
   "description": "A performance group, such as a band, an orchestra, or a circus.",
   "type": "object",
   "properties": {

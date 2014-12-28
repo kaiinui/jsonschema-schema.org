@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InstallAction",
-  "required": "http://schema.org/InstallAction",
-  "title": "ThingActionConsumeActionInstallAction",
-  "name": "ThingActionConsumeActionInstallAction",
+  "required": false,
+  "title": "InstallAction",
+  "name": "InstallAction",
   "description": "The act of installing an application.",
   "type": "object",
   "properties": {

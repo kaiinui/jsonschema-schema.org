@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalRiskScore",
-  "required": "http://schema.org/MedicalRiskScore",
-  "title": "ThingMedicalEntityMedicalRiskEstimatorMedicalRiskScore",
-  "name": "ThingMedicalEntityMedicalRiskEstimatorMedicalRiskScore",
+  "required": false,
+  "title": "MedicalRiskScore",
+  "name": "MedicalRiskScore",
   "description": "A simple system that adds up the number of risk factors to yield a score that is associated with prognosis, e.g. CHAD score, TIMI risk score.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PublicationVolume",
-  "required": "http://schema.org/PublicationVolume",
-  "title": "ThingCreativeWorkPublicationVolume",
-  "name": "ThingCreativeWorkPublicationVolume",
+  "required": false,
+  "title": "PublicationVolume",
+  "name": "PublicationVolume",
   "description": "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.\n\n      See also blog post\n      ",
   "type": "object",
   "properties": {

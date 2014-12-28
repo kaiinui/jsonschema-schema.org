@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Language",
-  "required": "http://schema.org/Language",
-  "title": "ThingIntangibleLanguage",
-  "name": "ThingIntangibleLanguage",
+  "required": false,
+  "title": "Language",
+  "name": "Language",
   "description": "Natural languages such as Spanish, Tamil, Hindi, English, etc. and programming languages such as Scheme and Lisp.",
   "type": "object",
   "properties": {

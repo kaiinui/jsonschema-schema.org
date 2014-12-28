@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MovieRentalStore",
-  "required": "http://schema.org/MovieRentalStore",
-  "title": "ThingOrganizationLocalBusinessStoreMovieRentalStore",
-  "name": "ThingOrganizationLocalBusinessStoreMovieRentalStore",
+  "required": false,
+  "title": "MovieRentalStore",
+  "name": "MovieRentalStore",
   "description": "A movie rental store.",
   "type": "object",
   "properties": {

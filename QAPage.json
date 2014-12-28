@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/QAPage",
-  "required": "http://schema.org/QAPage",
-  "title": "ThingCreativeWorkWebPageQAPage",
-  "name": "ThingCreativeWorkWebPageQAPage",
+  "required": false,
+  "title": "QAPage",
+  "name": "QAPage",
   "description": "A QAPage is a WebPage focussed on a specific Question and its Answer(s), e.g. in a question answering site or documenting Frequently Asked Questions (FAQs).",
   "type": "object",
   "properties": {

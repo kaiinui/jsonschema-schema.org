@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Enumeration",
-  "required": "http://schema.org/Enumeration",
-  "title": "ThingIntangibleEnumeration",
-  "name": "ThingIntangibleEnumeration",
+  "required": false,
+  "title": "Enumeration",
+  "name": "Enumeration",
   "description": "Lists or enumerations—for example, a list of cuisines or music genres, etc.",
   "type": "object",
   "properties": {

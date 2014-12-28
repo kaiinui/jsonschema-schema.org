@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Country",
-  "required": "http://schema.org/Country",
-  "title": "ThingPlaceAdministrativeAreaCountry",
-  "name": "ThingPlaceAdministrativeAreaCountry",
+  "required": false,
+  "title": "Country",
+  "name": "Country",
   "description": "A country.",
   "type": "object",
   "properties": {

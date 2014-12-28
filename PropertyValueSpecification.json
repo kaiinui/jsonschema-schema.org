@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PropertyValueSpecification",
-  "required": "http://schema.org/PropertyValueSpecification",
-  "title": "ThingIntangiblePropertyValueSpecification",
-  "name": "ThingIntangiblePropertyValueSpecification",
+  "required": false,
+  "title": "PropertyValueSpecification",
+  "name": "PropertyValueSpecification",
   "description": "A Property value specification.",
   "type": "object",
   "properties": {

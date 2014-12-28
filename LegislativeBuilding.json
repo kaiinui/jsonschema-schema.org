@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LegislativeBuilding",
-  "required": "http://schema.org/LegislativeBuilding",
-  "title": "ThingPlaceCivicStructureGovernmentBuildingLegislativeBuilding",
-  "name": "ThingPlaceCivicStructureGovernmentBuildingLegislativeBuilding",
+  "required": false,
+  "title": "LegislativeBuilding",
+  "name": "LegislativeBuilding",
   "description": "A legislative building—for example, the state capitol.",
   "type": "object",
   "properties": {

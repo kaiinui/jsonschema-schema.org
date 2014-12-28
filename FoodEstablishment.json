@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FoodEstablishment",
-  "required": "http://schema.org/FoodEstablishment",
-  "title": "ThingPlaceLocalBusinessFoodEstablishment",
-  "name": "ThingPlaceLocalBusinessFoodEstablishment",
+  "required": false,
+  "title": "FoodEstablishment",
+  "name": "FoodEstablishment",
   "description": "A food-related business.",
   "type": "object",
   "properties": {

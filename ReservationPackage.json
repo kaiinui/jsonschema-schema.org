@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReservationPackage",
-  "required": "http://schema.org/ReservationPackage",
-  "title": "ThingIntangibleReservationReservationPackage",
-  "name": "ThingIntangibleReservationReservationPackage",
+  "required": false,
+  "title": "ReservationPackage",
+  "name": "ReservationPackage",
   "description": "A group of multiple reservations with common values for all sub-reservations.",
   "type": "object",
   "properties": {

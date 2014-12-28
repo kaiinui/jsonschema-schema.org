@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ConvenienceStore",
-  "required": "http://schema.org/ConvenienceStore",
-  "title": "ThingOrganizationLocalBusinessStoreConvenienceStore",
-  "name": "ThingOrganizationLocalBusinessStoreConvenienceStore",
+  "required": false,
+  "title": "ConvenienceStore",
+  "name": "ConvenienceStore",
   "description": "A convenience store.",
   "type": "object",
   "properties": {

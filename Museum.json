@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Museum",
-  "required": "http://schema.org/Museum",
-  "title": "ThingPlaceCivicStructureMuseum",
-  "name": "ThingPlaceCivicStructureMuseum",
+  "required": false,
+  "title": "Museum",
+  "name": "Museum",
   "description": "A museum.",
   "type": "object",
   "properties": {

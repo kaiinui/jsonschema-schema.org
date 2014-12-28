@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PhysicalTherapy",
-  "required": "http://schema.org/PhysicalTherapy",
-  "title": "ThingMedicalEntityMedicalTherapyPhysicalTherapy",
-  "name": "ThingMedicalEntityMedicalTherapyPhysicalTherapy",
+  "required": false,
+  "title": "PhysicalTherapy",
+  "name": "PhysicalTherapy",
   "description": "A process of progressive physical care and rehabilitation aimed at improving a health condition.",
   "type": "object",
   "properties": {

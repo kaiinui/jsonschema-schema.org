@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AggregateOffer",
-  "required": "http://schema.org/AggregateOffer",
-  "title": "ThingIntangibleOfferAggregateOffer",
-  "name": "ThingIntangibleOfferAggregateOffer",
+  "required": false,
+  "title": "AggregateOffer",
+  "name": "AggregateOffer",
   "description": "When a single product is associated with multiple offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used.",
   "type": "object",
   "properties": {

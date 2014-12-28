@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UnRegisterAction",
-  "required": "http://schema.org/UnRegisterAction",
-  "title": "ThingActionInteractActionUnRegisterAction",
-  "name": "ThingActionInteractActionUnRegisterAction",
+  "required": false,
+  "title": "UnRegisterAction",
+  "name": "UnRegisterAction",
   "description": "The act of un-registering from a service.Related actions:RegisterAction: Antagonym of UnRegisterAction.Leave: Unlike LeaveAction, UnRegisterAction implies that you are unregistering from a service you werer previously registered, rather than leaving a team/group of people.",
   "type": "object",
   "properties": {

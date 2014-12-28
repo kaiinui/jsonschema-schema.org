@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/NightClub",
-  "required": "http://schema.org/NightClub",
-  "title": "ThingOrganizationLocalBusinessEntertainmentBusinessNightClub",
-  "name": "ThingOrganizationLocalBusinessEntertainmentBusinessNightClub",
+  "required": false,
+  "title": "NightClub",
+  "name": "NightClub",
   "description": "A nightclub or discotheque.",
   "type": "object",
   "properties": {

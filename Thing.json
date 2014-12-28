@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Thing",
-  "required": "http://schema.org/Thing",
+  "required": false,
   "title": "Thing",
   "name": "Thing",
   "description": "The most generic type of item.",

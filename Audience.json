@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Audience",
-  "required": "http://schema.org/Audience",
-  "title": "ThingIntangibleAudience",
-  "name": "ThingIntangibleAudience",
+  "required": false,
+  "title": "Audience",
+  "name": "Audience",
   "description": "Intended audience for an item, i.e. the group for whom the item was created.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BookSeries",
-  "required": "http://schema.org/BookSeries",
-  "title": "ThingCreativeWorkSeriesBookSeries",
-  "name": "ThingCreativeWorkSeriesBookSeries",
+  "required": false,
+  "title": "BookSeries",
+  "name": "BookSeries",
   "description": "A series of books. Included books can be indicated with the hasPart property.",
   "type": "object",
   "properties": {

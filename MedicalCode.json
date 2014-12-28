@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalCode",
-  "required": "http://schema.org/MedicalCode",
-  "title": "ThingMedicalEntityMedicalIntangibleMedicalCode",
-  "name": "ThingMedicalEntityMedicalIntangibleMedicalCode",
+  "required": false,
+  "title": "MedicalCode",
+  "name": "MedicalCode",
   "description": "A code for a medical entity.",
   "type": "object",
   "properties": {

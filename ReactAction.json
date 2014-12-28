@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReactAction",
-  "required": "http://schema.org/ReactAction",
-  "title": "ThingActionAssessActionReactAction",
-  "name": "ThingActionAssessActionReactAction",
+  "required": false,
+  "title": "ReactAction",
+  "name": "ReactAction",
   "description": "The act of responding instinctively and emotionally to an object, expressing a sentiment.",
   "type": "object",
   "properties": {

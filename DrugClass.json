@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DrugClass",
-  "required": "http://schema.org/DrugClass",
-  "title": "ThingMedicalEntityMedicalTherapyDrugClass",
-  "name": "ThingMedicalEntityMedicalTherapyDrugClass",
+  "required": false,
+  "title": "DrugClass",
+  "name": "DrugClass",
   "description": "A class of medical drugs, e.g., statins. Classes can represent general pharmacological class, common mechanisms of action, common physiological effects, etc.",
   "type": "object",
   "properties": {

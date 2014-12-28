@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DaySpa",
-  "required": "http://schema.org/DaySpa",
-  "title": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessDaySpa",
-  "name": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessDaySpa",
+  "required": false,
+  "title": "DaySpa",
+  "name": "DaySpa",
   "description": "A day spa.",
   "type": "object",
   "properties": {

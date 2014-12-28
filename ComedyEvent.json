@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ComedyEvent",
-  "required": "http://schema.org/ComedyEvent",
-  "title": "ThingEventComedyEvent",
-  "name": "ThingEventComedyEvent",
+  "required": false,
+  "title": "ComedyEvent",
+  "name": "ComedyEvent",
   "description": "Event type: Comedy event.",
   "type": "object",
   "properties": {

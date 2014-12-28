@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DisagreeAction",
-  "required": "http://schema.org/DisagreeAction",
-  "title": "ThingActionAssessActionReactActionDisagreeAction",
-  "name": "ThingActionAssessActionReactActionDisagreeAction",
+  "required": false,
+  "title": "DisagreeAction",
+  "name": "DisagreeAction",
   "description": "The act of expressing a difference of opinion with the object. An agent disagrees to/about an object (a proposition, topic or theme) with participants.",
   "type": "object",
   "properties": {

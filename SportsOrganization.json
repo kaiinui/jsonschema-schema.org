@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SportsOrganization",
-  "required": "http://schema.org/SportsOrganization",
-  "title": "ThingOrganizationSportsOrganization",
-  "name": "ThingOrganizationSportsOrganization",
+  "required": false,
+  "title": "SportsOrganization",
+  "name": "SportsOrganization",
   "description": "Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations.",
   "type": "object",
   "properties": {

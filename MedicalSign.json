@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalSign",
-  "required": "http://schema.org/MedicalSign",
-  "title": "ThingMedicalEntityMedicalSignOrSymptomMedicalSign",
-  "name": "ThingMedicalEntityMedicalSignOrSymptomMedicalSign",
+  "required": false,
+  "title": "MedicalSign",
+  "name": "MedicalSign",
   "description": "Any physical manifestation of a person's medical condition discoverable by objective diagnostic tests or physical examination.",
   "type": "object",
   "properties": {

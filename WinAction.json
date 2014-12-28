@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WinAction",
-  "required": "http://schema.org/WinAction",
-  "title": "ThingActionAchieveActionWinAction",
-  "name": "ThingActionAchieveActionWinAction",
+  "required": false,
+  "title": "WinAction",
+  "name": "WinAction",
   "description": "The act of achieving victory in a competitive activity.",
   "type": "object",
   "properties": {

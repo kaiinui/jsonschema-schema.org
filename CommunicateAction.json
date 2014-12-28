@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CommunicateAction",
-  "required": "http://schema.org/CommunicateAction",
-  "title": "ThingActionInteractActionCommunicateAction",
-  "name": "ThingActionInteractActionCommunicateAction",
+  "required": false,
+  "title": "CommunicateAction",
+  "name": "CommunicateAction",
   "description": "The act of conveying information to another person via a communication medium (instrument) such as speech, email, or telephone conversation.",
   "type": "object",
   "properties": {

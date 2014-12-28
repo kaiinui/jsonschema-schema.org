@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Vehicle",
-  "required": "http://schema.org/Vehicle",
-  "title": "ThingProductVehicle",
-  "name": "ThingProductVehicle",
+  "required": false,
+  "title": "Vehicle",
+  "name": "Vehicle",
   "description": "A vehicle.",
   "type": "object",
   "properties": {

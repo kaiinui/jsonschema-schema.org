@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Campground",
-  "required": "http://schema.org/Campground",
-  "title": "ThingPlaceCivicStructureCampground",
-  "name": "ThingPlaceCivicStructureCampground",
+  "required": false,
+  "title": "Campground",
+  "name": "Campground",
   "description": "A campground.",
   "type": "object",
   "properties": {

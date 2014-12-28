@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ExercisePlan",
-  "required": "http://schema.org/ExercisePlan",
-  "title": "ThingMedicalEntityMedicalTherapyLifestyleModificationPhysicalActivityExercisePlan",
-  "name": "ThingMedicalEntityMedicalTherapyLifestyleModificationPhysicalActivityExercisePlan",
+  "required": false,
+  "title": "ExercisePlan",
+  "name": "ExercisePlan",
   "description": "Fitness-related activity designed for a specific health-related purpose, including defined exercise routines as well as activity prescribed by a clinician.",
   "type": "object",
   "properties": {

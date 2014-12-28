@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RsvpResponseType",
-  "required": "http://schema.org/RsvpResponseType",
-  "title": "ThingIntangibleEnumerationRsvpResponseType",
-  "name": "ThingIntangibleEnumerationRsvpResponseType",
+  "required": false,
+  "title": "RsvpResponseType",
+  "name": "RsvpResponseType",
   "description": "RsvpResponseType is an enumeration type whose instances represent responding to an RSVP request.",
   "type": "object",
   "properties": {

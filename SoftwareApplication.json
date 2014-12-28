@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SoftwareApplication",
-  "required": "http://schema.org/SoftwareApplication",
-  "title": "ThingCreativeWorkSoftwareApplication",
-  "name": "ThingCreativeWorkSoftwareApplication",
+  "required": false,
+  "title": "SoftwareApplication",
+  "name": "SoftwareApplication",
   "description": "A software application.",
   "type": "object",
   "properties": {

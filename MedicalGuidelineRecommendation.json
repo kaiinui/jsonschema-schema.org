@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalGuidelineRecommendation",
-  "required": "http://schema.org/MedicalGuidelineRecommendation",
-  "title": "ThingMedicalEntityMedicalGuidelineMedicalGuidelineRecommendation",
-  "name": "ThingMedicalEntityMedicalGuidelineMedicalGuidelineRecommendation",
+  "required": false,
+  "title": "MedicalGuidelineRecommendation",
+  "name": "MedicalGuidelineRecommendation",
   "description": "A guideline recommendation that is regarded as efficacious and where quality of the data supporting the recommendation is sound.",
   "type": "object",
   "properties": {

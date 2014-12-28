@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicAlbumProductionType",
-  "required": "http://schema.org/MusicAlbumProductionType",
-  "title": "ThingIntangibleEnumerationMusicAlbumProductionType",
-  "name": "ThingIntangibleEnumerationMusicAlbumProductionType",
+  "required": false,
+  "title": "MusicAlbumProductionType",
+  "name": "MusicAlbumProductionType",
   "description": "Classification of the album by it's type of content: soundtrack, live album, studio album, etc.",
   "type": "object",
   "properties": {

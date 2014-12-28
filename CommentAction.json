@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/CommentAction",
-  "required": "http://schema.org/CommentAction",
-  "title": "ThingActionInteractActionCommunicateActionCommentAction",
-  "name": "ThingActionInteractActionCommunicateActionCommentAction",
+  "required": false,
+  "title": "CommentAction",
+  "name": "CommentAction",
   "description": "The act of generating a comment about a subject.",
   "type": "object",
   "properties": {

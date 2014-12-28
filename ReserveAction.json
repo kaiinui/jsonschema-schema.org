@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReserveAction",
-  "required": "http://schema.org/ReserveAction",
-  "title": "ThingActionOrganizeActionPlanActionReserveAction",
-  "name": "ThingActionOrganizeActionPlanActionReserveAction",
+  "required": false,
+  "title": "ReserveAction",
+  "name": "ReserveAction",
   "description": "Reserving a concrete object.Related actions:ScheduleAction: Unlike ScheduleAction, ReserveAction reserves concrete objects (e.g. a table, a hotel) towards a time slot / spatial allocation.",
   "type": "object",
   "properties": {

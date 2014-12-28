@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SportsClub",
-  "required": "http://schema.org/SportsClub",
-  "title": "ThingPlaceLocalBusinessSportsActivityLocationSportsClub",
-  "name": "ThingPlaceLocalBusinessSportsActivityLocationSportsClub",
+  "required": false,
+  "title": "SportsClub",
+  "name": "SportsClub",
   "description": "A sports club.",
   "type": "object",
   "properties": {

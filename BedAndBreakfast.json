@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BedAndBreakfast",
-  "required": "http://schema.org/BedAndBreakfast",
-  "title": "ThingOrganizationLocalBusinessLodgingBusinessBedAndBreakfast",
-  "name": "ThingOrganizationLocalBusinessLodgingBusinessBedAndBreakfast",
+  "required": false,
+  "title": "BedAndBreakfast",
+  "name": "BedAndBreakfast",
   "description": "Bed and breakfast.",
   "type": "object",
   "properties": {

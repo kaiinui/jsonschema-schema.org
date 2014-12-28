@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GamePlayMode",
-  "required": "http://schema.org/GamePlayMode",
-  "title": "ThingIntangibleEnumerationGamePlayMode",
-  "name": "ThingIntangibleEnumerationGamePlayMode",
+  "required": false,
+  "title": "GamePlayMode",
+  "name": "GamePlayMode",
   "description": "Indicates whether this game is multi-player, co-op or single-player.",
   "type": "object",
   "properties": {

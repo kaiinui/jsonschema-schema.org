@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ParkingFacility",
-  "required": "http://schema.org/ParkingFacility",
-  "title": "ThingPlaceCivicStructureParkingFacility",
-  "name": "ThingPlaceCivicStructureParkingFacility",
+  "required": false,
+  "title": "ParkingFacility",
+  "name": "ParkingFacility",
   "description": "A parking lot or other parking facility.",
   "type": "object",
   "properties": {

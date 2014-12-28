@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Game",
-  "required": "http://schema.org/Game",
-  "title": "ThingCreativeWorkGame",
-  "name": "ThingCreativeWorkGame",
+  "required": false,
+  "title": "Game",
+  "name": "Game",
   "description": "The Game type represents things which are games. These are typically rule-governed recreational activities, e.g. role-playing games in which players assume the role of characters in a fictional setting. See also open issues list.",
   "type": "object",
   "properties": {

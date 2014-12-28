@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicEvent",
-  "required": "http://schema.org/MusicEvent",
-  "title": "ThingEventMusicEvent",
-  "name": "ThingEventMusicEvent",
+  "required": false,
+  "title": "MusicEvent",
+  "name": "MusicEvent",
   "description": "Event type: Music event.",
   "type": "object",
   "properties": {

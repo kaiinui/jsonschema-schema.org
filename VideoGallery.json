@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/VideoGallery",
-  "required": "http://schema.org/VideoGallery",
-  "title": "ThingCreativeWorkWebPageCollectionPageVideoGallery",
-  "name": "ThingCreativeWorkWebPageCollectionPageVideoGallery",
+  "required": false,
+  "title": "VideoGallery",
+  "name": "VideoGallery",
   "description": "Web page type: Video gallery page.",
   "type": "object",
   "properties": {

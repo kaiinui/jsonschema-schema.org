@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GovernmentBuilding",
-  "required": "http://schema.org/GovernmentBuilding",
-  "title": "ThingPlaceCivicStructureGovernmentBuilding",
-  "name": "ThingPlaceCivicStructureGovernmentBuilding",
+  "required": false,
+  "title": "GovernmentBuilding",
+  "name": "GovernmentBuilding",
   "description": "A government building.",
   "type": "object",
   "properties": {

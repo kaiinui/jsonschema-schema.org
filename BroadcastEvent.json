@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BroadcastEvent",
-  "required": "http://schema.org/BroadcastEvent",
-  "title": "ThingEventPublicationEventBroadcastEvent",
-  "name": "ThingEventPublicationEventBroadcastEvent",
+  "required": false,
+  "title": "BroadcastEvent",
+  "name": "BroadcastEvent",
   "description": "An over the air or online broadcast event.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Pharmacy",
-  "required": "http://schema.org/Pharmacy",
-  "title": "ThingOrganizationLocalBusinessMedicalOrganizationPharmacy",
-  "name": "ThingOrganizationLocalBusinessMedicalOrganizationPharmacy",
+  "required": false,
+  "title": "Pharmacy",
+  "name": "Pharmacy",
   "description": "A pharmacy or drugstore.",
   "type": "object",
   "properties": {

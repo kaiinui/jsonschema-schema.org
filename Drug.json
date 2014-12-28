@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Drug",
-  "required": "http://schema.org/Drug",
-  "title": "ThingMedicalEntityMedicalTherapyDrug",
-  "name": "ThingMedicalEntityMedicalTherapyDrug",
+  "required": false,
+  "title": "Drug",
+  "name": "Drug",
   "description": "A chemical or biologic substance, used as a medical therapy, that has a physiological effect on an organism.",
   "type": "object",
   "properties": {

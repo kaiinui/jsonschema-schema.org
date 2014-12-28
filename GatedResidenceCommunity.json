@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GatedResidenceCommunity",
-  "required": "http://schema.org/GatedResidenceCommunity",
-  "title": "ThingPlaceResidenceGatedResidenceCommunity",
-  "name": "ThingPlaceResidenceGatedResidenceCommunity",
+  "required": false,
+  "title": "GatedResidenceCommunity",
+  "name": "GatedResidenceCommunity",
   "description": "Residence type: Gated community.",
   "type": "object",
   "properties": {

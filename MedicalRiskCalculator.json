@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalRiskCalculator",
-  "required": "http://schema.org/MedicalRiskCalculator",
-  "title": "ThingMedicalEntityMedicalRiskEstimatorMedicalRiskCalculator",
-  "name": "ThingMedicalEntityMedicalRiskEstimatorMedicalRiskCalculator",
+  "required": false,
+  "title": "MedicalRiskCalculator",
+  "name": "MedicalRiskCalculator",
   "description": "A complex mathematical calculation requiring an online calculator, used to assess prognosis. Note: use the url property of Thing to record any URLs for online calculators.",
   "type": "object",
   "properties": {

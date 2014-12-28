@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalObservationalStudyDesign",
-  "required": "http://schema.org/MedicalObservationalStudyDesign",
-  "title": "ThingIntangibleEnumerationMedicalObservationalStudyDesign",
-  "name": "ThingIntangibleEnumerationMedicalObservationalStudyDesign",
+  "required": false,
+  "title": "MedicalObservationalStudyDesign",
+  "name": "MedicalObservationalStudyDesign",
   "description": "Design models for observational medical studies. Enumerated type.",
   "type": "object",
   "properties": {

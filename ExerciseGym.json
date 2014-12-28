@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ExerciseGym",
-  "required": "http://schema.org/ExerciseGym",
-  "title": "ThingOrganizationLocalBusinessSportsActivityLocationExerciseGym",
-  "name": "ThingOrganizationLocalBusinessSportsActivityLocationExerciseGym",
+  "required": false,
+  "title": "ExerciseGym",
+  "name": "ExerciseGym",
   "description": "A gym.",
   "type": "object",
   "properties": {

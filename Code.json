@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Code",
-  "required": "http://schema.org/Code",
-  "title": "ThingCreativeWorkCode",
-  "name": "ThingCreativeWorkCode",
+  "required": false,
+  "title": "Code",
+  "name": "Code",
   "description": "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OceanBodyOfWater",
-  "required": "http://schema.org/OceanBodyOfWater",
-  "title": "ThingPlaceLandformBodyOfWaterOceanBodyOfWater",
-  "name": "ThingPlaceLandformBodyOfWaterOceanBodyOfWater",
+  "required": false,
+  "title": "OceanBodyOfWater",
+  "name": "OceanBodyOfWater",
   "description": "An ocean (for example, the Pacific).",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ResumeAction",
-  "required": "http://schema.org/ResumeAction",
-  "title": "ThingActionControlActionResumeAction",
-  "name": "ThingActionControlActionResumeAction",
+  "required": false,
+  "title": "ResumeAction",
+  "name": "ResumeAction",
   "description": "The act of resuming a device or application which was formerly paused (e.g. resume music playback or resume a timer).",
   "type": "object",
   "properties": {

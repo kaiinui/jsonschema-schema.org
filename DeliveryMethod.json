@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DeliveryMethod",
-  "required": "http://schema.org/DeliveryMethod",
-  "title": "ThingIntangibleEnumerationDeliveryMethod",
-  "name": "ThingIntangibleEnumerationDeliveryMethod",
+  "required": false,
+  "title": "DeliveryMethod",
+  "name": "DeliveryMethod",
   "description": "A delivery method is a standardized procedure for transferring the product or service to the destination of fulfillment chosen by the customer. Delivery methods are characterized by the means of transportation used, and by the organization or group that is the contracting party for the sending organization or person.\n\n    Commonly used values:\n\n    http://purl.org/goodrelations/v1#DeliveryModeDirectDownload\n    http://purl.org/goodrelations/v1#DeliveryModeFreight\n    http://purl.org/goodrelations/v1#DeliveryModeMail\n    http://purl.org/goodrelations/v1#DeliveryModeOwnFleet\n    http://purl.org/goodrelations/v1#DeliveryModePickUp\n    http://purl.org/goodrelations/v1#DHL\n    http://purl.org/goodrelations/v1#FederalExpress\n    http://purl.org/goodrelations/v1#UPS\n        ",
   "type": "object",
   "properties": {

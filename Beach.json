@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Beach",
-  "required": "http://schema.org/Beach",
-  "title": "ThingPlaceCivicStructureBeach",
-  "name": "ThingPlaceCivicStructureBeach",
+  "required": false,
+  "title": "Beach",
+  "name": "Beach",
   "description": "Beach.",
   "type": "object",
   "properties": {

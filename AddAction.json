@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AddAction",
-  "required": "http://schema.org/AddAction",
-  "title": "ThingActionUpdateActionAddAction",
-  "name": "ThingActionUpdateActionAddAction",
+  "required": false,
+  "title": "AddAction",
+  "name": "AddAction",
   "description": "The act of editing by adding an object to a collection.",
   "type": "object",
   "properties": {

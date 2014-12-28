@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AutomotiveBusiness",
-  "required": "http://schema.org/AutomotiveBusiness",
-  "title": "ThingOrganizationLocalBusinessAutomotiveBusiness",
-  "name": "ThingOrganizationLocalBusinessAutomotiveBusiness",
+  "required": false,
+  "title": "AutomotiveBusiness",
+  "name": "AutomotiveBusiness",
   "description": "Car repair, sales, or parts.",
   "type": "object",
   "properties": {

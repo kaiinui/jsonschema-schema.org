@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EntertainmentBusiness",
-  "required": "http://schema.org/EntertainmentBusiness",
-  "title": "ThingOrganizationLocalBusinessEntertainmentBusiness",
-  "name": "ThingOrganizationLocalBusinessEntertainmentBusiness",
+  "required": false,
+  "title": "EntertainmentBusiness",
+  "name": "EntertainmentBusiness",
   "description": "A business providing entertainment.",
   "type": "object",
   "properties": {

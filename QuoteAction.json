@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/QuoteAction",
-  "required": "http://schema.org/QuoteAction",
-  "title": "ThingActionTradeActionQuoteAction",
-  "name": "ThingActionTradeActionQuoteAction",
+  "required": false,
+  "title": "QuoteAction",
+  "name": "QuoteAction",
   "description": "An agent quotes/estimates/appraises an object/product/service with a price at a location/store.",
   "type": "object",
   "properties": {

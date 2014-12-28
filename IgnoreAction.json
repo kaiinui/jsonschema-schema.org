@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/IgnoreAction",
-  "required": "http://schema.org/IgnoreAction",
-  "title": "ThingActionAssessActionIgnoreAction",
-  "name": "ThingActionAssessActionIgnoreAction",
+  "required": false,
+  "title": "IgnoreAction",
+  "name": "IgnoreAction",
   "description": "The act of intentionally disregarding the object. An agent ignores an object.",
   "type": "object",
   "properties": {

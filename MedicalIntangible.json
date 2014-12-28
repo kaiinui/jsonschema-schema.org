@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MedicalIntangible",
-  "required": "http://schema.org/MedicalIntangible",
-  "title": "ThingMedicalEntityMedicalIntangible",
-  "name": "ThingMedicalEntityMedicalIntangible",
+  "required": false,
+  "title": "MedicalIntangible",
+  "name": "MedicalIntangible",
   "description": "A utility class that serves as the umbrella for a number of 'intangible' things in the medical space.",
   "type": "object",
   "properties": {

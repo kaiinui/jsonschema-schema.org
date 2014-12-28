@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TVSeries",
-  "required": "http://schema.org/TVSeries",
-  "title": "ThingCreativeWorkSeriesTVSeries",
-  "name": "ThingCreativeWorkSeriesTVSeries",
+  "required": false,
+  "title": "TVSeries",
+  "name": "TVSeries",
   "description": "Series dedicated to TV broadcast and associated online delivery.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Book",
-  "required": "http://schema.org/Book",
-  "title": "ThingCreativeWorkBook",
-  "name": "ThingCreativeWorkBook",
+  "required": false,
+  "title": "Book",
+  "name": "Book",
   "description": "A book.",
   "type": "object",
   "properties": {

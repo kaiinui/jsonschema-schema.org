@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ItemPage",
-  "required": "http://schema.org/ItemPage",
-  "title": "ThingCreativeWorkWebPageItemPage",
-  "name": "ThingCreativeWorkWebPageItemPage",
+  "required": false,
+  "title": "ItemPage",
+  "name": "ItemPage",
   "description": "A page devoted to a single item, such as a particular product or hotel.",
   "type": "object",
   "properties": {

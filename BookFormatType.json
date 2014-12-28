@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BookFormatType",
-  "required": "http://schema.org/BookFormatType",
-  "title": "ThingIntangibleEnumerationBookFormatType",
-  "name": "ThingIntangibleEnumerationBookFormatType",
+  "required": false,
+  "title": "BookFormatType",
+  "name": "BookFormatType",
   "description": "The publication format of the book.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReadAction",
-  "required": "http://schema.org/ReadAction",
-  "title": "ThingActionConsumeActionReadAction",
-  "name": "ThingActionConsumeActionReadAction",
+  "required": false,
+  "title": "ReadAction",
+  "name": "ReadAction",
   "description": "The act of consuming written content.",
   "type": "object",
   "properties": {

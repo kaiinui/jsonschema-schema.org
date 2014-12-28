@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DeleteAction",
-  "required": "http://schema.org/DeleteAction",
-  "title": "ThingActionUpdateActionDeleteAction",
-  "name": "ThingActionUpdateActionDeleteAction",
+  "required": false,
+  "title": "DeleteAction",
+  "name": "DeleteAction",
   "description": "The act of editing a recipient by removing one of its objects.",
   "type": "object",
   "properties": {

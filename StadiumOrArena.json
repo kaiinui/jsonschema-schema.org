@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/StadiumOrArena",
-  "required": "http://schema.org/StadiumOrArena",
-  "title": "ThingPlaceCivicStructureStadiumOrArena",
-  "name": "ThingPlaceCivicStructureStadiumOrArena",
+  "required": false,
+  "title": "StadiumOrArena",
+  "name": "StadiumOrArena",
   "description": "A stadium.",
   "type": "object",
   "properties": {

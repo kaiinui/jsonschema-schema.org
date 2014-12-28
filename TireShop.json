@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TireShop",
-  "required": "http://schema.org/TireShop",
-  "title": "ThingOrganizationLocalBusinessStoreTireShop",
-  "name": "ThingOrganizationLocalBusinessStoreTireShop",
+  "required": false,
+  "title": "TireShop",
+  "name": "TireShop",
   "description": "A tire shop.",
   "type": "object",
   "properties": {

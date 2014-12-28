@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ConsumeAction",
-  "required": "http://schema.org/ConsumeAction",
-  "title": "ThingActionConsumeAction",
-  "name": "ThingActionConsumeAction",
+  "required": false,
+  "title": "ConsumeAction",
+  "name": "ConsumeAction",
   "description": "The act of ingesting information/resources/food.",
   "type": "object",
   "properties": {

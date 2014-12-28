@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Hospital",
-  "required": "http://schema.org/Hospital",
-  "title": "ThingPlaceCivicStructureHospital",
-  "name": "ThingPlaceCivicStructureHospital",
+  "required": false,
+  "title": "Hospital",
+  "name": "Hospital",
   "description": "A hospital.",
   "type": "object",
   "properties": {

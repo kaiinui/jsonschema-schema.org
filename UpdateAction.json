@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/UpdateAction",
-  "required": "http://schema.org/UpdateAction",
-  "title": "ThingActionUpdateAction",
-  "name": "ThingActionUpdateAction",
+  "required": false,
+  "title": "UpdateAction",
+  "name": "UpdateAction",
   "description": "The act of managing by changing/editing the state of the object.",
   "type": "object",
   "properties": {

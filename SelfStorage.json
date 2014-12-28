@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/SelfStorage",
-  "required": "http://schema.org/SelfStorage",
-  "title": "ThingOrganizationLocalBusinessSelfStorage",
-  "name": "ThingOrganizationLocalBusinessSelfStorage",
+  "required": false,
+  "title": "SelfStorage",
+  "name": "SelfStorage",
   "description": "A self-storage facility.",
   "type": "object",
   "properties": {

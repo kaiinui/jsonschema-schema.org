@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BuddhistTemple",
-  "required": "http://schema.org/BuddhistTemple",
-  "title": "ThingPlaceCivicStructurePlaceOfWorshipBuddhistTemple",
-  "name": "ThingPlaceCivicStructurePlaceOfWorshipBuddhistTemple",
+  "required": false,
+  "title": "BuddhistTemple",
+  "name": "BuddhistTemple",
   "description": "A Buddhist temple.",
   "type": "object",
   "properties": {

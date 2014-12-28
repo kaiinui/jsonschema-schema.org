@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Physician",
-  "required": "http://schema.org/Physician",
-  "title": "ThingOrganizationLocalBusinessMedicalOrganizationPhysician",
-  "name": "ThingOrganizationLocalBusinessMedicalOrganizationPhysician",
+  "required": false,
+  "title": "Physician",
+  "name": "Physician",
   "description": "A doctor's office.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/OwnershipInfo",
-  "required": "http://schema.org/OwnershipInfo",
-  "title": "ThingIntangibleStructuredValueOwnershipInfo",
-  "name": "ThingIntangibleStructuredValueOwnershipInfo",
+  "required": false,
+  "title": "OwnershipInfo",
+  "name": "OwnershipInfo",
   "description": "A structured value providing information about when a certain organization or person owned a certain product.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/TattooParlor",
-  "required": "http://schema.org/TattooParlor",
-  "title": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessTattooParlor",
-  "name": "ThingOrganizationLocalBusinessHealthAndBeautyBusinessTattooParlor",
+  "required": false,
+  "title": "TattooParlor",
+  "name": "TattooParlor",
   "description": "A tattoo parlor.",
   "type": "object",
   "properties": {

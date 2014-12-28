@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Cemetery",
-  "required": "http://schema.org/Cemetery",
-  "title": "ThingPlaceCivicStructureCemetery",
-  "name": "ThingPlaceCivicStructureCemetery",
+  "required": false,
+  "title": "Cemetery",
+  "name": "Cemetery",
   "description": "A graveyard.",
   "type": "object",
   "properties": {

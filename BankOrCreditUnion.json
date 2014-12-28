@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BankOrCreditUnion",
-  "required": "http://schema.org/BankOrCreditUnion",
-  "title": "ThingPlaceLocalBusinessFinancialServiceBankOrCreditUnion",
-  "name": "ThingPlaceLocalBusinessFinancialServiceBankOrCreditUnion",
+  "required": false,
+  "title": "BankOrCreditUnion",
+  "name": "BankOrCreditUnion",
   "description": "Bank or credit union.",
   "type": "object",
   "properties": {

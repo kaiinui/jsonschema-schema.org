@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Mass",
-  "required": "http://schema.org/Mass",
-  "title": "ThingIntangibleQuantityMass",
-  "name": "ThingIntangibleQuantityMass",
+  "required": false,
+  "title": "Mass",
+  "name": "Mass",
   "description": "Properties that take Mass as values are of the form '<Number> <Mass unit of measure>'. E.g., '7 kg'",
   "type": "object",
   "properties": {

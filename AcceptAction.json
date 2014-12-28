@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/AcceptAction",
-  "required": "http://schema.org/AcceptAction",
-  "title": "ThingActionOrganizeActionAllocateActionAcceptAction",
-  "name": "ThingActionOrganizeActionAllocateActionAcceptAction",
+  "required": false,
+  "title": "AcceptAction",
+  "name": "AcceptAction",
   "description": "The act of committing to/adopting an object.Related actions:RejectAction: The antagonym of AcceptAction.",
   "type": "object",
   "properties": {

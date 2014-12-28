@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/FurnitureStore",
-  "required": "http://schema.org/FurnitureStore",
-  "title": "ThingOrganizationLocalBusinessStoreFurnitureStore",
-  "name": "ThingOrganizationLocalBusinessStoreFurnitureStore",
+  "required": false,
+  "title": "FurnitureStore",
+  "name": "FurnitureStore",
   "description": "A furniture store.",
   "type": "object",
   "properties": {

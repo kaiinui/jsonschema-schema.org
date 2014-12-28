@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Preschool",
-  "required": "http://schema.org/Preschool",
-  "title": "ThingOrganizationEducationalOrganizationPreschool",
-  "name": "ThingOrganizationEducationalOrganizationPreschool",
+  "required": false,
+  "title": "Preschool",
+  "name": "Preschool",
   "description": "A preschool.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/EndorseAction",
-  "required": "http://schema.org/EndorseAction",
-  "title": "ThingActionAssessActionReactActionEndorseAction",
-  "name": "ThingActionAssessActionReactActionEndorseAction",
+  "required": false,
+  "title": "EndorseAction",
+  "name": "EndorseAction",
   "description": "An agent approves/certifies/likes/supports/sanction an object.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ShareAction",
-  "required": "http://schema.org/ShareAction",
-  "title": "ThingActionInteractActionCommunicateActionShareAction",
-  "name": "ThingActionInteractActionCommunicateActionShareAction",
+  "required": false,
+  "title": "ShareAction",
+  "name": "ShareAction",
   "description": "The act of distributing content to people for their amusement or edification.",
   "type": "object",
   "properties": {

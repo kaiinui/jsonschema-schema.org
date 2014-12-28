@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/MusicGroup",
-  "required": "http://schema.org/MusicGroup",
-  "title": "ThingOrganizationPerformingGroupMusicGroup",
-  "name": "ThingOrganizationPerformingGroupMusicGroup",
+  "required": false,
+  "title": "MusicGroup",
+  "name": "MusicGroup",
   "description": "A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician.",
   "type": "object",
   "properties": {

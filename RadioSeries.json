@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/RadioSeries",
-  "required": "http://schema.org/RadioSeries",
-  "title": "ThingCreativeWorkSeriesRadioSeries",
-  "name": "ThingCreativeWorkSeriesRadioSeries",
+  "required": false,
+  "title": "RadioSeries",
+  "name": "RadioSeries",
   "description": "Series dedicated to radio broadcast and associated online delivery.",
   "type": "object",
   "properties": {

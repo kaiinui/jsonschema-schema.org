@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LockerDelivery",
-  "required": "http://schema.org/LockerDelivery",
-  "title": "ThingIntangibleEnumerationDeliveryMethodLockerDelivery",
-  "name": "ThingIntangibleEnumerationDeliveryMethodLockerDelivery",
+  "required": false,
+  "title": "LockerDelivery",
+  "name": "LockerDelivery",
   "description": "A DeliveryMethod in which an item is made available via locker.",
   "type": "object",
   "properties": {

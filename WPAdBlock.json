@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/WPAdBlock",
-  "required": "http://schema.org/WPAdBlock",
-  "title": "ThingCreativeWorkWebPageElementWPAdBlock",
-  "name": "ThingCreativeWorkWebPageElementWPAdBlock",
+  "required": false,
+  "title": "WPAdBlock",
+  "name": "WPAdBlock",
   "description": "An advertising section of the page.",
   "type": "object",
   "properties": {

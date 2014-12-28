@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/InsertAction",
-  "required": "http://schema.org/InsertAction",
-  "title": "ThingActionUpdateActionAddActionInsertAction",
-  "name": "ThingActionUpdateActionAddActionInsertAction",
+  "required": false,
+  "title": "InsertAction",
+  "name": "InsertAction",
   "description": "The act of adding at a specific location in an ordered collection.",
   "type": "object",
   "properties": {

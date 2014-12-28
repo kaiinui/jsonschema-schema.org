@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DataDownload",
-  "required": "http://schema.org/DataDownload",
-  "title": "ThingCreativeWorkMediaObjectDataDownload",
-  "name": "ThingCreativeWorkMediaObjectDataDownload",
+  "required": false,
+  "title": "DataDownload",
+  "name": "DataDownload",
   "description": "A dataset in downloadable form.",
   "type": "object",
   "properties": {

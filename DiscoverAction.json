@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/DiscoverAction",
-  "required": "http://schema.org/DiscoverAction",
-  "title": "ThingActionFindActionDiscoverAction",
-  "name": "ThingActionFindActionDiscoverAction",
+  "required": false,
+  "title": "DiscoverAction",
+  "name": "DiscoverAction",
   "description": "The act of discovering/finding an object.",
   "type": "object",
   "properties": {

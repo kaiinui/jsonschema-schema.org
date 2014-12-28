@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Airline",
-  "required": "http://schema.org/Airline",
-  "title": "ThingOrganizationAirline",
-  "name": "ThingOrganizationAirline",
+  "required": false,
+  "title": "Airline",
+  "name": "Airline",
   "description": "An organization that provides flights for passengers.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PayAction",
-  "required": "http://schema.org/PayAction",
-  "title": "ThingActionTradeActionPayAction",
-  "name": "ThingActionTradeActionPayAction",
+  "required": false,
+  "title": "PayAction",
+  "name": "PayAction",
   "description": "An agent pays a price to a participant.",
   "type": "object",
   "properties": {

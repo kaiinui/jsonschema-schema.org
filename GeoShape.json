@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/GeoShape",
-  "required": "http://schema.org/GeoShape",
-  "title": "ThingIntangibleStructuredValueGeoShape",
-  "name": "ThingIntangibleStructuredValueGeoShape",
+  "required": false,
+  "title": "GeoShape",
+  "name": "GeoShape",
   "description": "The geographic shape of a place.",
   "type": "object",
   "properties": {

@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LandmarksOrHistoricalBuildings",
-  "required": "http://schema.org/LandmarksOrHistoricalBuildings",
-  "title": "ThingPlaceLandmarksOrHistoricalBuildings",
-  "name": "ThingPlaceLandmarksOrHistoricalBuildings",
+  "required": false,
+  "title": "LandmarksOrHistoricalBuildings",
+  "name": "LandmarksOrHistoricalBuildings",
   "description": "An historical landmark or building.",
   "type": "object",
   "properties": {

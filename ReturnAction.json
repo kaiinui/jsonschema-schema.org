@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ReturnAction",
-  "required": "http://schema.org/ReturnAction",
-  "title": "ThingActionTransferActionReturnAction",
-  "name": "ThingActionTransferActionReturnAction",
+  "required": false,
+  "title": "ReturnAction",
+  "name": "ReturnAction",
   "description": "The act of returning to the origin that which was previously received (concrete objects) or taken (ownership).",
   "type": "object",
   "properties": {

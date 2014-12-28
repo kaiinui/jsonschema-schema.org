@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/HardwareStore",
-  "required": "http://schema.org/HardwareStore",
-  "title": "ThingPlaceLocalBusinessStoreHardwareStore",
-  "name": "ThingPlaceLocalBusinessStoreHardwareStore",
+  "required": false,
+  "title": "HardwareStore",
+  "name": "HardwareStore",
   "description": "A hardware store.",
   "type": "object",
   "properties": {

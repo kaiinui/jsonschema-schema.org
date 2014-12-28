@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Nerve",
-  "required": "http://schema.org/Nerve",
-  "title": "ThingMedicalEntityAnatomicalStructureNerve",
-  "name": "ThingMedicalEntityAnatomicalStructureNerve",
+  "required": false,
+  "title": "Nerve",
+  "name": "Nerve",
   "description": "A common pathway for the electrochemical nerve impulses that are transmitted along each of the axons.",
   "type": "object",
   "properties": {
