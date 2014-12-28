@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ContactPoint",
-  "required": false,
+  "required": [
+
+  ],
   "title": "ContactPoint",
   "name": "ContactPoint",
   "description": "A contact point—for example, a Customer Complaints department.",
@@ -9,7 +11,6 @@
   "properties": {
     "areaServed": {
       "id": "http://schema.org/areaServed",
-      "required": false,
       "title": "areaServed",
       "description": "The location served by this contact point (e.g., a phone number intended for Europeans vs. North Americans or only within the United States.)",
       "type": "object",
@@ -21,7 +22,6 @@
     },
     "availableLanguage": {
       "id": "http://schema.org/availableLanguage",
-      "required": false,
       "title": "availableLanguage",
       "description": "A language someone may use with the item.",
       "type": "object",
@@ -33,7 +33,6 @@
     },
     "contactOption": {
       "id": "http://schema.org/contactOption",
-      "required": false,
       "title": "contactOption",
       "description": "An option available on this contact point (e.g. a toll-free number or support for hearing-impaired callers.)",
       "type": "object",
@@ -45,28 +44,24 @@
     },
     "contactType": {
       "id": "http://schema.org/contactType",
-      "required": false,
       "title": "contactType",
       "description": "A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point.",
       "type": "string"
     },
     "email": {
       "id": "http://schema.org/email",
-      "required": false,
       "title": "email",
       "description": "Email address.",
       "type": "string"
     },
     "faxNumber": {
       "id": "http://schema.org/faxNumber",
-      "required": false,
       "title": "faxNumber",
       "description": "The fax number.",
       "type": "string"
     },
     "hoursAvailable": {
       "id": "http://schema.org/hoursAvailable",
-      "required": false,
       "title": "hoursAvailable",
       "description": "The hours during which this contact point is available.",
       "type": "object",
@@ -78,7 +73,6 @@
     },
     "productSupported": {
       "id": "http://schema.org/productSupported",
-      "required": false,
       "title": "productSupported",
       "description": "The product or service this support contact point is related to (such as product support for a particular product line). This can be a specific product or product line (e.g. \"iPhone\") or a general category of products or services (e.g. \"smartphones\").",
       "type": "object",
@@ -90,55 +84,49 @@
     },
     "telephone": {
       "id": "http://schema.org/telephone",
-      "required": false,
       "title": "telephone",
       "description": "The telephone number.",
       "type": "string"
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -150,17 +138,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

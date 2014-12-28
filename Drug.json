@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Drug",
-  "required": false,
+  "required": [
+
+  ],
   "title": "Drug",
   "name": "Drug",
   "description": "A chemical or biologic substance, used as a medical therapy, that has a physiological effect on an organism.",
@@ -9,28 +11,24 @@
   "properties": {
     "activeIngredient": {
       "id": "http://schema.org/activeIngredient",
-      "required": false,
       "title": "activeIngredient",
       "description": "An active ingredient, typically chemical compounds and/or biologic substances.",
       "type": "string"
     },
     "administrationRoute": {
       "id": "http://schema.org/administrationRoute",
-      "required": false,
       "title": "administrationRoute",
       "description": "A route by which this drug may be administered, e.g. 'oral'.",
       "type": "string"
     },
     "alcoholWarning": {
       "id": "http://schema.org/alcoholWarning",
-      "required": false,
       "title": "alcoholWarning",
       "description": "Any precaution, guidance, contraindication, etc. related to consumption of alcohol while taking this drug.",
       "type": "string"
     },
     "availableStrength": {
       "id": "http://schema.org/availableStrength",
-      "required": false,
       "title": "availableStrength",
       "description": "An available dosage strength for the drug.",
       "type": "object",
@@ -42,21 +40,18 @@
     },
     "breastfeedingWarning": {
       "id": "http://schema.org/breastfeedingWarning",
-      "required": false,
       "title": "breastfeedingWarning",
       "description": "Any precaution, guidance, contraindication, etc. related to this drug's use by breastfeeding mothers.",
       "type": "string"
     },
     "clincalPharmacology": {
       "id": "http://schema.org/clincalPharmacology",
-      "required": false,
       "title": "clincalPharmacology",
       "description": "Description of the absorption and elimination of drugs, including their concentration (pharmacokinetics, pK) and biological effects (pharmacodynamics, pD).",
       "type": "string"
     },
     "cost": {
       "id": "http://schema.org/cost",
-      "required": false,
       "title": "cost",
       "description": "Cost per unit of the drug, as reported by the source being tagged.",
       "type": "object",
@@ -68,14 +63,12 @@
     },
     "dosageForm": {
       "id": "http://schema.org/dosageForm",
-      "required": false,
       "title": "dosageForm",
       "description": "A dosage form in which this drug/supplement is available, e.g. 'tablet', 'suspension', 'injection'.",
       "type": "string"
     },
     "doseSchedule": {
       "id": "http://schema.org/doseSchedule",
-      "required": false,
       "title": "doseSchedule",
       "description": "A dosing schedule for the drug for a given population, either observed, recommended, or maximum dose based on the type used.",
       "type": "object",
@@ -87,7 +80,6 @@
     },
     "drugClass": {
       "id": "http://schema.org/drugClass",
-      "required": false,
       "title": "drugClass",
       "description": "The class of drug this belongs to (e.g., statins).",
       "type": "object",
@@ -99,14 +91,12 @@
     },
     "foodWarning": {
       "id": "http://schema.org/foodWarning",
-      "required": false,
       "title": "foodWarning",
       "description": "Any precaution, guidance, contraindication, etc. related to consumption of specific foods while taking this drug.",
       "type": "string"
     },
     "interactingDrug": {
       "id": "http://schema.org/interactingDrug",
-      "required": false,
       "title": "interactingDrug",
       "description": "Another drug that is known to interact with this drug in a way that impacts the effect of this drug or causes a risk to the patient. Note: disease interactions are typically captured as contraindications.",
       "type": "object",
@@ -118,28 +108,25 @@
     },
     "isAvailableGenerically": {
       "id": "http://schema.org/isAvailableGenerically",
-      "required": false,
       "title": "isAvailableGenerically",
       "description": "True if the drug is available in a generic form (regardless of name).",
       "type": "boolean"
     },
     "isProprietary": {
       "id": "http://schema.org/isProprietary",
-      "required": false,
       "title": "isProprietary",
       "description": "True if this item's name is a proprietary/brand name (vs. generic name).",
       "type": "boolean"
     },
     "labelDetails": {
       "id": "http://schema.org/labelDetails",
-      "required": false,
       "title": "labelDetails",
       "description": "Link to the drug's label details.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "legalStatus": {
       "id": "http://schema.org/legalStatus",
-      "required": false,
       "title": "legalStatus",
       "description": "The drug or supplement's legal status, including any controlled substance schedules that apply.",
       "type": "object",
@@ -151,7 +138,6 @@
     },
     "manufacturer": {
       "id": "http://schema.org/manufacturer",
-      "required": false,
       "title": "manufacturer",
       "description": "The manufacturer of the product.",
       "type": "object",
@@ -163,28 +149,24 @@
     },
     "mechanismOfAction": {
       "id": "http://schema.org/mechanismOfAction",
-      "required": false,
       "title": "mechanismOfAction",
       "description": "The specific biochemical interaction through which this drug or supplement produces its pharmacological effect.",
       "type": "string"
     },
     "nonProprietaryName": {
       "id": "http://schema.org/nonProprietaryName",
-      "required": false,
       "title": "nonProprietaryName",
       "description": "The generic name of this drug or supplement.",
       "type": "string"
     },
     "overdosage": {
       "id": "http://schema.org/overdosage",
-      "required": false,
       "title": "overdosage",
       "description": "Any information related to overdose on a drug, including signs or symptoms, treatments, contact information for emergency response.",
       "type": "string"
     },
     "pregnancyCategory": {
       "id": "http://schema.org/pregnancyCategory",
-      "required": false,
       "title": "pregnancyCategory",
       "description": "Pregnancy category of this drug.",
       "type": "object",
@@ -196,21 +178,19 @@
     },
     "pregnancyWarning": {
       "id": "http://schema.org/pregnancyWarning",
-      "required": false,
       "title": "pregnancyWarning",
       "description": "Any precaution, guidance, contraindication, etc. related to this drug's use during pregnancy.",
       "type": "string"
     },
     "prescribingInfo": {
       "id": "http://schema.org/prescribingInfo",
-      "required": false,
       "title": "prescribingInfo",
       "description": "Link to prescribing information for the drug.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "prescriptionStatus": {
       "id": "http://schema.org/prescriptionStatus",
-      "required": false,
       "title": "prescriptionStatus",
       "description": "Indicates whether this drug is available by prescription or over-the-counter.",
       "type": "object",
@@ -222,7 +202,6 @@
     },
     "relatedDrug": {
       "id": "http://schema.org/relatedDrug",
-      "required": false,
       "title": "relatedDrug",
       "description": "Any other drug related to this one, for example commonly-prescribed alternatives.",
       "type": "object",
@@ -234,20 +213,18 @@
     },
     "warning": {
       "id": "http://schema.org/warning",
-      "required": false,
       "title": "warning",
       "description": "Any FDA or other warnings about the drug (text or URL).",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "adverseOutcome": {
       "id": "http://schema.org/adverseOutcome",
-      "required": false,
       "title": "adverseOutcome",
       "description": "A possible complication and/or side effect of this therapy. If it is known that an adverse outcome is serious (resulting in death, disability, or permanent damage; requiring hospitalization; or is otherwise life-threatening or requires immediate medical attention), tag it as a seriouseAdverseOutcome instead.",
       "type": "object",
@@ -259,7 +236,6 @@
     },
     "contraindication": {
       "id": "http://schema.org/contraindication",
-      "required": false,
       "title": "contraindication",
       "description": "A contraindication for this therapy.",
       "type": "object",
@@ -271,7 +247,6 @@
     },
     "duplicateTherapy": {
       "id": "http://schema.org/duplicateTherapy",
-      "required": false,
       "title": "duplicateTherapy",
       "description": "A therapy that duplicates or overlaps this one.",
       "type": "object",
@@ -283,7 +258,6 @@
     },
     "indication": {
       "id": "http://schema.org/indication",
-      "required": false,
       "title": "indication",
       "description": "A factor that indicates use of this therapy for treatment and/or prevention of a condition, symptom, etc. For therapies such as drugs, indications can include both officially-approved indications as well as off-label uses. These can be distinguished by using the ApprovedIndication subtype of MedicalIndication.",
       "type": "object",
@@ -295,7 +269,6 @@
     },
     "seriousAdverseOutcome": {
       "id": "http://schema.org/seriousAdverseOutcome",
-      "required": false,
       "title": "seriousAdverseOutcome",
       "description": "A possible serious complication and/or serious side effect of this therapy. Serious adverse outcomes include those that are life-threatening; result in death, disability, or permanent damage; require hospitalization or prolong existing hospitalization; cause congenital anomalies or birth defects; or jeopardize the patient and may require medical or surgical intervention to prevent one of the outcomes in this definition.",
       "type": "object",
@@ -307,7 +280,6 @@
     },
     "code": {
       "id": "http://schema.org/code",
-      "required": false,
       "title": "code",
       "description": "A medical code for the entity, taken from a controlled vocabulary or ontology such as ICD-9, DiseasesDB, MeSH, SNOMED-CT, RxNorm, etc.",
       "type": "object",
@@ -319,7 +291,6 @@
     },
     "guideline": {
       "id": "http://schema.org/guideline",
-      "required": false,
       "title": "guideline",
       "description": "A medical guideline related to this entity.",
       "type": "object",
@@ -331,7 +302,6 @@
     },
     "medicineSystem": {
       "id": "http://schema.org/medicineSystem",
-      "required": false,
       "title": "medicineSystem",
       "description": "The system of medicine that includes this MedicalEntity, for example 'evidence-based', 'homeopathic', 'chiropractic', etc.",
       "type": "object",
@@ -343,7 +313,6 @@
     },
     "recognizingAuthority": {
       "id": "http://schema.org/recognizingAuthority",
-      "required": false,
       "title": "recognizingAuthority",
       "description": "If applicable, the organization that officially recognizes this entity as part of its endorsed system of medicine.",
       "type": "object",
@@ -355,7 +324,6 @@
     },
     "relevantSpecialty": {
       "id": "http://schema.org/relevantSpecialty",
-      "required": false,
       "title": "relevantSpecialty",
       "description": "If applicable, a medical specialty in which this entity is relevant.",
       "type": "object",
@@ -367,7 +335,6 @@
     },
     "study": {
       "id": "http://schema.org/study",
-      "required": false,
       "title": "study",
       "description": "A medical study or trial related to this entity.",
       "type": "object",
@@ -379,42 +346,38 @@
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -426,17 +389,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

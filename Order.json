@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Order",
-  "required": false,
+  "required": [
+
+  ],
   "title": "Order",
   "name": "Order",
   "description": "An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.",
@@ -9,7 +11,6 @@
   "properties": {
     "acceptedOffer": {
       "id": "http://schema.org/acceptedOffer",
-      "required": false,
       "title": "acceptedOffer",
       "description": "The offer(s) -- e.g., product, quantity and price combinations -- included in the order.",
       "type": "object",
@@ -21,7 +22,6 @@
     },
     "billingAddress": {
       "id": "http://schema.org/billingAddress",
-      "required": false,
       "title": "billingAddress",
       "description": "The billing address for the order.",
       "type": "object",
@@ -33,7 +33,6 @@
     },
     "broker": {
       "id": "http://schema.org/broker",
-      "required": false,
       "title": "broker",
       "description": "An entity that arranges for an exchange between a buyer and a seller.  In most cases a broker never acquires or releases ownership of a product or service involved in an exchange.  If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred. Supersedes bookingAgent.",
       "type": "object",
@@ -45,14 +44,12 @@
     },
     "confirmationNumber": {
       "id": "http://schema.org/confirmationNumber",
-      "required": false,
       "title": "confirmationNumber",
       "description": "A number that confirms the given order.",
       "type": "string"
     },
     "customer": {
       "id": "http://schema.org/customer",
-      "required": false,
       "title": "customer",
       "description": "Party placing the order.",
       "type": "object",
@@ -64,49 +61,43 @@
     },
     "discount": {
       "id": "http://schema.org/discount",
-      "required": false,
       "title": "discount",
       "description": "Any discount applied (to an Order).",
       "type": "number"
     },
     "discountCode": {
       "id": "http://schema.org/discountCode",
-      "required": false,
       "title": "discountCode",
       "description": "Code used to redeem a discount.",
       "type": "string"
     },
     "discountCurrency": {
       "id": "http://schema.org/discountCurrency",
-      "required": false,
       "title": "discountCurrency",
       "description": "The currency (in 3-letter ISO 4217 format) of the discount.",
       "type": "string"
     },
     "isGift": {
       "id": "http://schema.org/isGift",
-      "required": false,
       "title": "isGift",
       "description": "Was the offer accepted as a gift for someone other than the buyer.",
       "type": "boolean"
     },
     "orderDate": {
       "id": "http://schema.org/orderDate",
-      "required": false,
       "title": "orderDate",
       "description": "Date order was placed.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "orderNumber": {
       "id": "http://schema.org/orderNumber",
-      "required": false,
       "title": "orderNumber",
       "description": "The identifier of the transaction.",
       "type": "string"
     },
     "orderStatus": {
       "id": "http://schema.org/orderStatus",
-      "required": false,
       "title": "orderStatus",
       "description": "The current status of the order.",
       "type": "object",
@@ -118,7 +109,6 @@
     },
     "orderedItem": {
       "id": "http://schema.org/orderedItem",
-      "required": false,
       "title": "orderedItem",
       "description": "The item ordered.",
       "type": "object",
@@ -130,14 +120,13 @@
     },
     "paymentDue": {
       "id": "http://schema.org/paymentDue",
-      "required": false,
       "title": "paymentDue",
       "description": "The date that payment is due.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "paymentMethod": {
       "id": "http://schema.org/paymentMethod",
-      "required": false,
       "title": "paymentMethod",
       "description": "The name of the credit card or other method of payment for the order.",
       "type": "object",
@@ -149,21 +138,19 @@
     },
     "paymentMethodId": {
       "id": "http://schema.org/paymentMethodId",
-      "required": false,
       "title": "paymentMethodId",
       "description": "An identifier for the method of payment used (e.g. the last 4 digits of the credit card).",
       "type": "string"
     },
     "paymentUrl": {
       "id": "http://schema.org/paymentUrl",
-      "required": false,
       "title": "paymentUrl",
       "description": "The URL for sending a payment.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "seller": {
       "id": "http://schema.org/seller",
-      "required": false,
       "title": "seller",
       "description": "An entity which offers (sells / leases / lends / loans) the services / goods.  A seller may also be a provider. Supersedes merchant, vendor.",
       "type": "object",
@@ -174,49 +161,44 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -228,17 +210,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

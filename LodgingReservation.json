@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/LodgingReservation",
-  "required": false,
+  "required": [
+
+  ],
   "title": "LodgingReservation",
   "name": "LodgingReservation",
   "description": "A reservation for lodging at a hotel, motel, inn, etc.",
@@ -9,62 +11,56 @@
   "properties": {
     "checkinTime": {
       "id": "http://schema.org/checkinTime",
-      "required": false,
       "title": "checkinTime",
       "description": "The earliest someone may check into a lodging establishment.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "checkoutTime": {
       "id": "http://schema.org/checkoutTime",
-      "required": false,
       "title": "checkoutTime",
       "description": "The latest someone may check out of a lodging establishment.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "lodgingUnitDescription": {
       "id": "http://schema.org/lodgingUnitDescription",
-      "required": false,
       "title": "lodgingUnitDescription",
       "description": "A full description of the lodging unit.",
       "type": "string"
     },
     "lodgingUnitType": {
       "id": "http://schema.org/lodgingUnitType",
-      "required": false,
       "title": "lodgingUnitType",
       "description": "Textual description of the unit type (including suite vs. room, size of bed, etc.).",
       "type": "string"
     },
     "numAdults": {
       "id": "http://schema.org/numAdults",
-      "required": false,
       "title": "numAdults",
       "description": "The number of adults staying in the unit.",
       "type": "number"
     },
     "numChildren": {
       "id": "http://schema.org/numChildren",
-      "required": false,
       "title": "numChildren",
       "description": "The number of children staying in the unit.",
       "type": "number"
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "bookingTime": {
       "id": "http://schema.org/bookingTime",
-      "required": false,
       "title": "bookingTime",
       "description": "The date and time the reservation was booked.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "broker": {
       "id": "http://schema.org/broker",
-      "required": false,
       "title": "broker",
       "description": "An entity that arranges for an exchange between a buyer and a seller.  In most cases a broker never acquires or releases ownership of a product or service involved in an exchange.  If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred. Supersedes bookingAgent.",
       "type": "object",
@@ -76,21 +72,19 @@
     },
     "modifiedTime": {
       "id": "http://schema.org/modifiedTime",
-      "required": false,
       "title": "modifiedTime",
       "description": "The date and time the reservation was modified.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "priceCurrency": {
       "id": "http://schema.org/priceCurrency",
-      "required": false,
       "title": "priceCurrency",
       "description": "The currency (in 3-letter ISO 4217 format) of the price or a price component, when attached to PriceSpecification and its subtypes.",
       "type": "string"
     },
     "programMembershipUsed": {
       "id": "http://schema.org/programMembershipUsed",
-      "required": false,
       "title": "programMembershipUsed",
       "description": "Any membership in a frequent flyer, hotel loyalty program, etc. being applied to the reservation.",
       "type": "object",
@@ -102,7 +96,6 @@
     },
     "provider": {
       "id": "http://schema.org/provider",
-      "required": false,
       "title": "provider",
       "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes carrier.",
       "type": "object",
@@ -114,7 +107,6 @@
     },
     "reservationFor": {
       "id": "http://schema.org/reservationFor",
-      "required": false,
       "title": "reservationFor",
       "description": "The thing -- flight, event, restaurant,etc. being reserved.",
       "type": "object",
@@ -126,14 +118,12 @@
     },
     "reservationId": {
       "id": "http://schema.org/reservationId",
-      "required": false,
       "title": "reservationId",
       "description": "A unique identifier for the reservation.",
       "type": "string"
     },
     "reservationStatus": {
       "id": "http://schema.org/reservationStatus",
-      "required": false,
       "title": "reservationStatus",
       "description": "The current status of the reservation.",
       "type": "object",
@@ -145,7 +135,6 @@
     },
     "reservedTicket": {
       "id": "http://schema.org/reservedTicket",
-      "required": false,
       "title": "reservedTicket",
       "description": "A ticket associated with the reservation.",
       "type": "object",
@@ -157,14 +146,12 @@
     },
     "totalPrice": {
       "id": "http://schema.org/totalPrice",
-      "required": false,
       "title": "totalPrice",
       "description": "The total price for the reservation or ticket, including applicable taxes, shipping, etc.",
       "type": "number"
     },
     "underName": {
       "id": "http://schema.org/underName",
-      "required": false,
       "title": "underName",
       "description": "The person or organization the reservation or ticket is for.",
       "type": "object",
@@ -176,42 +163,38 @@
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -223,17 +206,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

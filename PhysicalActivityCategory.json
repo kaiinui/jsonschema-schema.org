@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/PhysicalActivityCategory",
-  "required": false,
+  "required": [
+
+  ],
   "title": "PhysicalActivityCategory",
   "name": "PhysicalActivityCategory",
   "description": "Categories of physical activity, organized by physiologic classification.",
@@ -9,7 +11,6 @@
   "properties": {
     "code": {
       "id": "http://schema.org/code",
-      "required": false,
       "title": "code",
       "description": "A medical code for the entity, taken from a controlled vocabulary or ontology such as ICD-9, DiseasesDB, MeSH, SNOMED-CT, RxNorm, etc.",
       "type": "object",
@@ -21,7 +22,6 @@
     },
     "guideline": {
       "id": "http://schema.org/guideline",
-      "required": false,
       "title": "guideline",
       "description": "A medical guideline related to this entity.",
       "type": "object",
@@ -33,7 +33,6 @@
     },
     "medicineSystem": {
       "id": "http://schema.org/medicineSystem",
-      "required": false,
       "title": "medicineSystem",
       "description": "The system of medicine that includes this MedicalEntity, for example 'evidence-based', 'homeopathic', 'chiropractic', etc.",
       "type": "object",
@@ -45,7 +44,6 @@
     },
     "recognizingAuthority": {
       "id": "http://schema.org/recognizingAuthority",
-      "required": false,
       "title": "recognizingAuthority",
       "description": "If applicable, the organization that officially recognizes this entity as part of its endorsed system of medicine.",
       "type": "object",
@@ -57,7 +55,6 @@
     },
     "relevantSpecialty": {
       "id": "http://schema.org/relevantSpecialty",
-      "required": false,
       "title": "relevantSpecialty",
       "description": "If applicable, a medical specialty in which this entity is relevant.",
       "type": "object",
@@ -69,7 +66,6 @@
     },
     "study": {
       "id": "http://schema.org/study",
-      "required": false,
       "title": "study",
       "description": "A medical study or trial related to this entity.",
       "type": "object",
@@ -80,35 +76,31 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
       "type": "object",
@@ -120,14 +112,12 @@
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -139,17 +129,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

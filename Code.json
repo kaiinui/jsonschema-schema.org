@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Code",
-  "required": false,
+  "required": [
+
+  ],
   "title": "Code",
   "name": "Code",
   "description": "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.",
@@ -9,14 +11,13 @@
   "properties": {
     "codeRepository": {
       "id": "http://schema.org/codeRepository",
-      "required": false,
       "title": "codeRepository",
       "description": "Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex)",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "programmingLanguage": {
       "id": "http://schema.org/programmingLanguage",
-      "required": false,
       "title": "programmingLanguage",
       "description": "The computer programming language.",
       "type": "object",
@@ -28,21 +29,18 @@
     },
     "runtime": {
       "id": "http://schema.org/runtime",
-      "required": false,
       "title": "runtime",
       "description": "Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0)",
       "type": "string"
     },
     "sampleType": {
       "id": "http://schema.org/sampleType",
-      "required": false,
       "title": "sampleType",
       "description": "Full (compile ready) solution, code snippet, inline code, scripts, template.",
       "type": "string"
     },
     "targetProduct": {
       "id": "http://schema.org/targetProduct",
-      "required": false,
       "title": "targetProduct",
       "description": "Target Operating System / Product to which the code applies.  If applies to several versions, just the product name can be used.",
       "type": "object",
@@ -53,14 +51,12 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "about": {
       "id": "http://schema.org/about",
-      "required": false,
       "title": "about",
       "description": "The subject matter of the content.",
       "type": "object",
@@ -72,35 +68,30 @@
     },
     "accessibilityAPI": {
       "id": "http://schema.org/accessibilityAPI",
-      "required": false,
       "title": "accessibilityAPI",
       "description": "Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).\n         ",
       "type": "string"
     },
     "accessibilityControl": {
       "id": "http://schema.org/accessibilityControl",
-      "required": false,
       "title": "accessibilityControl",
       "description": "Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).",
       "type": "string"
     },
     "accessibilityFeature": {
       "id": "http://schema.org/accessibilityFeature",
-      "required": false,
       "title": "accessibilityFeature",
       "description": "Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).",
       "type": "string"
     },
     "accessibilityHazard": {
       "id": "http://schema.org/accessibilityHazard",
-      "required": false,
       "title": "accessibilityHazard",
       "description": "A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. (WebSchemas wiki lists possible values)",
       "type": "string"
     },
     "accountablePerson": {
       "id": "http://schema.org/accountablePerson",
-      "required": false,
       "title": "accountablePerson",
       "description": "Specifies the Person that is legally accountable for the CreativeWork.",
       "type": "object",
@@ -112,7 +103,6 @@
     },
     "aggregateRating": {
       "id": "http://schema.org/aggregateRating",
-      "required": false,
       "title": "aggregateRating",
       "description": "The overall rating, based on a collection of reviews or ratings, of the item.",
       "type": "object",
@@ -124,14 +114,12 @@
     },
     "alternativeHeadline": {
       "id": "http://schema.org/alternativeHeadline",
-      "required": false,
       "title": "alternativeHeadline",
       "description": "A secondary title of the CreativeWork.",
       "type": "string"
     },
     "associatedMedia": {
       "id": "http://schema.org/associatedMedia",
-      "required": false,
       "title": "associatedMedia",
       "description": "A media object that encodes this CreativeWork. This property is a synonym for encoding.",
       "type": "object",
@@ -143,7 +131,6 @@
     },
     "audience": {
       "id": "http://schema.org/audience",
-      "required": false,
       "title": "audience",
       "description": "The intended audience of the item, i.e. the group for whom the item was created.",
       "type": "object",
@@ -155,7 +142,6 @@
     },
     "audio": {
       "id": "http://schema.org/audio",
-      "required": false,
       "title": "audio",
       "description": "An embedded audio object.",
       "type": "object",
@@ -167,7 +153,6 @@
     },
     "author": {
       "id": "http://schema.org/author",
-      "required": false,
       "title": "author",
       "description": "The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.",
       "type": "object",
@@ -179,14 +164,12 @@
     },
     "award": {
       "id": "http://schema.org/award",
-      "required": false,
       "title": "award",
       "description": "An award won by this person or for this creative work. Supersedes awards.",
       "type": "string"
     },
     "character": {
       "id": "http://schema.org/character",
-      "required": false,
       "title": "character",
       "description": "Fictional person connected with a creative work.",
       "type": "object",
@@ -198,7 +181,6 @@
     },
     "citation": {
       "id": "http://schema.org/citation",
-      "required": false,
       "title": "citation",
       "description": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
       "type": "object",
@@ -210,7 +192,6 @@
     },
     "comment": {
       "id": "http://schema.org/comment",
-      "required": false,
       "title": "comment",
       "description": "Comments, typically from users, on this CreativeWork.",
       "type": "object",
@@ -222,14 +203,12 @@
     },
     "commentCount": {
       "id": "http://schema.org/commentCount",
-      "required": false,
       "title": "commentCount",
       "description": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.",
       "type": "number"
     },
     "contentLocation": {
       "id": "http://schema.org/contentLocation",
-      "required": false,
       "title": "contentLocation",
       "description": "The location of the content.",
       "type": "object",
@@ -241,14 +220,12 @@
     },
     "contentRating": {
       "id": "http://schema.org/contentRating",
-      "required": false,
       "title": "contentRating",
       "description": "Official rating of a piece of content—for example,'MPAA PG-13'.",
       "type": "string"
     },
     "contributor": {
       "id": "http://schema.org/contributor",
-      "required": false,
       "title": "contributor",
       "description": "A secondary contributor to the CreativeWork.",
       "type": "object",
@@ -260,7 +237,6 @@
     },
     "copyrightHolder": {
       "id": "http://schema.org/copyrightHolder",
-      "required": false,
       "title": "copyrightHolder",
       "description": "The party holding the legal copyright to the CreativeWork.",
       "type": "object",
@@ -272,14 +248,12 @@
     },
     "copyrightYear": {
       "id": "http://schema.org/copyrightYear",
-      "required": false,
       "title": "copyrightYear",
       "description": "The year during which the claimed copyright for the CreativeWork was first asserted.",
       "type": "number"
     },
     "creator": {
       "id": "http://schema.org/creator",
-      "required": false,
       "title": "creator",
       "description": "The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.",
       "type": "object",
@@ -291,7 +265,6 @@
     },
     "dateCreated": {
       "id": "http://schema.org/dateCreated",
-      "required": false,
       "title": "dateCreated",
       "description": "The date on which the CreativeWork was created.",
       "type": "object",
@@ -303,7 +276,6 @@
     },
     "dateModified": {
       "id": "http://schema.org/dateModified",
-      "required": false,
       "title": "dateModified",
       "description": "The date on which the CreativeWork was most recently modified.",
       "type": "object",
@@ -315,7 +287,6 @@
     },
     "datePublished": {
       "id": "http://schema.org/datePublished",
-      "required": false,
       "title": "datePublished",
       "description": "Date of first broadcast/publication.",
       "type": "object",
@@ -327,14 +298,13 @@
     },
     "discussionUrl": {
       "id": "http://schema.org/discussionUrl",
-      "required": false,
       "title": "discussionUrl",
       "description": "A link to the page containing the comments of the CreativeWork.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "editor": {
       "id": "http://schema.org/editor",
-      "required": false,
       "title": "editor",
       "description": "Specifies the Person who edited the CreativeWork.",
       "type": "object",
@@ -346,7 +316,6 @@
     },
     "educationalAlignment": {
       "id": "http://schema.org/educationalAlignment",
-      "required": false,
       "title": "educationalAlignment",
       "description": "An alignment to an established educational framework.",
       "type": "object",
@@ -358,14 +327,12 @@
     },
     "educationalUse": {
       "id": "http://schema.org/educationalUse",
-      "required": false,
       "title": "educationalUse",
       "description": "The purpose of a work in the context of education; for example, 'assignment', 'group work'.",
       "type": "string"
     },
     "encoding": {
       "id": "http://schema.org/encoding",
-      "required": false,
       "title": "encoding",
       "description": "A media object that encodes this CreativeWork. This property is a synonym for associatedMedia. Supersedes encodings.",
       "type": "object",
@@ -377,7 +344,6 @@
     },
     "exampleOfWork": {
       "id": "http://schema.org/exampleOfWork",
-      "required": false,
       "title": "exampleOfWork",
       "description": "A creative work that this work is an example/instance/realization/derivation of. Inverse property: workExample.",
       "type": "object",
@@ -389,14 +355,12 @@
     },
     "genre": {
       "id": "http://schema.org/genre",
-      "required": false,
       "title": "genre",
       "description": "Genre of the creative work or group.",
       "type": "string"
     },
     "hasPart": {
       "id": "http://schema.org/hasPart",
-      "required": false,
       "title": "hasPart",
       "description": "Indicates a CreativeWork that is (in some sense) a part of this CreativeWork. Inverse property: isPartOf.",
       "type": "object",
@@ -408,49 +372,43 @@
     },
     "headline": {
       "id": "http://schema.org/headline",
-      "required": false,
       "title": "headline",
       "description": "Headline of the article",
       "type": "string"
     },
     "inLanguage": {
       "id": "http://schema.org/inLanguage",
-      "required": false,
       "title": "inLanguage",
       "description": "The language of the content. please use one of the language codes from the IETF BCP 47 standard.",
       "type": "string"
     },
     "interactionCount": {
       "id": "http://schema.org/interactionCount",
-      "required": false,
       "title": "interactionCount",
       "description": "A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.",
       "type": "string"
     },
     "interactivityType": {
       "id": "http://schema.org/interactivityType",
-      "required": false,
       "title": "interactivityType",
       "description": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.",
       "type": "string"
     },
     "isBasedOnUrl": {
       "id": "http://schema.org/isBasedOnUrl",
-      "required": false,
       "title": "isBasedOnUrl",
       "description": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "isFamilyFriendly": {
       "id": "http://schema.org/isFamilyFriendly",
-      "required": false,
       "title": "isFamilyFriendly",
       "description": "Indicates whether this content is family friendly.",
       "type": "boolean"
     },
     "isPartOf": {
       "id": "http://schema.org/isPartOf",
-      "required": false,
       "title": "isPartOf",
       "description": "Indicates a CreativeWork that this CreativeWork is (in some sense) part of. Inverse property: hasPart.",
       "type": "object",
@@ -462,28 +420,25 @@
     },
     "keywords": {
       "id": "http://schema.org/keywords",
-      "required": false,
       "title": "keywords",
       "description": "Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.",
       "type": "string"
     },
     "learningResourceType": {
       "id": "http://schema.org/learningResourceType",
-      "required": false,
       "title": "learningResourceType",
       "description": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.",
       "type": "string"
     },
     "license": {
       "id": "http://schema.org/license",
-      "required": false,
       "title": "license",
       "description": "A license document that applies to this content, typically indicated by URL.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "mentions": {
       "id": "http://schema.org/mentions",
-      "required": false,
       "title": "mentions",
       "description": "Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.",
       "type": "object",
@@ -495,7 +450,6 @@
     },
     "offers": {
       "id": "http://schema.org/offers",
-      "required": false,
       "title": "offers",
       "description": "An offer to provide this item—for example, an offer to sell a product, rent the DVD of a movie, or give away tickets to an event.",
       "type": "object",
@@ -507,14 +461,12 @@
     },
     "position": {
       "id": "http://schema.org/position",
-      "required": false,
       "title": "position",
       "description": "The position of an item in a series or sequence of items.",
       "type": "number"
     },
     "producer": {
       "id": "http://schema.org/producer",
-      "required": false,
       "title": "producer",
       "description": "The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
       "type": "object",
@@ -526,7 +478,6 @@
     },
     "provider": {
       "id": "http://schema.org/provider",
-      "required": false,
       "title": "provider",
       "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes carrier.",
       "type": "object",
@@ -538,7 +489,6 @@
     },
     "publisher": {
       "id": "http://schema.org/publisher",
-      "required": false,
       "title": "publisher",
       "description": "The publisher of the creative work.",
       "type": "object",
@@ -550,14 +500,13 @@
     },
     "publishingPrinciples": {
       "id": "http://schema.org/publishingPrinciples",
-      "required": false,
       "title": "publishingPrinciples",
       "description": "Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "recordedAt": {
       "id": "http://schema.org/recordedAt",
-      "required": false,
       "title": "recordedAt",
       "description": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event. Inverse property: recordedIn.",
       "type": "object",
@@ -569,7 +518,6 @@
     },
     "releasedEvent": {
       "id": "http://schema.org/releasedEvent",
-      "required": false,
       "title": "releasedEvent",
       "description": "The place and time the release was issued, expressed as a PublicationEvent.",
       "type": "object",
@@ -581,7 +529,6 @@
     },
     "review": {
       "id": "http://schema.org/review",
-      "required": false,
       "title": "review",
       "description": "A review of the item. Supersedes reviews.",
       "type": "object",
@@ -593,7 +540,6 @@
     },
     "sourceOrganization": {
       "id": "http://schema.org/sourceOrganization",
-      "required": false,
       "title": "sourceOrganization",
       "description": "The Organization on whose behalf the creator was working.",
       "type": "object",
@@ -605,21 +551,19 @@
     },
     "text": {
       "id": "http://schema.org/text",
-      "required": false,
       "title": "text",
       "description": "The textual content of this CreativeWork.",
       "type": "string"
     },
     "thumbnailUrl": {
       "id": "http://schema.org/thumbnailUrl",
-      "required": false,
       "title": "thumbnailUrl",
       "description": "A thumbnail image relevant to the Thing.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "timeRequired": {
       "id": "http://schema.org/timeRequired",
-      "required": false,
       "title": "timeRequired",
       "description": "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'.",
       "type": "object",
@@ -631,7 +575,6 @@
     },
     "translator": {
       "id": "http://schema.org/translator",
-      "required": false,
       "title": "translator",
       "description": "Organization or person who adapts a creative work to different languages, regional differences and technical requirements of a target market.",
       "type": "object",
@@ -643,21 +586,18 @@
     },
     "typicalAgeRange": {
       "id": "http://schema.org/typicalAgeRange",
-      "required": false,
       "title": "typicalAgeRange",
       "description": "The typical expected age range, e.g. '7-9', '11-'.",
       "type": "string"
     },
     "version": {
       "id": "http://schema.org/version",
-      "required": false,
       "title": "version",
       "description": "The version of the CreativeWork embodied by a specified resource.",
       "type": "number"
     },
     "video": {
       "id": "http://schema.org/video",
-      "required": false,
       "title": "video",
       "description": "An embedded video object.",
       "type": "object",
@@ -669,7 +609,6 @@
     },
     "workExample": {
       "id": "http://schema.org/workExample",
-      "required": false,
       "title": "workExample",
       "description": "Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook. Inverse property: exampleOfWork.",
       "type": "object",
@@ -681,42 +620,38 @@
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -728,17 +663,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

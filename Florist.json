@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Florist",
-  "required": false,
+  "required": [
+
+  ],
   "title": "Florist",
   "name": "Florist",
   "description": "A florist.",
@@ -9,7 +11,6 @@
   "properties": {
     "branchOf": {
       "id": "http://schema.org/branchOf",
-      "required": false,
       "title": "branchOf",
       "description": "The larger organization that this local business is a branch of, if any.",
       "type": "object",
@@ -21,14 +22,12 @@
     },
     "currenciesAccepted": {
       "id": "http://schema.org/currenciesAccepted",
-      "required": false,
       "title": "currenciesAccepted",
       "description": "The currency accepted (in ISO 4217 currency format).",
       "type": "string"
     },
     "openingHours": {
       "id": "http://schema.org/openingHours",
-      "required": false,
       "title": "openingHours",
       "description": "The opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.- Days are specified using the following two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su.- Times are specified using 24:00 time. For example, 3pm is specified as 15:00. - Here is an example: <time itemprop=\"openingHours\" datetime=\"Tu,Th 16:00-20:00\">Tuesdays and Thursdays 4-8pm</time>. - If a business is open 7 days a week, then it can be specified as <time itemprop=\"openingHours\" datetime=\"Mo-Su\">Monday through Sunday, all day</time>.",
       "type": "object",
@@ -40,27 +39,23 @@
     },
     "paymentAccepted": {
       "id": "http://schema.org/paymentAccepted",
-      "required": false,
       "title": "paymentAccepted",
       "description": "Cash, credit card, etc.",
       "type": "string"
     },
     "priceRange": {
       "id": "http://schema.org/priceRange",
-      "required": false,
       "title": "priceRange",
       "description": "The price range of the business, for example $$$.",
       "type": "string"
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "address": {
       "id": "http://schema.org/address",
-      "required": false,
       "title": "address",
       "description": "Physical address of the item.",
       "type": "object",
@@ -72,7 +67,6 @@
     },
     "aggregateRating": {
       "id": "http://schema.org/aggregateRating",
-      "required": false,
       "title": "aggregateRating",
       "description": "The overall rating, based on a collection of reviews or ratings, of the item.",
       "type": "object",
@@ -84,7 +78,6 @@
     },
     "brand": {
       "id": "http://schema.org/brand",
-      "required": false,
       "title": "brand",
       "description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
       "type": "object",
@@ -96,7 +89,6 @@
     },
     "contactPoint": {
       "id": "http://schema.org/contactPoint",
-      "required": false,
       "title": "contactPoint",
       "description": "A contact point for a person or organization. Supersedes contactPoints.",
       "type": "object",
@@ -108,7 +100,6 @@
     },
     "department": {
       "id": "http://schema.org/department",
-      "required": false,
       "title": "department",
       "description": "A relationship between an organization and a department of that organization, also described as an organization (allowing different urls, logos, opening hours). For example: a store with a pharmacy, or a bakery with a cafe.",
       "type": "object",
@@ -120,7 +111,6 @@
     },
     "dissolutionDate": {
       "id": "http://schema.org/dissolutionDate",
-      "required": false,
       "title": "dissolutionDate",
       "description": "The date that this organization was dissolved.",
       "type": "object",
@@ -132,21 +122,18 @@
     },
     "duns": {
       "id": "http://schema.org/duns",
-      "required": false,
       "title": "duns",
       "description": "The Dun & Bradstreet DUNS number for identifying an organization or business person.",
       "type": "string"
     },
     "email": {
       "id": "http://schema.org/email",
-      "required": false,
       "title": "email",
       "description": "Email address.",
       "type": "string"
     },
     "employee": {
       "id": "http://schema.org/employee",
-      "required": false,
       "title": "employee",
       "description": "Someone working for this organization. Supersedes employees.",
       "type": "object",
@@ -158,7 +145,6 @@
     },
     "event": {
       "id": "http://schema.org/event",
-      "required": false,
       "title": "event",
       "description": "Upcoming or past event associated with this place, organization, or action. Supersedes events.",
       "type": "object",
@@ -170,14 +156,12 @@
     },
     "faxNumber": {
       "id": "http://schema.org/faxNumber",
-      "required": false,
       "title": "faxNumber",
       "description": "The fax number.",
       "type": "string"
     },
     "founder": {
       "id": "http://schema.org/founder",
-      "required": false,
       "title": "founder",
       "description": "A person who founded this organization. Supersedes founders.",
       "type": "object",
@@ -189,7 +173,6 @@
     },
     "foundingDate": {
       "id": "http://schema.org/foundingDate",
-      "required": false,
       "title": "foundingDate",
       "description": "The date that this organization was founded.",
       "type": "object",
@@ -201,7 +184,6 @@
     },
     "foundingLocation": {
       "id": "http://schema.org/foundingLocation",
-      "required": false,
       "title": "foundingLocation",
       "description": "The place where the Organization was founded.",
       "type": "object",
@@ -213,14 +195,12 @@
     },
     "globalLocationNumber": {
       "id": "http://schema.org/globalLocationNumber",
-      "required": false,
       "title": "globalLocationNumber",
       "description": "The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.",
       "type": "string"
     },
     "hasPOS": {
       "id": "http://schema.org/hasPOS",
-      "required": false,
       "title": "hasPOS",
       "description": "Points-of-Sales operated by the organization or person.",
       "type": "object",
@@ -232,28 +212,24 @@
     },
     "interactionCount": {
       "id": "http://schema.org/interactionCount",
-      "required": false,
       "title": "interactionCount",
       "description": "A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.",
       "type": "string"
     },
     "isicV4": {
       "id": "http://schema.org/isicV4",
-      "required": false,
       "title": "isicV4",
       "description": "The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.",
       "type": "string"
     },
     "legalName": {
       "id": "http://schema.org/legalName",
-      "required": false,
       "title": "legalName",
       "description": "The official name of the organization, e.g. the registered company name.",
       "type": "string"
     },
     "location": {
       "id": "http://schema.org/location",
-      "required": false,
       "title": "location",
       "description": "The location of the event, organization or action.",
       "type": "object",
@@ -265,14 +241,13 @@
     },
     "logo": {
       "id": "http://schema.org/logo",
-      "required": false,
       "title": "logo",
       "description": "An associated logo.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "makesOffer": {
       "id": "http://schema.org/makesOffer",
-      "required": false,
       "title": "makesOffer",
       "description": "A pointer to products or services offered by the organization or person.",
       "type": "object",
@@ -284,7 +259,6 @@
     },
     "member": {
       "id": "http://schema.org/member",
-      "required": false,
       "title": "member",
       "description": "A member of an Organization or a ProgramMembership. Organizations can be members of organizations; ProgramMembership is typically for individuals. Supersedes members, musicGroupMember. Inverse property: memberOf.",
       "type": "object",
@@ -296,7 +270,6 @@
     },
     "memberOf": {
       "id": "http://schema.org/memberOf",
-      "required": false,
       "title": "memberOf",
       "description": "An Organization (or ProgramMembership) to which this Person or Organization belongs. Inverse property: member.",
       "type": "object",
@@ -308,14 +281,12 @@
     },
     "naics": {
       "id": "http://schema.org/naics",
-      "required": false,
       "title": "naics",
       "description": "The North American Industry Classification System (NAICS) code for a particular organization or business person.",
       "type": "string"
     },
     "owns": {
       "id": "http://schema.org/owns",
-      "required": false,
       "title": "owns",
       "description": "Products owned by the organization or person.",
       "type": "object",
@@ -327,7 +298,6 @@
     },
     "producer": {
       "id": "http://schema.org/producer",
-      "required": false,
       "title": "producer",
       "description": "The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
       "type": "object",
@@ -339,7 +309,6 @@
     },
     "review": {
       "id": "http://schema.org/review",
-      "required": false,
       "title": "review",
       "description": "A review of the item. Supersedes reviews.",
       "type": "object",
@@ -351,7 +320,6 @@
     },
     "seeks": {
       "id": "http://schema.org/seeks",
-      "required": false,
       "title": "seeks",
       "description": "A pointer to products or services sought by the organization or person (demand).",
       "type": "object",
@@ -363,7 +331,6 @@
     },
     "subOrganization": {
       "id": "http://schema.org/subOrganization",
-      "required": false,
       "title": "subOrganization",
       "description": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary. See also: the more specific 'department' property.",
       "type": "object",
@@ -375,63 +342,56 @@
     },
     "taxID": {
       "id": "http://schema.org/taxID",
-      "required": false,
       "title": "taxID",
       "description": "The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.",
       "type": "string"
     },
     "telephone": {
       "id": "http://schema.org/telephone",
-      "required": false,
       "title": "telephone",
       "description": "The telephone number.",
       "type": "string"
     },
     "vatID": {
       "id": "http://schema.org/vatID",
-      "required": false,
       "title": "vatID",
       "description": "The Value-added Tax ID of the organization or person.",
       "type": "string"
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -443,21 +403,20 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "containedIn": {
       "id": "http://schema.org/containedIn",
-      "required": false,
       "title": "containedIn",
       "description": "The basic containment relation between places.",
       "type": "object",
@@ -469,7 +428,6 @@
     },
     "geo": {
       "id": "http://schema.org/geo",
-      "required": false,
       "title": "geo",
       "description": "The geo coordinates of the place.",
       "type": "object",
@@ -481,7 +439,6 @@
     },
     "hasMap": {
       "id": "http://schema.org/hasMap",
-      "required": false,
       "title": "hasMap",
       "description": "A URL to a map of the place. Supersedes map, maps.",
       "type": "object",
@@ -493,7 +450,6 @@
     },
     "openingHoursSpecification": {
       "id": "http://schema.org/openingHoursSpecification",
-      "required": false,
       "title": "openingHoursSpecification",
       "description": "The opening hours of a certain place.",
       "type": "object",
@@ -505,7 +461,6 @@
     },
     "photo": {
       "id": "http://schema.org/photo",
-      "required": false,
       "title": "photo",
       "description": "A photograph of this place. Supersedes photos.",
       "type": "object",

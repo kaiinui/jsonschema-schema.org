@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Person",
-  "required": false,
+  "required": [
+
+  ],
   "title": "Person",
   "name": "Person",
   "description": "A person (alive, dead, undead, or fictional).",
@@ -9,14 +11,12 @@
   "properties": {
     "additionalName": {
       "id": "http://schema.org/additionalName",
-      "required": false,
       "title": "additionalName",
       "description": "An additional name for a Person, can be used for a middle name.",
       "type": "string"
     },
     "address": {
       "id": "http://schema.org/address",
-      "required": false,
       "title": "address",
       "description": "Physical address of the item.",
       "type": "object",
@@ -28,7 +28,6 @@
     },
     "affiliation": {
       "id": "http://schema.org/affiliation",
-      "required": false,
       "title": "affiliation",
       "description": "An organization that this person is affiliated with. For example, a school/university, a club, or a team.",
       "type": "object",
@@ -40,7 +39,6 @@
     },
     "alumniOf": {
       "id": "http://schema.org/alumniOf",
-      "required": false,
       "title": "alumniOf",
       "description": "An educational organizations that the person is an alumni of. Inverse property: alumni.",
       "type": "object",
@@ -52,14 +50,12 @@
     },
     "award": {
       "id": "http://schema.org/award",
-      "required": false,
       "title": "award",
       "description": "An award won by this person or for this creative work. Supersedes awards.",
       "type": "string"
     },
     "birthDate": {
       "id": "http://schema.org/birthDate",
-      "required": false,
       "title": "birthDate",
       "description": "Date of birth.",
       "type": "object",
@@ -71,7 +67,6 @@
     },
     "birthPlace": {
       "id": "http://schema.org/birthPlace",
-      "required": false,
       "title": "birthPlace",
       "description": "The place where the person was born.",
       "type": "object",
@@ -83,7 +78,6 @@
     },
     "brand": {
       "id": "http://schema.org/brand",
-      "required": false,
       "title": "brand",
       "description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
       "type": "object",
@@ -95,7 +89,6 @@
     },
     "children": {
       "id": "http://schema.org/children",
-      "required": false,
       "title": "children",
       "description": "A child of the person.",
       "type": "object",
@@ -107,7 +100,6 @@
     },
     "colleague": {
       "id": "http://schema.org/colleague",
-      "required": false,
       "title": "colleague",
       "description": "A colleague of the person. Supersedes colleagues.",
       "type": "object",
@@ -119,7 +111,6 @@
     },
     "contactPoint": {
       "id": "http://schema.org/contactPoint",
-      "required": false,
       "title": "contactPoint",
       "description": "A contact point for a person or organization. Supersedes contactPoints.",
       "type": "object",
@@ -131,7 +122,6 @@
     },
     "deathDate": {
       "id": "http://schema.org/deathDate",
-      "required": false,
       "title": "deathDate",
       "description": "Date of death.",
       "type": "object",
@@ -143,7 +133,6 @@
     },
     "deathPlace": {
       "id": "http://schema.org/deathPlace",
-      "required": false,
       "title": "deathPlace",
       "description": "The place where the person died.",
       "type": "object",
@@ -155,35 +144,30 @@
     },
     "duns": {
       "id": "http://schema.org/duns",
-      "required": false,
       "title": "duns",
       "description": "The Dun & Bradstreet DUNS number for identifying an organization or business person.",
       "type": "string"
     },
     "email": {
       "id": "http://schema.org/email",
-      "required": false,
       "title": "email",
       "description": "Email address.",
       "type": "string"
     },
     "familyName": {
       "id": "http://schema.org/familyName",
-      "required": false,
       "title": "familyName",
       "description": "Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the name property.",
       "type": "string"
     },
     "faxNumber": {
       "id": "http://schema.org/faxNumber",
-      "required": false,
       "title": "faxNumber",
       "description": "The fax number.",
       "type": "string"
     },
     "follows": {
       "id": "http://schema.org/follows",
-      "required": false,
       "title": "follows",
       "description": "The most generic uni-directional social relation.",
       "type": "object",
@@ -195,28 +179,24 @@
     },
     "gender": {
       "id": "http://schema.org/gender",
-      "required": false,
       "title": "gender",
       "description": "Gender of the person.",
       "type": "string"
     },
     "givenName": {
       "id": "http://schema.org/givenName",
-      "required": false,
       "title": "givenName",
       "description": "Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property.",
       "type": "string"
     },
     "globalLocationNumber": {
       "id": "http://schema.org/globalLocationNumber",
-      "required": false,
       "title": "globalLocationNumber",
       "description": "The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.",
       "type": "string"
     },
     "hasPOS": {
       "id": "http://schema.org/hasPOS",
-      "required": false,
       "title": "hasPOS",
       "description": "Points-of-Sales operated by the organization or person.",
       "type": "object",
@@ -228,7 +208,6 @@
     },
     "height": {
       "id": "http://schema.org/height",
-      "required": false,
       "title": "height",
       "description": "The height of the item or person.",
       "type": "object",
@@ -240,7 +219,6 @@
     },
     "homeLocation": {
       "id": "http://schema.org/homeLocation",
-      "required": false,
       "title": "homeLocation",
       "description": "A contact location for a person's residence.",
       "type": "object",
@@ -252,42 +230,36 @@
     },
     "honorificPrefix": {
       "id": "http://schema.org/honorificPrefix",
-      "required": false,
       "title": "honorificPrefix",
       "description": "An honorific prefix preceding a Person's name such as Dr/Mrs/Mr.",
       "type": "string"
     },
     "honorificSuffix": {
       "id": "http://schema.org/honorificSuffix",
-      "required": false,
       "title": "honorificSuffix",
       "description": "An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW.",
       "type": "string"
     },
     "interactionCount": {
       "id": "http://schema.org/interactionCount",
-      "required": false,
       "title": "interactionCount",
       "description": "A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.",
       "type": "string"
     },
     "isicV4": {
       "id": "http://schema.org/isicV4",
-      "required": false,
       "title": "isicV4",
       "description": "The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.",
       "type": "string"
     },
     "jobTitle": {
       "id": "http://schema.org/jobTitle",
-      "required": false,
       "title": "jobTitle",
       "description": "The job title of the person (for example, Financial Manager).",
       "type": "string"
     },
     "knows": {
       "id": "http://schema.org/knows",
-      "required": false,
       "title": "knows",
       "description": "The most generic bi-directional social/work relation.",
       "type": "object",
@@ -299,7 +271,6 @@
     },
     "makesOffer": {
       "id": "http://schema.org/makesOffer",
-      "required": false,
       "title": "makesOffer",
       "description": "A pointer to products or services offered by the organization or person.",
       "type": "object",
@@ -311,7 +282,6 @@
     },
     "memberOf": {
       "id": "http://schema.org/memberOf",
-      "required": false,
       "title": "memberOf",
       "description": "An Organization (or ProgramMembership) to which this Person or Organization belongs. Inverse property: member.",
       "type": "object",
@@ -323,14 +293,12 @@
     },
     "naics": {
       "id": "http://schema.org/naics",
-      "required": false,
       "title": "naics",
       "description": "The North American Industry Classification System (NAICS) code for a particular organization or business person.",
       "type": "string"
     },
     "nationality": {
       "id": "http://schema.org/nationality",
-      "required": false,
       "title": "nationality",
       "description": "Nationality of the person.",
       "type": "object",
@@ -342,7 +310,6 @@
     },
     "netWorth": {
       "id": "http://schema.org/netWorth",
-      "required": false,
       "title": "netWorth",
       "description": "The total financial value of the organization or person as calculated by subtracting assets from liabilities.",
       "type": "object",
@@ -354,7 +321,6 @@
     },
     "owns": {
       "id": "http://schema.org/owns",
-      "required": false,
       "title": "owns",
       "description": "Products owned by the organization or person.",
       "type": "object",
@@ -366,7 +332,6 @@
     },
     "parent": {
       "id": "http://schema.org/parent",
-      "required": false,
       "title": "parent",
       "description": "A parent of this person. Supersedes parents.",
       "type": "object",
@@ -378,7 +343,6 @@
     },
     "performerIn": {
       "id": "http://schema.org/performerIn",
-      "required": false,
       "title": "performerIn",
       "description": "Event that this person is a performer or participant in.",
       "type": "object",
@@ -390,7 +354,6 @@
     },
     "relatedTo": {
       "id": "http://schema.org/relatedTo",
-      "required": false,
       "title": "relatedTo",
       "description": "The most generic familial relation.",
       "type": "object",
@@ -402,7 +365,6 @@
     },
     "seeks": {
       "id": "http://schema.org/seeks",
-      "required": false,
       "title": "seeks",
       "description": "A pointer to products or services sought by the organization or person (demand).",
       "type": "object",
@@ -414,7 +376,6 @@
     },
     "sibling": {
       "id": "http://schema.org/sibling",
-      "required": false,
       "title": "sibling",
       "description": "A sibling of the person. Supersedes siblings.",
       "type": "object",
@@ -426,7 +387,6 @@
     },
     "spouse": {
       "id": "http://schema.org/spouse",
-      "required": false,
       "title": "spouse",
       "description": "The person's spouse.",
       "type": "object",
@@ -438,28 +398,24 @@
     },
     "taxID": {
       "id": "http://schema.org/taxID",
-      "required": false,
       "title": "taxID",
       "description": "The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.",
       "type": "string"
     },
     "telephone": {
       "id": "http://schema.org/telephone",
-      "required": false,
       "title": "telephone",
       "description": "The telephone number.",
       "type": "string"
     },
     "vatID": {
       "id": "http://schema.org/vatID",
-      "required": false,
       "title": "vatID",
       "description": "The Value-added Tax ID of the organization or person.",
       "type": "string"
     },
     "weight": {
       "id": "http://schema.org/weight",
-      "required": false,
       "title": "weight",
       "description": "The weight of the product or person.",
       "type": "object",
@@ -471,7 +427,6 @@
     },
     "workLocation": {
       "id": "http://schema.org/workLocation",
-      "required": false,
       "title": "workLocation",
       "description": "A contact location for a person's place of work.",
       "type": "object",
@@ -483,7 +438,6 @@
     },
     "worksFor": {
       "id": "http://schema.org/worksFor",
-      "required": false,
       "title": "worksFor",
       "description": "Organizations that the person works for.",
       "type": "object",
@@ -494,49 +448,44 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -548,17 +497,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

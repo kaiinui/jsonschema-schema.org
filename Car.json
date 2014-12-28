@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Car",
-  "required": false,
+  "required": [
+
+  ],
   "title": "Car",
   "name": "Car",
   "description": "An automobile.",
@@ -9,7 +11,6 @@
   "properties": {
     "aggregateRating": {
       "id": "http://schema.org/aggregateRating",
-      "required": false,
       "title": "aggregateRating",
       "description": "The overall rating, based on a collection of reviews or ratings, of the item.",
       "type": "object",
@@ -21,7 +22,6 @@
     },
     "audience": {
       "id": "http://schema.org/audience",
-      "required": false,
       "title": "audience",
       "description": "The intended audience of the item, i.e. the group for whom the item was created.",
       "type": "object",
@@ -33,7 +33,6 @@
     },
     "brand": {
       "id": "http://schema.org/brand",
-      "required": false,
       "title": "brand",
       "description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
       "type": "object",
@@ -45,14 +44,12 @@
     },
     "color": {
       "id": "http://schema.org/color",
-      "required": false,
       "title": "color",
       "description": "The color of the product.",
       "type": "string"
     },
     "depth": {
       "id": "http://schema.org/depth",
-      "required": false,
       "title": "depth",
       "description": "The depth of the product.",
       "type": "object",
@@ -64,28 +61,24 @@
     },
     "gtin13": {
       "id": "http://schema.org/gtin13",
-      "required": false,
       "title": "gtin13",
       "description": "The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero. See GS1 GTIN Summary for more details.",
       "type": "string"
     },
     "gtin14": {
       "id": "http://schema.org/gtin14",
-      "required": false,
       "title": "gtin14",
       "description": "The GTIN-14 code of the product, or the product to which the offer refers. See GS1 GTIN Summary for more details.",
       "type": "string"
     },
     "gtin8": {
       "id": "http://schema.org/gtin8",
-      "required": false,
       "title": "gtin8",
       "description": "The GTIN-8 code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See GS1 GTIN Summary for more details.",
       "type": "string"
     },
     "height": {
       "id": "http://schema.org/height",
-      "required": false,
       "title": "height",
       "description": "The height of the item or person.",
       "type": "object",
@@ -97,7 +90,6 @@
     },
     "isAccessoryOrSparePartFor": {
       "id": "http://schema.org/isAccessoryOrSparePartFor",
-      "required": false,
       "title": "isAccessoryOrSparePartFor",
       "description": "A pointer to another product (or multiple products) for which this product is an accessory or spare part.",
       "type": "object",
@@ -109,7 +101,6 @@
     },
     "isConsumableFor": {
       "id": "http://schema.org/isConsumableFor",
-      "required": false,
       "title": "isConsumableFor",
       "description": "A pointer to another product (or multiple products) for which this product is a consumable.",
       "type": "object",
@@ -121,7 +112,6 @@
     },
     "isRelatedTo": {
       "id": "http://schema.org/isRelatedTo",
-      "required": false,
       "title": "isRelatedTo",
       "description": "A pointer to another, somehow related product (or multiple products).",
       "type": "object",
@@ -133,7 +123,6 @@
     },
     "isSimilarTo": {
       "id": "http://schema.org/isSimilarTo",
-      "required": false,
       "title": "isSimilarTo",
       "description": "A pointer to another, functionally similar product (or multiple products).",
       "type": "object",
@@ -145,7 +134,6 @@
     },
     "itemCondition": {
       "id": "http://schema.org/itemCondition",
-      "required": false,
       "title": "itemCondition",
       "description": "A predefined value from OfferItemCondition or a textual description of the condition of the product or service, or the products or services included in the offer.",
       "type": "object",
@@ -157,14 +145,13 @@
     },
     "logo": {
       "id": "http://schema.org/logo",
-      "required": false,
       "title": "logo",
       "description": "An associated logo.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "manufacturer": {
       "id": "http://schema.org/manufacturer",
-      "required": false,
       "title": "manufacturer",
       "description": "The manufacturer of the product.",
       "type": "object",
@@ -176,21 +163,18 @@
     },
     "model": {
       "id": "http://schema.org/model",
-      "required": false,
       "title": "model",
       "description": "The model of the product. Use with the URL of a ProductModel or a textual representation of the model identifier. The URL of the ProductModel can be from an external source. It is recommended to additionally provide strong product identifiers via the gtin8/gtin13/gtin14 and mpn properties.",
       "type": "string"
     },
     "mpn": {
       "id": "http://schema.org/mpn",
-      "required": false,
       "title": "mpn",
       "description": "The Manufacturer Part Number (MPN) of the product, or the product to which the offer refers.",
       "type": "string"
     },
     "offers": {
       "id": "http://schema.org/offers",
-      "required": false,
       "title": "offers",
       "description": "An offer to provide this item—for example, an offer to sell a product, rent the DVD of a movie, or give away tickets to an event.",
       "type": "object",
@@ -202,14 +186,12 @@
     },
     "productID": {
       "id": "http://schema.org/productID",
-      "required": false,
       "title": "productID",
       "description": "The product identifier, such as ISBN. For example: <meta itemprop='productID' content='isbn:123-456-789'/>.",
       "type": "string"
     },
     "releaseDate": {
       "id": "http://schema.org/releaseDate",
-      "required": false,
       "title": "releaseDate",
       "description": "The release date of a product or product model. This can be used to distinguish the exact variant of a product.",
       "type": "object",
@@ -221,7 +203,6 @@
     },
     "review": {
       "id": "http://schema.org/review",
-      "required": false,
       "title": "review",
       "description": "A review of the item. Supersedes reviews.",
       "type": "object",
@@ -233,14 +214,12 @@
     },
     "sku": {
       "id": "http://schema.org/sku",
-      "required": false,
       "title": "sku",
       "description": "The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.",
       "type": "string"
     },
     "weight": {
       "id": "http://schema.org/weight",
-      "required": false,
       "title": "weight",
       "description": "The weight of the product or person.",
       "type": "object",
@@ -252,7 +231,6 @@
     },
     "width": {
       "id": "http://schema.org/width",
-      "required": false,
       "title": "width",
       "description": "The width of the item.",
       "type": "object",
@@ -263,35 +241,31 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
       "type": "object",
@@ -303,14 +277,12 @@
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -322,17 +294,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

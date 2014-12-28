@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/BusTrip",
-  "required": false,
+  "required": [
+
+  ],
   "title": "BusTrip",
   "name": "BusTrip",
   "description": "A trip on a commercial bus line.",
@@ -9,7 +11,6 @@
   "properties": {
     "arrivalBusStop": {
       "id": "http://schema.org/arrivalBusStop",
-      "required": false,
       "title": "arrivalBusStop",
       "description": "The stop or station from which the bus arrives.",
       "type": "object",
@@ -21,28 +22,25 @@
     },
     "arrivalTime": {
       "id": "http://schema.org/arrivalTime",
-      "required": false,
       "title": "arrivalTime",
       "description": "The expected arrival time.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "busName": {
       "id": "http://schema.org/busName",
-      "required": false,
       "title": "busName",
       "description": "The name of the bus (e.g. Bolt Express).",
       "type": "string"
     },
     "busNumber": {
       "id": "http://schema.org/busNumber",
-      "required": false,
       "title": "busNumber",
       "description": "The unique identifier for the bus.",
       "type": "string"
     },
     "departureBusStop": {
       "id": "http://schema.org/departureBusStop",
-      "required": false,
       "title": "departureBusStop",
       "description": "The stop or station from which the bus departs.",
       "type": "object",
@@ -54,14 +52,13 @@
     },
     "departureTime": {
       "id": "http://schema.org/departureTime",
-      "required": false,
       "title": "departureTime",
       "description": "The expected departure time.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "provider": {
       "id": "http://schema.org/provider",
-      "required": false,
       "title": "provider",
       "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes carrier.",
       "type": "object",
@@ -72,49 +69,44 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -126,17 +118,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

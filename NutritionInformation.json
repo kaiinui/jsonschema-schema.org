@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/NutritionInformation",
-  "required": false,
+  "required": [
+
+  ],
   "title": "NutritionInformation",
   "name": "NutritionInformation",
   "description": "Nutritional information about the recipe.",
@@ -9,7 +11,6 @@
   "properties": {
     "calories": {
       "id": "http://schema.org/calories",
-      "required": false,
       "title": "calories",
       "description": "The number of calories",
       "type": "object",
@@ -21,7 +22,6 @@
     },
     "carbohydrateContent": {
       "id": "http://schema.org/carbohydrateContent",
-      "required": false,
       "title": "carbohydrateContent",
       "description": "The number of grams of carbohydrates.",
       "type": "object",
@@ -33,7 +33,6 @@
     },
     "cholesterolContent": {
       "id": "http://schema.org/cholesterolContent",
-      "required": false,
       "title": "cholesterolContent",
       "description": "The number of milligrams of cholesterol.",
       "type": "object",
@@ -45,7 +44,6 @@
     },
     "fatContent": {
       "id": "http://schema.org/fatContent",
-      "required": false,
       "title": "fatContent",
       "description": "The number of grams of fat.",
       "type": "object",
@@ -57,7 +55,6 @@
     },
     "fiberContent": {
       "id": "http://schema.org/fiberContent",
-      "required": false,
       "title": "fiberContent",
       "description": "The number of grams of fiber.",
       "type": "object",
@@ -69,7 +66,6 @@
     },
     "proteinContent": {
       "id": "http://schema.org/proteinContent",
-      "required": false,
       "title": "proteinContent",
       "description": "The number of grams of protein.",
       "type": "object",
@@ -81,7 +77,6 @@
     },
     "saturatedFatContent": {
       "id": "http://schema.org/saturatedFatContent",
-      "required": false,
       "title": "saturatedFatContent",
       "description": "The number of grams of saturated fat.",
       "type": "object",
@@ -93,14 +88,12 @@
     },
     "servingSize": {
       "id": "http://schema.org/servingSize",
-      "required": false,
       "title": "servingSize",
       "description": "The serving size, in terms of the number of volume or mass.",
       "type": "string"
     },
     "sodiumContent": {
       "id": "http://schema.org/sodiumContent",
-      "required": false,
       "title": "sodiumContent",
       "description": "The number of milligrams of sodium.",
       "type": "object",
@@ -112,7 +105,6 @@
     },
     "sugarContent": {
       "id": "http://schema.org/sugarContent",
-      "required": false,
       "title": "sugarContent",
       "description": "The number of grams of sugar.",
       "type": "object",
@@ -124,7 +116,6 @@
     },
     "transFatContent": {
       "id": "http://schema.org/transFatContent",
-      "required": false,
       "title": "transFatContent",
       "description": "The number of grams of trans fat.",
       "type": "object",
@@ -136,7 +127,6 @@
     },
     "unsaturatedFatContent": {
       "id": "http://schema.org/unsaturatedFatContent",
-      "required": false,
       "title": "unsaturatedFatContent",
       "description": "The number of grams of unsaturated fat.",
       "type": "object",
@@ -147,35 +137,31 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
       "type": "object",
@@ -187,14 +173,12 @@
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -206,17 +190,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

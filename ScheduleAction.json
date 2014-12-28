@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/ScheduleAction",
-  "required": false,
+  "required": [
+
+  ],
   "title": "ScheduleAction",
   "name": "ScheduleAction",
   "description": "Scheduling future actions, events, or tasks.Related actions:ReserveAction: Unlike ReserveAction, ScheduleAction allocates future actions (e.g. an event, a task, etc) towards a time slot / spatial allocation.",
@@ -9,20 +11,18 @@
   "properties": {
     "scheduledTime": {
       "id": "http://schema.org/scheduledTime",
-      "required": false,
       "title": "scheduledTime",
       "description": "The time the object is scheduled to.",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "actionStatus": {
       "id": "http://schema.org/actionStatus",
-      "required": false,
       "title": "actionStatus",
       "description": "Indicates the current disposition of the Action.",
       "type": "object",
@@ -34,7 +34,6 @@
     },
     "agent": {
       "id": "http://schema.org/agent",
-      "required": false,
       "title": "agent",
       "description": "The direct performer or driver of the action (animate or inanimate). e.g. *John* wrote a book.",
       "type": "object",
@@ -46,14 +45,13 @@
     },
     "endTime": {
       "id": "http://schema.org/endTime",
-      "required": false,
       "title": "endTime",
       "description": "The endTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to end. For actions that span a period of time, when the action was performed. e.g. John wrote a book from January to *December*.\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.\n",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "error": {
       "id": "http://schema.org/error",
-      "required": false,
       "title": "error",
       "description": "For failed actions, more information on the cause of the failure.",
       "type": "object",
@@ -65,7 +63,6 @@
     },
     "instrument": {
       "id": "http://schema.org/instrument",
-      "required": false,
       "title": "instrument",
       "description": "The object that helped the agent perform the action. e.g. John wrote a book with *a pen*.",
       "type": "object",
@@ -77,7 +74,6 @@
     },
     "location": {
       "id": "http://schema.org/location",
-      "required": false,
       "title": "location",
       "description": "The location of the event, organization or action.",
       "type": "object",
@@ -89,7 +85,6 @@
     },
     "object": {
       "id": "http://schema.org/object",
-      "required": false,
       "title": "object",
       "description": "The object upon the action is carried out, whose state is kept intact or changed. Also known as the semantic roles patient, affected or undergoer (which change their state) or theme (which doesn't). e.g. John read *a book*.",
       "type": "object",
@@ -101,7 +96,6 @@
     },
     "participant": {
       "id": "http://schema.org/participant",
-      "required": false,
       "title": "participant",
       "description": "Other co-agents that participated in the action indirectly. e.g. John wrote a book with *Steve*.",
       "type": "object",
@@ -113,7 +107,6 @@
     },
     "result": {
       "id": "http://schema.org/result",
-      "required": false,
       "title": "result",
       "description": "The result produced in the action. e.g. John wrote *a book*.",
       "type": "object",
@@ -125,14 +118,13 @@
     },
     "startTime": {
       "id": "http://schema.org/startTime",
-      "required": false,
       "title": "startTime",
       "description": "The startTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to start. For actions that span a period of time, when the action was performed. e.g. John wrote a book from *January* to December.\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.\n",
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "target": {
       "id": "http://schema.org/target",
-      "required": false,
       "title": "target",
       "description": "Indicates a target EntryPoint for an Action.",
       "type": "object",
@@ -144,42 +136,38 @@
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -191,17 +179,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }

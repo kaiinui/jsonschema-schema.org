@@ -1,7 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "http://schema.org/Beach",
-  "required": false,
+  "required": [
+
+  ],
   "title": "Beach",
   "name": "Beach",
   "description": "Beach.",
@@ -9,7 +11,6 @@
   "properties": {
     "openingHours": {
       "id": "http://schema.org/openingHours",
-      "required": false,
       "title": "openingHours",
       "description": "The opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.- Days are specified using the following two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su.- Times are specified using 24:00 time. For example, 3pm is specified as 15:00. - Here is an example: <time itemprop=\"openingHours\" datetime=\"Tu,Th 16:00-20:00\">Tuesdays and Thursdays 4-8pm</time>. - If a business is open 7 days a week, then it can be specified as <time itemprop=\"openingHours\" datetime=\"Mo-Su\">Monday through Sunday, all day</time>.",
       "type": "object",
@@ -20,14 +21,12 @@
       }
     },
     "": {
-      "required": false,
       "title": "",
       "description": "",
       "type": null
     },
     "address": {
       "id": "http://schema.org/address",
-      "required": false,
       "title": "address",
       "description": "Physical address of the item.",
       "type": "object",
@@ -39,7 +38,6 @@
     },
     "aggregateRating": {
       "id": "http://schema.org/aggregateRating",
-      "required": false,
       "title": "aggregateRating",
       "description": "The overall rating, based on a collection of reviews or ratings, of the item.",
       "type": "object",
@@ -51,7 +49,6 @@
     },
     "containedIn": {
       "id": "http://schema.org/containedIn",
-      "required": false,
       "title": "containedIn",
       "description": "The basic containment relation between places.",
       "type": "object",
@@ -63,7 +60,6 @@
     },
     "event": {
       "id": "http://schema.org/event",
-      "required": false,
       "title": "event",
       "description": "Upcoming or past event associated with this place, organization, or action. Supersedes events.",
       "type": "object",
@@ -75,14 +71,12 @@
     },
     "faxNumber": {
       "id": "http://schema.org/faxNumber",
-      "required": false,
       "title": "faxNumber",
       "description": "The fax number.",
       "type": "string"
     },
     "geo": {
       "id": "http://schema.org/geo",
-      "required": false,
       "title": "geo",
       "description": "The geo coordinates of the place.",
       "type": "object",
@@ -94,14 +88,12 @@
     },
     "globalLocationNumber": {
       "id": "http://schema.org/globalLocationNumber",
-      "required": false,
       "title": "globalLocationNumber",
       "description": "The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.",
       "type": "string"
     },
     "hasMap": {
       "id": "http://schema.org/hasMap",
-      "required": false,
       "title": "hasMap",
       "description": "A URL to a map of the place. Supersedes map, maps.",
       "type": "object",
@@ -113,28 +105,25 @@
     },
     "interactionCount": {
       "id": "http://schema.org/interactionCount",
-      "required": false,
       "title": "interactionCount",
       "description": "A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.",
       "type": "string"
     },
     "isicV4": {
       "id": "http://schema.org/isicV4",
-      "required": false,
       "title": "isicV4",
       "description": "The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.",
       "type": "string"
     },
     "logo": {
       "id": "http://schema.org/logo",
-      "required": false,
       "title": "logo",
       "description": "An associated logo.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "openingHoursSpecification": {
       "id": "http://schema.org/openingHoursSpecification",
-      "required": false,
       "title": "openingHoursSpecification",
       "description": "The opening hours of a certain place.",
       "type": "object",
@@ -146,7 +135,6 @@
     },
     "photo": {
       "id": "http://schema.org/photo",
-      "required": false,
       "title": "photo",
       "description": "A photograph of this place. Supersedes photos.",
       "type": "object",
@@ -158,7 +146,6 @@
     },
     "review": {
       "id": "http://schema.org/review",
-      "required": false,
       "title": "review",
       "description": "A review of the item. Supersedes reviews.",
       "type": "object",
@@ -170,35 +157,31 @@
     },
     "telephone": {
       "id": "http://schema.org/telephone",
-      "required": false,
       "title": "telephone",
       "description": "The telephone number.",
       "type": "string"
     },
     "additionalType": {
       "id": "http://schema.org/additionalType",
-      "required": false,
       "title": "additionalType",
       "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "alternateName": {
       "id": "http://schema.org/alternateName",
-      "required": false,
       "title": "alternateName",
       "description": "An alias for the item.",
       "type": "string"
     },
     "description": {
       "id": "http://schema.org/description",
-      "required": false,
       "title": "description",
       "description": "A short description of the item.",
       "type": "string"
     },
     "image": {
       "id": "http://schema.org/image",
-      "required": false,
       "title": "image",
       "description": "An image of the item. This can be a URL or a fully described ImageObject.",
       "type": "object",
@@ -210,14 +193,12 @@
     },
     "name": {
       "id": "http://schema.org/name",
-      "required": false,
       "title": "name",
       "description": "The name of the item.",
       "type": "string"
     },
     "potentialAction": {
       "id": "http://schema.org/potentialAction",
-      "required": false,
       "title": "potentialAction",
       "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
       "type": "object",
@@ -229,17 +210,17 @@
     },
     "sameAs": {
       "id": "http://schema.org/sameAs",
-      "required": false,
       "title": "sameAs",
       "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "url": {
       "id": "http://schema.org/url",
-      "required": false,
       "title": "url",
       "description": "URL of the item.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }
