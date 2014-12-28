@@ -1,0 +1,314 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://schema.org/DietarySupplement",
+  "required": "http://schema.org/DietarySupplement",
+  "title": "ThingMedicalEntityMedicalTherapyDietarySupplement",
+  "name": "ThingMedicalEntityMedicalTherapyDietarySupplement",
+  "description": "A product taken by mouth that contains a dietary ingredient intended to supplement the diet. Dietary ingredients may include vitamins, minerals, herbs or other botanicals, amino acids, and substances such as enzymes, organ tissues, glandulars and metabolites.",
+  "type": "object",
+  "properties": {
+    "activeIngredient": {
+      "id": "http://schema.org/activeIngredient",
+      "required": false,
+      "title": "activeIngredient",
+      "description": "An active ingredient, typically chemical compounds and/or biologic substances.",
+      "type": "string"
+    },
+    "background": {
+      "id": "http://schema.org/background",
+      "required": false,
+      "title": "background",
+      "description": "Descriptive information establishing a historical perspective on the supplement. May include the rationale for the name, the population where the supplement first came to prominence, etc.",
+      "type": "string"
+    },
+    "dosageForm": {
+      "id": "http://schema.org/dosageForm",
+      "required": false,
+      "title": "dosageForm",
+      "description": "A dosage form in which this drug/supplement is available, e.g. 'tablet', 'suspension', 'injection'.",
+      "type": "string"
+    },
+    "isProprietary": {
+      "id": "http://schema.org/isProprietary",
+      "required": false,
+      "title": "isProprietary",
+      "description": "True if this item's name is a proprietary/brand name (vs. generic name).",
+      "type": "boolean"
+    },
+    "legalStatus": {
+      "id": "http://schema.org/legalStatus",
+      "required": false,
+      "title": "legalStatus",
+      "description": "The drug or supplement's legal status, including any controlled substance schedules that apply.",
+      "type": "object",
+      "properties": {
+        "legalStatus": {
+          "$ref": "DrugLegalStatus.json#/properties"
+        }
+      }
+    },
+    "manufacturer": {
+      "id": "http://schema.org/manufacturer",
+      "required": false,
+      "title": "manufacturer",
+      "description": "The manufacturer of the product.",
+      "type": "object",
+      "properties": {
+        "manufacturer": {
+          "$ref": "Organization.json#/properties"
+        }
+      }
+    },
+    "maximumIntake": {
+      "id": "http://schema.org/maximumIntake",
+      "required": false,
+      "title": "maximumIntake",
+      "description": "Recommended intake of this supplement for a given population as defined by a specific recommending authority.",
+      "type": "object",
+      "properties": {
+        "maximumIntake": {
+          "$ref": "MaximumDoseSchedule.json#/properties"
+        }
+      }
+    },
+    "mechanismOfAction": {
+      "id": "http://schema.org/mechanismOfAction",
+      "required": false,
+      "title": "mechanismOfAction",
+      "description": "The specific biochemical interaction through which this drug or supplement produces its pharmacological effect.",
+      "type": "string"
+    },
+    "nonProprietaryName": {
+      "id": "http://schema.org/nonProprietaryName",
+      "required": false,
+      "title": "nonProprietaryName",
+      "description": "The generic name of this drug or supplement.",
+      "type": "string"
+    },
+    "recommendedIntake": {
+      "id": "http://schema.org/recommendedIntake",
+      "required": false,
+      "title": "recommendedIntake",
+      "description": "Recommended intake of this supplement for a given population as defined by a specific recommending authority.",
+      "type": "object",
+      "properties": {
+        "recommendedIntake": {
+          "$ref": "RecommendedDoseSchedule.json#/properties"
+        }
+      }
+    },
+    "safetyConsideration": {
+      "id": "http://schema.org/safetyConsideration",
+      "required": false,
+      "title": "safetyConsideration",
+      "description": "Any potential safety concern associated with the supplement. May include interactions with other drugs and foods, pregnancy, breastfeeding, known adverse reactions, and documented efficacy of the supplement.",
+      "type": "string"
+    },
+    "targetPopulation": {
+      "id": "http://schema.org/targetPopulation",
+      "required": false,
+      "title": "targetPopulation",
+      "description": "Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.",
+      "type": "string"
+    },
+    "": {
+      "required": false,
+      "title": "",
+      "description": "",
+      "type": null
+    },
+    "adverseOutcome": {
+      "id": "http://schema.org/adverseOutcome",
+      "required": false,
+      "title": "adverseOutcome",
+      "description": "A possible complication and/or side effect of this therapy. If it is known that an adverse outcome is serious (resulting in death, disability, or permanent damage; requiring hospitalization; or is otherwise life-threatening or requires immediate medical attention), tag it as a seriouseAdverseOutcome instead.",
+      "type": "object",
+      "properties": {
+        "adverseOutcome": {
+          "$ref": "MedicalEntity.json#/properties"
+        }
+      }
+    },
+    "contraindication": {
+      "id": "http://schema.org/contraindication",
+      "required": false,
+      "title": "contraindication",
+      "description": "A contraindication for this therapy.",
+      "type": "object",
+      "properties": {
+        "contraindication": {
+          "$ref": "MedicalContraindication.json#/properties"
+        }
+      }
+    },
+    "duplicateTherapy": {
+      "id": "http://schema.org/duplicateTherapy",
+      "required": false,
+      "title": "duplicateTherapy",
+      "description": "A therapy that duplicates or overlaps this one.",
+      "type": "object",
+      "properties": {
+        "duplicateTherapy": {
+          "$ref": "MedicalTherapy.json#/properties"
+        }
+      }
+    },
+    "indication": {
+      "id": "http://schema.org/indication",
+      "required": false,
+      "title": "indication",
+      "description": "A factor that indicates use of this therapy for treatment and/or prevention of a condition, symptom, etc. For therapies such as drugs, indications can include both officially-approved indications as well as off-label uses. These can be distinguished by using the ApprovedIndication subtype of MedicalIndication.",
+      "type": "object",
+      "properties": {
+        "indication": {
+          "$ref": "MedicalIndication.json#/properties"
+        }
+      }
+    },
+    "seriousAdverseOutcome": {
+      "id": "http://schema.org/seriousAdverseOutcome",
+      "required": false,
+      "title": "seriousAdverseOutcome",
+      "description": "A possible serious complication and/or serious side effect of this therapy. Serious adverse outcomes include those that are life-threatening; result in death, disability, or permanent damage; require hospitalization or prolong existing hospitalization; cause congenital anomalies or birth defects; or jeopardize the patient and may require medical or surgical intervention to prevent one of the outcomes in this definition.",
+      "type": "object",
+      "properties": {
+        "seriousAdverseOutcome": {
+          "$ref": "MedicalEntity.json#/properties"
+        }
+      }
+    },
+    "code": {
+      "id": "http://schema.org/code",
+      "required": false,
+      "title": "code",
+      "description": "A medical code for the entity, taken from a controlled vocabulary or ontology such as ICD-9, DiseasesDB, MeSH, SNOMED-CT, RxNorm, etc.",
+      "type": "object",
+      "properties": {
+        "code": {
+          "$ref": "MedicalCode.json#/properties"
+        }
+      }
+    },
+    "guideline": {
+      "id": "http://schema.org/guideline",
+      "required": false,
+      "title": "guideline",
+      "description": "A medical guideline related to this entity.",
+      "type": "object",
+      "properties": {
+        "guideline": {
+          "$ref": "MedicalGuideline.json#/properties"
+        }
+      }
+    },
+    "medicineSystem": {
+      "id": "http://schema.org/medicineSystem",
+      "required": false,
+      "title": "medicineSystem",
+      "description": "The system of medicine that includes this MedicalEntity, for example 'evidence-based', 'homeopathic', 'chiropractic', etc.",
+      "type": "object",
+      "properties": {
+        "medicineSystem": {
+          "$ref": "MedicineSystem.json#/properties"
+        }
+      }
+    },
+    "recognizingAuthority": {
+      "id": "http://schema.org/recognizingAuthority",
+      "required": false,
+      "title": "recognizingAuthority",
+      "description": "If applicable, the organization that officially recognizes this entity as part of its endorsed system of medicine.",
+      "type": "object",
+      "properties": {
+        "recognizingAuthority": {
+          "$ref": "Organization.json#/properties"
+        }
+      }
+    },
+    "relevantSpecialty": {
+      "id": "http://schema.org/relevantSpecialty",
+      "required": false,
+      "title": "relevantSpecialty",
+      "description": "If applicable, a medical specialty in which this entity is relevant.",
+      "type": "object",
+      "properties": {
+        "relevantSpecialty": {
+          "$ref": "MedicalSpecialty.json#/properties"
+        }
+      }
+    },
+    "study": {
+      "id": "http://schema.org/study",
+      "required": false,
+      "title": "study",
+      "description": "A medical study or trial related to this entity.",
+      "type": "object",
+      "properties": {
+        "study": {
+          "$ref": "MedicalStudy.json#/properties"
+        }
+      }
+    },
+    "additionalType": {
+      "id": "http://schema.org/additionalType",
+      "required": false,
+      "title": "additionalType",
+      "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
+      "type": "string"
+    },
+    "alternateName": {
+      "id": "http://schema.org/alternateName",
+      "required": false,
+      "title": "alternateName",
+      "description": "An alias for the item.",
+      "type": "string"
+    },
+    "description": {
+      "id": "http://schema.org/description",
+      "required": false,
+      "title": "description",
+      "description": "A short description of the item.",
+      "type": "string"
+    },
+    "image": {
+      "id": "http://schema.org/image",
+      "required": false,
+      "title": "image",
+      "description": "An image of the item. This can be a URL or a fully described ImageObject.",
+      "type": "string"
+    },
+    "name": {
+      "id": "http://schema.org/name",
+      "required": false,
+      "title": "name",
+      "description": "The name of the item.",
+      "type": "string"
+    },
+    "potentialAction": {
+      "id": "http://schema.org/potentialAction",
+      "required": false,
+      "title": "potentialAction",
+      "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
+      "type": "object",
+      "properties": {
+        "potentialAction": {
+          "$ref": "Action.json#/properties"
+        }
+      }
+    },
+    "sameAs": {
+      "id": "http://schema.org/sameAs",
+      "required": false,
+      "title": "sameAs",
+      "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
+      "type": "string"
+    },
+    "url": {
+      "id": "http://schema.org/url",
+      "required": false,
+      "title": "url",
+      "description": "URL of the item.",
+      "type": "string"
+    }
+  }
+}

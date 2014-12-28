@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://schema.org/Ticket",
+  "required": "http://schema.org/Ticket",
+  "title": "ThingIntangibleTicket",
+  "name": "ThingIntangibleTicket",
+  "description": "Used to describe a ticket to an event, a flight, a bus ride, etc.",
+  "type": "object",
+  "properties": {
+    "dateIssued": {
+      "id": "http://schema.org/dateIssued",
+      "required": false,
+      "title": "dateIssued",
+      "description": "The date the ticket was issued.",
+      "type": "string"
+    },
+    "issuedBy": {
+      "id": "http://schema.org/issuedBy",
+      "required": false,
+      "title": "issuedBy",
+      "description": "The organization issuing the ticket or permit.",
+      "type": "object",
+      "properties": {
+        "issuedBy": {
+          "$ref": "Organization.json#/properties"
+        }
+      }
+    },
+    "priceCurrency": {
+      "id": "http://schema.org/priceCurrency",
+      "required": false,
+      "title": "priceCurrency",
+      "description": "The currency (in 3-letter ISO 4217 format) of the price or a price component, when attached to PriceSpecification and its subtypes.",
+      "type": "string"
+    },
+    "ticketNumber": {
+      "id": "http://schema.org/ticketNumber",
+      "required": false,
+      "title": "ticketNumber",
+      "description": "The unique identifier for the ticket.",
+      "type": "string"
+    },
+    "ticketToken": {
+      "id": "http://schema.org/ticketToken",
+      "required": false,
+      "title": "ticketToken",
+      "description": "Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance.",
+      "type": "string"
+    },
+    "ticketedSeat": {
+      "id": "http://schema.org/ticketedSeat",
+      "required": false,
+      "title": "ticketedSeat",
+      "description": "The seat associated with the ticket.",
+      "type": "object",
+      "properties": {
+        "ticketedSeat": {
+          "$ref": "Seat.json#/properties"
+        }
+      }
+    },
+    "totalPrice": {
+      "id": "http://schema.org/totalPrice",
+      "required": false,
+      "title": "totalPrice",
+      "description": "The total price for the reservation or ticket, including applicable taxes, shipping, etc.",
+      "type": "number"
+    },
+    "underName": {
+      "id": "http://schema.org/underName",
+      "required": false,
+      "title": "underName",
+      "description": "The person or organization the reservation or ticket is for.",
+      "type": "object",
+      "properties": {
+        "underName": {
+          "$ref": "Person.json#/properties"
+        }
+      }
+    },
+    "": {
+      "required": false,
+      "title": "",
+      "description": "",
+      "type": null
+    },
+    "additionalType": {
+      "id": "http://schema.org/additionalType",
+      "required": false,
+      "title": "additionalType",
+      "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
+      "type": "string"
+    },
+    "alternateName": {
+      "id": "http://schema.org/alternateName",
+      "required": false,
+      "title": "alternateName",
+      "description": "An alias for the item.",
+      "type": "string"
+    },
+    "description": {
+      "id": "http://schema.org/description",
+      "required": false,
+      "title": "description",
+      "description": "A short description of the item.",
+      "type": "string"
+    },
+    "image": {
+      "id": "http://schema.org/image",
+      "required": false,
+      "title": "image",
+      "description": "An image of the item. This can be a URL or a fully described ImageObject.",
+      "type": "string"
+    },
+    "name": {
+      "id": "http://schema.org/name",
+      "required": false,
+      "title": "name",
+      "description": "The name of the item.",
+      "type": "string"
+    },
+    "potentialAction": {
+      "id": "http://schema.org/potentialAction",
+      "required": false,
+      "title": "potentialAction",
+      "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
+      "type": "object",
+      "properties": {
+        "potentialAction": {
+          "$ref": "Action.json#/properties"
+        }
+      }
+    },
+    "sameAs": {
+      "id": "http://schema.org/sameAs",
+      "required": false,
+      "title": "sameAs",
+      "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
+      "type": "string"
+    },
+    "url": {
+      "id": "http://schema.org/url",
+      "required": false,
+      "title": "url",
+      "description": "URL of the item.",
+      "type": "string"
+    }
+  }
+}

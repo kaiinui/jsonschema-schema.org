@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://schema.org/ServiceChannel",
+  "required": "http://schema.org/ServiceChannel",
+  "title": "ThingIntangibleServiceChannel",
+  "name": "ThingIntangibleServiceChannel",
+  "description": "A means for accessing a service, e.g. a government office location, web site, or phone number.",
+  "type": "object",
+  "properties": {
+    "availableLanguage": {
+      "id": "http://schema.org/availableLanguage",
+      "required": false,
+      "title": "availableLanguage",
+      "description": "A language someone may use with the item.",
+      "type": "object",
+      "properties": {
+        "availableLanguage": {
+          "$ref": "Language.json#/properties"
+        }
+      }
+    },
+    "processingTime": {
+      "id": "http://schema.org/processingTime",
+      "required": false,
+      "title": "processingTime",
+      "description": "Estimated processing time for the service using this channel.",
+      "type": "object",
+      "properties": {
+        "processingTime": {
+          "$ref": "Duration.json#/properties"
+        }
+      }
+    },
+    "providesService": {
+      "id": "http://schema.org/providesService",
+      "required": false,
+      "title": "providesService",
+      "description": "The service provided by this channel.",
+      "type": "object",
+      "properties": {
+        "providesService": {
+          "$ref": "Service.json#/properties"
+        }
+      }
+    },
+    "serviceLocation": {
+      "id": "http://schema.org/serviceLocation",
+      "required": false,
+      "title": "serviceLocation",
+      "description": "The location (e.g. civic structure, local business, etc.) where a person can go to access the service.",
+      "type": "object",
+      "properties": {
+        "serviceLocation": {
+          "$ref": "Place.json#/properties"
+        }
+      }
+    },
+    "servicePhone": {
+      "id": "http://schema.org/servicePhone",
+      "required": false,
+      "title": "servicePhone",
+      "description": "The phone number to use to access the service.",
+      "type": "object",
+      "properties": {
+        "servicePhone": {
+          "$ref": "ContactPoint.json#/properties"
+        }
+      }
+    },
+    "servicePostalAddress": {
+      "id": "http://schema.org/servicePostalAddress",
+      "required": false,
+      "title": "servicePostalAddress",
+      "description": "The address for accessing the service by mail.",
+      "type": "object",
+      "properties": {
+        "servicePostalAddress": {
+          "$ref": "PostalAddress.json#/properties"
+        }
+      }
+    },
+    "serviceSmsNumber": {
+      "id": "http://schema.org/serviceSmsNumber",
+      "required": false,
+      "title": "serviceSmsNumber",
+      "description": "The number to access the service by text message.",
+      "type": "object",
+      "properties": {
+        "serviceSmsNumber": {
+          "$ref": "ContactPoint.json#/properties"
+        }
+      }
+    },
+    "serviceUrl": {
+      "id": "http://schema.org/serviceUrl",
+      "required": false,
+      "title": "serviceUrl",
+      "description": "The website to access the service.",
+      "type": "string"
+    },
+    "": {
+      "required": false,
+      "title": "",
+      "description": "",
+      "type": null
+    },
+    "additionalType": {
+      "id": "http://schema.org/additionalType",
+      "required": false,
+      "title": "additionalType",
+      "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
+      "type": "string"
+    },
+    "alternateName": {
+      "id": "http://schema.org/alternateName",
+      "required": false,
+      "title": "alternateName",
+      "description": "An alias for the item.",
+      "type": "string"
+    },
+    "description": {
+      "id": "http://schema.org/description",
+      "required": false,
+      "title": "description",
+      "description": "A short description of the item.",
+      "type": "string"
+    },
+    "image": {
+      "id": "http://schema.org/image",
+      "required": false,
+      "title": "image",
+      "description": "An image of the item. This can be a URL or a fully described ImageObject.",
+      "type": "string"
+    },
+    "name": {
+      "id": "http://schema.org/name",
+      "required": false,
+      "title": "name",
+      "description": "The name of the item.",
+      "type": "string"
+    },
+    "potentialAction": {
+      "id": "http://schema.org/potentialAction",
+      "required": false,
+      "title": "potentialAction",
+      "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
+      "type": "object",
+      "properties": {
+        "potentialAction": {
+          "$ref": "Action.json#/properties"
+        }
+      }
+    },
+    "sameAs": {
+      "id": "http://schema.org/sameAs",
+      "required": false,
+      "title": "sameAs",
+      "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
+      "type": "string"
+    },
+    "url": {
+      "id": "http://schema.org/url",
+      "required": false,
+      "title": "url",
+      "description": "URL of the item.",
+      "type": "string"
+    }
+  }
+}

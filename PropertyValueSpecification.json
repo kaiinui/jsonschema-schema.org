@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://schema.org/PropertyValueSpecification",
+  "required": "http://schema.org/PropertyValueSpecification",
+  "title": "ThingIntangiblePropertyValueSpecification",
+  "name": "ThingIntangiblePropertyValueSpecification",
+  "description": "A Property value specification.",
+  "type": "object",
+  "properties": {
+    "defaultValue": {
+      "id": "http://schema.org/defaultValue",
+      "required": false,
+      "title": "defaultValue",
+      "description": "The default value of the input.  For properties that expect a literal, the default is a literal value, for properties that expect an object, it's an ID reference to one of the current values.",
+      "type": "object",
+      "properties": {
+        "defaultValue": {
+          "$ref": "Thing.json#/properties"
+        }
+      }
+    },
+    "maxValue": {
+      "id": "http://schema.org/maxValue",
+      "required": false,
+      "title": "maxValue",
+      "description": "The upper value of some characteristic or property.",
+      "type": "number"
+    },
+    "minValue": {
+      "id": "http://schema.org/minValue",
+      "required": false,
+      "title": "minValue",
+      "description": "The lower value of some characteristic or property.",
+      "type": "number"
+    },
+    "multipleValues": {
+      "id": "http://schema.org/multipleValues",
+      "required": false,
+      "title": "multipleValues",
+      "description": "Whether multiple values are allowed for the property.  Default is false.",
+      "type": "boolean"
+    },
+    "readonlyValue": {
+      "id": "http://schema.org/readonlyValue",
+      "required": false,
+      "title": "readonlyValue",
+      "description": "Whether or not a property is mutable.  Default is false. Specifying this for a property that also has a value makes it act similar to a \"hidden\" input in an HTML form.",
+      "type": "boolean"
+    },
+    "stepValue": {
+      "id": "http://schema.org/stepValue",
+      "required": false,
+      "title": "stepValue",
+      "description": "The stepValue attribute indicates the granularity that is expected (and required) of the value in a PropertyValueSpecification.",
+      "type": "number"
+    },
+    "valueMaxLength": {
+      "id": "http://schema.org/valueMaxLength",
+      "required": false,
+      "title": "valueMaxLength",
+      "description": "Specifies the allowed range for number of characters in a literal value.",
+      "type": "number"
+    },
+    "valueMinLength": {
+      "id": "http://schema.org/valueMinLength",
+      "required": false,
+      "title": "valueMinLength",
+      "description": "Specifies the minimum allowed range for number of characters in a literal value.",
+      "type": "number"
+    },
+    "valueName": {
+      "id": "http://schema.org/valueName",
+      "required": false,
+      "title": "valueName",
+      "description": "Indicates the name of the PropertyValueSpecification to be used in URL templates and form encoding in a manner analogous to HTML's input@name.",
+      "type": "string"
+    },
+    "valuePattern": {
+      "id": "http://schema.org/valuePattern",
+      "required": false,
+      "title": "valuePattern",
+      "description": "Specifies a regular expression for testing literal values according to the HTML spec.",
+      "type": "number"
+    },
+    "valueRequired": {
+      "id": "http://schema.org/valueRequired",
+      "required": false,
+      "title": "valueRequired",
+      "description": "Whether the property must be filled in to complete the action.  Default is false.",
+      "type": "boolean"
+    },
+    "": {
+      "required": false,
+      "title": "",
+      "description": "",
+      "type": null
+    },
+    "additionalType": {
+      "id": "http://schema.org/additionalType",
+      "required": false,
+      "title": "additionalType",
+      "description": "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.",
+      "type": "string"
+    },
+    "alternateName": {
+      "id": "http://schema.org/alternateName",
+      "required": false,
+      "title": "alternateName",
+      "description": "An alias for the item.",
+      "type": "string"
+    },
+    "description": {
+      "id": "http://schema.org/description",
+      "required": false,
+      "title": "description",
+      "description": "A short description of the item.",
+      "type": "string"
+    },
+    "image": {
+      "id": "http://schema.org/image",
+      "required": false,
+      "title": "image",
+      "description": "An image of the item. This can be a URL or a fully described ImageObject.",
+      "type": "string"
+    },
+    "name": {
+      "id": "http://schema.org/name",
+      "required": false,
+      "title": "name",
+      "description": "The name of the item.",
+      "type": "string"
+    },
+    "potentialAction": {
+      "id": "http://schema.org/potentialAction",
+      "required": false,
+      "title": "potentialAction",
+      "description": "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.",
+      "type": "object",
+      "properties": {
+        "potentialAction": {
+          "$ref": "Action.json#/properties"
+        }
+      }
+    },
+    "sameAs": {
+      "id": "http://schema.org/sameAs",
+      "required": false,
+      "title": "sameAs",
+      "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.",
+      "type": "string"
+    },
+    "url": {
+      "id": "http://schema.org/url",
+      "required": false,
+      "title": "url",
+      "description": "URL of the item.",
+      "type": "string"
+    }
+  }
+}
